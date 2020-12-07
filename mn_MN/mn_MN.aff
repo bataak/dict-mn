@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2020.11.23
+## Version: 2020.12.07
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # This work may be distributed and/or modified under the
@@ -42,7 +42,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 1262
+REP 1293
 REP а аа
 REP а е
 REP а и
@@ -78,6 +78,7 @@ REP агны гийн
 REP агт гад
 REP агт ганд
 REP ад т
+REP ажла жил
 REP ай иа
 REP айлал айл
 REP айлл айл
@@ -114,6 +115,8 @@ REP асн с
 REP асны сын
 REP аст санд
 REP асч саж
+REP ашла шил
+REP ашрал ширл
 REP ая ъя
 REP б в
 REP в б
@@ -475,6 +478,7 @@ REP наасаа аасаа
 REP наны нын
 REP нг нийг
 REP нг ныг
+REP нгийг нг
 REP нгийн ний
 REP нд д
 REP нд ньд
@@ -542,6 +546,7 @@ REP огт год
 REP огт гонд
 REP од т
 REP оё ъё
+REP ожло жил
 REP ол олло
 REP олб лов
 REP олдирл улдрал
@@ -592,6 +597,8 @@ REP осн с
 REP осны сын
 REP ост сонд
 REP осч сож
+REP ошло шил
+REP ошрол ширл
 REP ө й
 REP ө өө
 REP ө ү
@@ -605,6 +612,7 @@ REP өгнүүд гүүд
 REP өгт гөд
 REP өгт гөнд
 REP өд т
+REP өжлө жил
 REP өй ий
 REP өл өллө
 REP өлб лөв
@@ -648,13 +656,18 @@ REP өсн с
 REP өсний сийн
 REP өст сөнд
 REP өсч сөж
+REP өшлө шил
+REP өшрөл ширл
 REP р л
 REP р рь
+REP раж арч
 REP ранд арт
 REP раш ирш
 REP рд рьд
 REP рз рьз
+REP рож орч
 REP рош ирш
+REP рөж өрч
 REP рөш ирш
 REP рс рьс
 REP рт рьт
@@ -669,6 +682,7 @@ REP рьд рди
 REP рьда рди
 REP рьды рдий
 REP рэгт ргэнд
+REP рэж эрч
 REP рэш ирш
 REP ря рья
 REP с асн
@@ -746,6 +760,16 @@ REP тн тан
 REP тн тон
 REP тн төн
 REP тн тэн
+REP тнууд тад
+REP тнууд тд
+REP тнууд тда
+REP тнууд тдо
+REP тнууд тод
+REP тнүүд тд
+REP тнүүд тдө
+REP тнүүд тдэ
+REP тнүүд төд
+REP тнүүд тэд
 REP то тло
 REP тон т
 REP тонгууд тнууд
@@ -889,6 +913,10 @@ REP чүүд чд
 REP чүүд чид
 REP чх чих
 REP ш ч
+REP шил ашла
+REP шил ошло
+REP шил өшлө
+REP шил эшлэ
 REP щ ш
 REP ъ ь
 REP ъяасн ьяас
@@ -933,6 +961,7 @@ REP эгнүүд гүүд
 REP эгт гэд
 REP эгт гэнд
 REP эд т
+REP эжлэ жил
 REP эй ий
 REP эйн ийг
 REP эл эллэ
@@ -962,6 +991,8 @@ REP эсн с
 REP эсний сийн
 REP эст сэнд
 REP эсч сэж
+REP эшлэ шил
+REP эшрэл ширл
 REP ээ аа
 REP ээ ий
 REP ээ иэ
