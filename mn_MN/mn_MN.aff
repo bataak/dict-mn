@@ -43,7 +43,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 1706
+REP 1708
 REP а аа
 REP а е
 REP а и
@@ -657,6 +657,7 @@ REP ни ина
 REP ни ино
 REP ни инө
 REP ни инэ
+REP ний гийн
 REP ний ийн
 REP ний ингийн
 REP ний нгийн
@@ -689,6 +690,7 @@ REP нүүд ингүүд
 REP нүүд өнгүүд
 REP нүүд энгүүд
 REP нүүр р
+REP нхнийхн нхн
 REP нч нач
 REP нч ноч
 REP нч нөч
