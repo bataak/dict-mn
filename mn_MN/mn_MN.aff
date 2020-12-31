@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2020.12.30
+## Version: 2020.12.31
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # This work may be distributed and/or modified under the
@@ -43,7 +43,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 1682
+REP 1699
 REP а аа
 REP а е
 REP а и
@@ -268,10 +268,14 @@ REP еөө еө
 REP ж ц
 REP ж ч
 REP жга жиг
+REP жгал жигла
 REP жго жиг
+REP жгол жигло
 REP жгө жиг
+REP жгөл жиглө
 REP жгэ жиг
 REP жгэ чиг
+REP жгэл жиглэ
 REP жд жигд
 REP жи аж
 REP жи ож
@@ -318,6 +322,7 @@ REP иг гө
 REP иг гэ
 REP иг хи
 REP ига ги
+REP игаа иа
 REP игда гад
 REP игдо год
 REP игдө гөд
@@ -326,14 +331,20 @@ REP игл гэл
 REP игн г
 REP игн гэн
 REP игнүүд гүүд
+REP игны гий
+REP игны гы
+REP игоо ио
+REP игөө иө
 REP игр гар
 REP игр гор
 REP игр гөр
 REP игр гэр
 REP игт гэнд
 REP игуул гиул
+REP игээ иэ
 REP ид т
 REP идас дис
+REP идн д
 REP ий игий
 REP ий ы
 REP ий ээ
@@ -435,6 +446,9 @@ REP ила ли
 REP илг лаг
 REP илгал илг
 REP илл лал
+REP илн л
+REP илний лийн
+REP илны лын
 REP ило ли
 REP илө ли
 REP илэ ли
@@ -475,6 +489,9 @@ REP ирагт ариганд
 REP иргаа аригнаа
 REP иргууд аригнууд
 REP ирл рал
+REP ирн р
+REP ирний рийн
+REP ирны рын
 REP исн сан
 REP исн сон
 REP исн сөн
