@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.01.10
+## Version: 2021.01.11
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # This work may be distributed and/or modified under the
@@ -10700,45 +10700,61 @@ SFX K3 0 гийнд/03 .
 SFX K3 0 гийнх/070873 .
 SFX K3 0 д/03 .
 
-SFX L0 Y 8
+SFX L0 Y 12
 SFX L0 0 /0408 .
 SFX L0 а ыг/00 а
-SFX L0 0 ар/00 а
-SFX L0 0 ас/00 а
+SFX L0 0 йг/00 и
+SFX L0 0 ар/00 [аи]
+SFX L0 0 ас/00 [аи]
 SFX L0 а ын а
-SFX L0 0 д/00 а
+SFX L0 0 йн и
+SFX L0 0 д/00 [аи]
 SFX L0 а ынх/040870 а
-SFX L0 а ынд/00 .
+SFX L0 0 йнх/040870 и
+SFX L0 а ынд/00 а
+SFX L0 0 йнд/00 и
 
-SFX L1 Y 8
+SFX L1 Y 12
 SFX L1 0 /0508 .
 SFX L1 о ыг/01 о
-SFX L1 0 ор/01 о
-SFX L1 0 ос/01 о
+SFX L1 0 йг/01 и
+SFX L1 0 ор/01 [ои]
+SFX L1 0 ос/01 [ои]
 SFX L1 о ын о
-SFX L1 0 д/01 о
+SFX L1 0 йн и
+SFX L1 0 д/01 [ои]
 SFX L1 о ынх/050871 о
-SFX L1 о ынд/01 .
+SFX L1 0 йнх/050871 и
+SFX L1 о ынд/01 а
+SFX L1 0 йнд/01 и
 
-SFX L2 Y 8
+SFX L2 Y 12
 SFX L2 0 /0608 .
 SFX L2 ө ийг/02 ө
-SFX L2 0 өр/02 ө
-SFX L2 0 өс/02 ө
+SFX L2 0 йг/02 и
+SFX L2 0 өр/02 [өи]
+SFX L2 0 өс/02 [өи]
 SFX L2 ө ийн ө
-SFX L2 0 д/02 ө
+SFX L2 0 йн и
+SFX L2 0 д/02 [өи]
 SFX L2 ө ийнх/060872 ө
-SFX L2 ө ийнд/02 .
+SFX L2 0 йнх/060872 и
+SFX L2 ө ийнд/02 ө
+SFX L2 0 йнд/02 и
 
-SFX L3 Y 8
+SFX L3 Y 12
 SFX L3 0 /0708 .
 SFX L3 э ийг/03 э
-SFX L3 0 эр/03 э
-SFX L3 0 эс/03 э
+SFX L3 0 йг/03 и
+SFX L3 0 эр/03 [эи]
+SFX L3 0 эс/03 [эи]
 SFX L3 э ийн э
-SFX L3 0 д/03 э
+SFX L3 0 йн и
+SFX L3 0 д/03 [эи]
 SFX L3 э ийнх/070873 э
-SFX L3 э ийнд/03 .
+SFX L3 0 йнх/070873 и
+SFX L3 э ийнд/03 э
+SFX L3 0 йнд/03 и
 
 SFX 0J Y 4
 SFX 0J 0 нууд/040870 [^и]	+PL
