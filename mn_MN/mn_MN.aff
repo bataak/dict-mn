@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.01.15
+## Version: 2021.01.16
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # This work may be distributed and/or modified under the
@@ -43,7 +43,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 1743
+REP 1744
 REP a а
 REP c с
 REP e е
@@ -1464,6 +1464,7 @@ REP ^гольдирол гулдрал
 REP ^гольдорл гулдрал
 REP ^гольдрил гулдрал
 REP ^гольдрол гулдрал
+REP ^гөвгөр гүвгэр
 REP ^гуалиг гоолиг
 REP ^гуалигаа гоолигоо
 REP ^гуалигаараа гоолигоороо
@@ -1789,8 +1790,8 @@ REP ээв$ ээ_вэ
 REP ямарч$ ямар_ч
 
 MAP 15
-MAP (ё)ё(Ё)Ё
-MAP (й)й(Й)Й
+MAP (ѐ)ё(Ѐ)Ё
+MAP (й)й(Й)Й
 MAP aаAА
 MAP cсCС
 MAP eеEЕ
