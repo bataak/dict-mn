@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.01.23
+## Version: 2021.01.24
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # This work may be distributed and/or modified under the
@@ -2194,7 +2194,7 @@ SFX N7 0 ээс/03 [вр]	07CASE
 SFX N7 0 тэй/73 .	07CASE
 SFX N7 0 гүй/73 .	07CASE
 
-SFX 0N Y 54
+SFX 0N Y 56
 SFX 0N 0 гийнхан/0408 [иауях][ау]	+POSS
 SFX 0N 0 гийнханд/00 [иауях][ау]	+POSS
 SFX 0N 0 гийнхнаар/00 [иауях][ау]	+POSS
@@ -2211,6 +2211,8 @@ SFX 0N 0 нхныг/00 й	+POSS
 SFX 0N 0 нхных/040870 й	+POSS
 SFX 0N 0 йнхан/0408 и	+POSS
 SFX 0N 0 йнханд/00 и	+POSS
+SFX 0N 0 йнхны и
+SFX 0N 0 йнхныг/00 и
 SFX 0N 0 йнхнаар/00 и	+POSS
 SFX 0N 0 йнхнаас/00 и	+POSS
 SFX 0N 0 йнхных/040870 и	+POSS
@@ -2250,7 +2252,7 @@ SFX 0N 0 ийнхны [гжчшк]	+POSS
 SFX 0N 0 ийнхныг/00 [гжчшк]	+POSS
 SFX 0N 0 ийнхных/040870 [гжчшк]	+POSS
 
-SFX 1N Y 54
+SFX 1N Y 56
 SFX 1N 0 гийнхноор/01 [иоуях][оу]	+POSS
 SFX 1N 0 гийнхноос/01 [иоуях][оу]	+POSS
 SFX 1N 0 гийнхны [иоуях][оу]	+POSS
@@ -2267,6 +2269,8 @@ SFX 1N 0 нхон/0508 й	+POSS
 SFX 1N 0 нхонд/01 й	+POSS
 SFX 1N 0 йнхноор/01 и	+POSS
 SFX 1N 0 йнхноос/01 и	+POSS
+SFX 1N 0 йнхны и
+SFX 1N 0 йнхныг/01 и
 SFX 1N 0 йнхных/050871 и	+POSS
 SFX 1N 0 йнхон/0508 и	+POSS
 SFX 1N 0 йнхонд/01 и	+POSS
