@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.01.24
+## Version: 2021.01.25
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # This work may be distributed and/or modified under the
@@ -43,7 +43,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 1811
+REP 1812
 REP a а
 REP c с
 REP e е
@@ -1799,6 +1799,8 @@ REP ^эшлэ ишил
 REP ^эшлэе ишилье
 REP ^юмуу юм_уу
 REP ^юмүү юм_үү
+REP ^яалтачгүй$ яалт_ч_үгүй
+REP ^яалтчгүй$ яалт_ч_үгүй
 REP ^яамдууд яамд
 REP ^яасийн$ яасан_юм_бэ
 REP ^явааг явж_байгааг
@@ -1845,7 +1847,6 @@ REP хөв$ өх_вэ
 REP хөв$ х_вэ
 REP хэв$ х_вэ
 REP хэв$ эх_вэ
-REP чгүй$ _ч_үгүй
 REP чихваа$ чих_вий
 REP чихвийдэ$ чих_вий_дээ
 REP чихвийдээ$ чих_вий_дээ
@@ -4420,12 +4421,12 @@ SFX A4 0 хаас/00 [мт]анай
 SFX A4 0 хаар/00 [мт]анай
 SFX A4 0 /0408 [мт]анай
 SFX A4 0 ний өдий
-SFX A4 0 нийх/050872 өдий
+SFX A4 0 нийх/060872 өдий
 SFX A4 0 д/02 өдий
 SFX A4 0 г/02 өдий
 SFX A4 0 гөөс/02 өдий
 SFX A4 0 гөөр/02 өдий
-SFX A4 0 /0508 өдий
+SFX A4 0 /0608 өдий
 SFX A4 0 лөн төдий
 SFX A4 0 д/00 мань
 SFX A4 ь иас/00 мань
