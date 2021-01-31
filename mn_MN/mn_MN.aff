@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.01.29
+## Version: 2021.01.31
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # This work may be distributed and/or modified under the
@@ -43,7 +43,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 1853
+REP 1867
 REP a а
 REP c с
 REP e е
@@ -286,6 +286,8 @@ REP дгал дагла
 REP дгол догло
 REP дгөл дөглө
 REP дгэл дэглэ
+REP длиа дилаа
+REP длио дилоо
 REP дог дг
 REP дохо дахи
 REP дохоо дахиа
@@ -538,6 +540,7 @@ REP исн сон
 REP исн сөн
 REP исн сэн
 REP иуд инууд
+REP иуры уурий
 REP иут ингуут
 REP иэ игээ
 REP иэ ээ
@@ -973,15 +976,20 @@ REP раадахжээ арчихжээ
 REP раг арга
 REP раж арч
 REP ранд арт
+REP ранд рт
 REP раш ирш
 REP рд рьд
 REP рз рьз
 REP рог орго
 REP рож орч
+REP ронд орт
+REP ронд рт
 REP роодохжээ орчихжээ
 REP рош ирш
 REP рөг өргө
 REP рөж өрч
+REP рөнд өрт
+REP рөнд рт
 REP рөөдөхжээ өрчихжээ
 REP рөш ирш
 REP рс рьс
@@ -1006,6 +1014,8 @@ REP рьды рдий
 REP рэг эргэ
 REP рэгт ргэнд
 REP рэж эрч
+REP рэнд рт
+REP рэнд эрт
 REP рэш ирш
 REP рээдэхжээ эрчихжээ
 REP ря рья
@@ -1117,6 +1127,8 @@ REP тө тлө
 REP төн т
 REP төнгүүд тнүүд
 REP төнчүүд тнүүд
+REP триа тираа
+REP трио тироо
 REP тэ д
 REP тэ тлэ
 REP тэйгөөр тээгүүр
@@ -1695,6 +1707,8 @@ REP ^субьекта субъектэ
 REP ^субьектаа субъектээ
 REP ^субьектдаа субъектдээ
 REP ^субьекты субъектий
+REP ^суугааг сууж_байгааг
+REP ^суугаадаа сууж_байгаадаа
 REP ^тавдах тав_дахь
 REP ^тавдахаа тав_дахиа
 REP ^тавдахы тав_дахий
