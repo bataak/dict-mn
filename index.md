@@ -281,6 +281,7 @@ LibreOffice 6.0 хувилбараас эхлэн хэрэглэгч тольд 
 ### Emacs код засварлагч дээр ашиглах <a name="emacs"></a>
 1. `~/.emacs` буюу `~/.emacs.d/init.el` тохирогооны файлаа нээнэ.
 1. Дараах кодыг оруулна:
+
 ```lisp
 (setenv
   "DICPATH" "~/Library/Spelling")
@@ -292,6 +293,7 @@ LibreOffice 6.0 хувилбараас эхлэн хэрэглэгч тольд 
 (when (string-equal system-type "darwin")
   (setenv "DICTIONARY" "mn_MN"))
 ```
+
 Ийнхүү программ дахин ачаалмагц алдаа шалгахад бэлэн болно.
 
 ## Төслийг дэмжсэнд баярлалаа!
