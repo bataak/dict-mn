@@ -33,6 +33,9 @@
 1. [Sublime Text код засварлагч дээр ашиглах](#sublime)
 1. [TeXstudio засварлагч дээр ашиглах](#texstudio)
 1. [Adobe InDesign хэвлэлийн эх бэлтгэгч дээр ашиглах](#indesign)
+1. [Thunderbird захидал боловсруулагч дээр ашиглах](#thunderbird)
+1. [SeaMonkey захидал боловсруулагч интернет хөтөч дээр ашиглах](#seamonkey)
+1. [Emacs код засварлагч дээр ашиглах](#emacs)
 
 ### Тольд орсон зарим үгсийн бичлэгийн талаар
 
@@ -111,11 +114,13 @@
 1. QuarkXPress
 1. Scribus
 1. SDL Trados
+1. SeaMonkey
 1. Sublime Text
 1. Texmaker
 1. TeXnicCenter
 1. TeXstudio
 1. TeXworks
+1. Thunderbird
 1. WinShell
 
 Интернет хөтөч болох `Firefox`, баримт боловсруулагч `LibreOffice`, код засварлагч `Sublime Text`, хэвлэлийн эх бэлтгэгч `Adobe InDesign` болон LaTeX файл засварлагч `TeXstudio` программуудад энэхүү толийг хэрхэн ашиглахыг үзүүлье.
@@ -254,6 +259,40 @@ LibreOffice 6.0 хувилбараас эхлэн хэрэглэгч тольд 
 1. Одоо бичвэр оруулан шалгахдаа `Dynamic Spelling` идэвхжүүлнэ. Ингэхийн тулд хулганынхаа баруун товчийг дараад `Spelling > Dynamic Spelling` хэсгийг сонгоно.
 
 1. Ийнхүү ашиглахад бэлэн боллоо.
+
+### Thunderbird имэйл боловсруулагч программ дээр ашиглах <a name="thunderbird"></a>
+1. Программаа нээж, `Tools > Add-ons` гэж ороод хайх талбарт `mongolian` хэмээн хайна.
+1. Хайлтад гарч ирэх `Mongolian Spellchecking Dictionary` гэдгийн хажууд байрлах `Add to Thunderbird` товчийг дарна.
+1. Улмаар баруун дээд буланд гарч ирэх цонхноос `Add` товчийг дарж толио суулгана.
+1. Захидал бичих талбарт хулганыхаа баруун товчийг дарж `Languages > Mongolian` хэмээн сонгоно.
+1. Ийнхүү ашиглахад бэлэн боллоо.
+![thunderbird](images/thunderbird.png)
+
+### SeaMonkey имэйл боловсруулагч интернет хөтөч дээр ашиглах <a name="seamonkey"></a>
+1. Программаа нээж, `Tools > Add-ons Manager` гэж орно.
+1. Улмаар `Get Add-ons` гэж ороод баруун талд байрлах `Browse all add-ons >` гэсэн товчийг дарна.
+![seamonkey](images/seamonkey.png)
+1. Гарч ирэх цонхны хайлтын талбарт `mongolian` хэмээн бичихэд санал болгох `Mongolian Spellchecking Dictionary` гэснийг сонгоно.
+1. Ийнхүү`Add to SeaMonkey` товчийг дарна.
+1. Улмаар гарч ирэх цонхноос `Install Now` товчийг дарж толио суулгана.
+1. Бичих талбарт хулганыхаа баруун товчийг дарж `Languages > Mongolian` хэмээн сонгоно.
+1. Ийнхүү ашиглахад бэлэн боллоо.
+
+### Emacs код засварлагч дээр ашиглах <a name="emacs"></a>
+1. `~/.emacs` буюу `~/.emacs.d/init.el` тохирогооны файлаа нээнэ.
+1. Дараах кодыг оруулна:
+```
+(setenv
+  "DICPATH" "~/Library/Spelling")
+(setq
+  ispell-program-name
+  "/usr/local/bin/hunspell")
+(setq ispell-local-dictionary "mn_MN")
+
+(when (string-equal system-type "darwin")
+  (setenv "DICTIONARY" "mn_MN"))
+```
+1. Ийнхүү программ дахин ачаалмагц алдаа шалгахад бэлэн болно.
 
 ## Төслийг дэмжсэнд баярлалаа!
 [paypal.me/dictbataak](https://www.paypal.me/dictbataak)
