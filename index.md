@@ -292,7 +292,7 @@ LibreOffice 6.0 хувилбараас эхлэн хэрэглэгч тольд 
 (when (string-equal system-type "darwin")
   (setenv "DICTIONARY" "mn_MN"))
 ```
-1. Ийнхүү программ дахин ачаалмагц алдаа шалгахад бэлэн болно.
+Ийнхүү программ дахин ачаалмагц алдаа шалгахад бэлэн болно.
 
 ## Төслийг дэмжсэнд баярлалаа!
 [paypal.me/dictbataak](https://www.paypal.me/dictbataak)
