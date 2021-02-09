@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.02.07
+## Version: 2021.02.09
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # This work may be distributed and/or modified under the
@@ -43,7 +43,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 1908
+REP 1924
 REP a а
 REP c с
 REP e е
@@ -555,9 +555,16 @@ REP й и
 REP й ү
 REP йний йн
 REP йны йн
+REP л алт
 REP л илл
+REP л илт
+REP л йлт
+REP л лт
 REP л ль
+REP л олт
+REP л өлт
 REP л р
+REP л элт
 REP ла ал
 REP ла ил
 REP лаад аллаад
@@ -1713,6 +1720,8 @@ REP ^нөхдүүдэ нөхдө
 REP ^нөхдүүдээ нөхдөө
 REP ^нөхдүүдээрээ нөхдөөрөө
 REP ^нөхдүүдээсээ нөхдөөсөө
+REP ^нутал нотол
+REP ^нутла нотло
 REP ^нягтарш нягташ
 REP ^нягтарш нягтш
 REP ^нягтарш нягтши
@@ -1753,6 +1762,10 @@ REP ^суугаадаа сууж_байгаадаа
 REP ^тавдах тав_дахь
 REP ^тавдахаа тав_дахиа
 REP ^тавдахы тав_дахий
+REP ^таанууд та_нар
+REP ^таануус та_нар
+REP ^танууд та_нар
+REP ^тануус та_нар
 REP ^тариф үн
 REP ^тариф үнэ
 REP ^тарифаа үнээ
@@ -1786,6 +1799,9 @@ REP ^түвшнээ төвшнөө
 REP ^түвшнээрээ төвшнөөрөө
 REP ^түвшнээсээ төвшнөөсөө
 REP ^түвэг төвөг
+REP ^түмбийлгэ төмбийлгө
+REP ^түмбийсэ төмбийсө
+REP ^түмбийхэ төмбийхө
 REP ^түмнүүд түмэн
 REP ^түмнүүдийг түмнийг
 REP ^түмнүүдийн түмний
