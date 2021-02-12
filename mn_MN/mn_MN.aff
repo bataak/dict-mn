@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.02.11
+## Version: 2021.02.12
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # This work may be distributed and/or modified under the
@@ -43,7 +43,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 1934
+REP 1943
 REP a а
 REP c с
 REP e е
@@ -282,6 +282,8 @@ REP д өнд
 REP д т
 REP д энд
 REP даа тээ
+REP даадах таад_өг
+REP даадах таад_өгөх
 REP даг дг
 REP датгал тгал
 REP дг д
@@ -293,9 +295,13 @@ REP ди ьд
 REP длиа дилаа
 REP длио дилоо
 REP дог дг
+REP доодох тоод_өг
+REP доодох тоод_өгөх
 REP дохо дахи
 REP дохоо дахиа
 REP дөг дг
+REP дөөдөх төөд_өг
+REP дөөдөх төөд_өгөх
 REP дс дасн
 REP дс досн
 REP дс дөсн
@@ -304,6 +310,8 @@ REP дууд д
 REP дүүд д
 REP дэ дээ
 REP дэг дг
+REP дээдэх тээд_өг
+REP дээдэх тээд_өгөх
 REP е а
 REP е э
 REP ёоо ёо
@@ -1597,7 +1605,7 @@ REP ^бил$ билээ
 REP ^билгэш бэлгэш
 REP ^билигд бэлгэд
 REP ^билигш бэлгэш
-REP ^билэг  бэлгэ
+REP ^билэг бэлгэ
 REP ^билэгд бэлгэд
 REP ^билэгш бэлгэш
 REP ^боймол боомил
@@ -1618,6 +1626,7 @@ REP ^бөлөг бүлэг
 REP ^бүгдээрэнг бүгдийг
 REP ^бүгдээрэнд бүгдэд
 REP ^бүрийд бүрд
+REP ^бэлгэнд бэлэгт
 REP ^гадаргуу гадарга
 REP ^гадаргуу$ гадарга
 REP ^гадаргууг гадаргыг
