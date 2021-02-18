@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.02.17
+## Version: 2021.02.18
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # Special thanks to Guntevsuren Nanzad for her great professional assistance.
@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2004
+REP 2012
 REP a а
 REP c с
 REP e е
@@ -1635,6 +1635,10 @@ REP ^байз азна
 REP ^бидгүй бидэнгүй
 REP ^биднүүс$ бид_нар
 REP ^биднүүсий бид_нар
+REP ^биднүүсий бид_нары
+REP ^биднүүст$ бид_нарт
+REP ^биднүүстэй бид_нартай
+REP ^биднүүстээ$ бид_нартаа
 REP ^биднүүсээ бид_нараа
 REP ^бидтэй бидэнтэй
 REP ^бизээ биз_ээ
@@ -1876,6 +1880,9 @@ REP ^түмпэндээ төмпөндөө
 REP ^тэдгүй тэдэнгүй
 REP ^тэднүүс$ тэд_нар
 REP ^тэднүүсий тэд_нары
+REP ^тэднүүст$ тэд_нарт
+REP ^тэднүүстэй тэд_нартай
+REP ^тэднүүстээ$ тэд_нартаа
 REP ^тэднүүсээ тэд_нараа
 REP ^тэдтэй тэдэнтэй
 REP ^тэргүй түүнгүй
@@ -1972,6 +1979,7 @@ REP ^эдгүй эдэнгүй
 REP ^эднүүс$ эд_нар
 REP ^эднүүсий эд_нары
 REP ^эднүүсийгээ$ эд_нарыгаа
+REP ^эднүүст$ эд_нарт
 REP ^эднүүстэй эд_нартай
 REP ^эднүүстээ$ эд_нартаа
 REP ^эднүүсээ эд_нараа
