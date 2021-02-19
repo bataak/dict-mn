@@ -1,6 +1,6 @@
 Туршилтын хувилбар болох ойролцоогоор 2 сая үгийн сантай толио гаргаснаас хойш
-даруй 13 жил өнгөрчээ. Энэ удаагийн шинэчлэлээр 36 мянга орчим, тэдгээрийн
-хувилал болох 200 сая гаруй үгийн санг бэлтгэлээ.
+даруй 13 жил өнгөрчээ. Энэ удаагийн шинэчлэлээр 37 мянга орчим, тэдгээрийн
+хувилал болох 250 сая гаруй үгийн санг бэлтгэлээ.
 
 Энэхүү толийн онцлог гэвэл эрдэмтэн Ц. Дамдинсүрэн нарын 'Монгол үсгийн дүрмийн
 толь', 'Монгол хэлний хадмал толь', 'Монгол хэлний их тайлбар толь' болон
@@ -12,6 +12,8 @@
 ---
 
 Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
+
+Special thanks to Guntevsuren Nanzad for her great professional assistance.
 
 This work may be distributed and/or modified under the
 conditions of the LaTeX Project Public License, either version 1.3
