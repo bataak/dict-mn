@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2059
+REP 2072
 REP a а
 REP c с
 REP e е
@@ -357,6 +357,17 @@ REP жилба ажлава
 REP жилбо ожлово
 REP жилбө өжлөвө
 REP жилбэ эжлэвэ
+REP жилтанд шилтад
+REP жилтанд шилтд
+REP жилтн шилт
+REP жилтний шилтийн
+REP жилтны шилтын
+REP жилтонд шилтд
+REP жилтонд шилтод
+REP жилтөнд шилтд
+REP жилтөнд шилтөд
+REP жилтэнд шилтд
+REP жилтэнд шилтэд
 REP жра жир
 REP жро жир
 REP жрө жир
@@ -1424,6 +1435,8 @@ REP шрө шир
 REP шрэ шир
 REP щ ш
 REP ъ ь
+REP ъёо ьё
+REP ъяа ья
 REP ъяасн ьяас
 REP ы а
 REP ы гийн
