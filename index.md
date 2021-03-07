@@ -277,21 +277,20 @@ LibreOffice 6.0 хувилбараас эхлэн хэрэглэгч тольд 
 </div>
 
 1. `~/.emacs` буюу `~/.emacs.d/init.el` тохирогооны файлаа нээнэ.
-1. Дараах кодыг оруулна:
+1. Дараах кодыг оруулна: англи болон монгол үгийн алдааг зэрэг шалгахаар `~/Library/Spelling` хавтаст mn_MN болон en-GB толиудыг хуулсан байгаа гэж ойлгоё. Тэгвэл
 
 ```lisp
-(setenv
-  "DICPATH" "~/Library/Spelling")
-(setq
-  ispell-program-name
-  "/usr/local/bin/hunspell")
-(setq ispell-local-dictionary "mn_MN")
-
-(when (string-equal system-type "darwin")
-  (setenv "DICTIONARY" "mn_MN"))
+(with-eval-after-load "ispell"
+  (setenv "DICPATH" "~/Library/Spelling")
+  (setq ispell-program-name "/usr/local/bin/hunspell")
+  (setq ispell-local-dictionary "mn_MN")
+  (setq ispell-local-dictionary-alist '(("mn_MN" "[[:alpha:]]"
+					 "[^[:alpha:]]" "[']" nil ("-d" "mn_MN,en-GB") nil utf-8)))
+  (when (boundp 'ispell-hunspell-dictionary-alist)
+    (setq ispell-hunspell-dictionary-alist ispell-local-dictionary-alist)))
 ```
 
-Ийнхүү программ дахин ачаалмагц алдаа шалгахад бэлэн болно.
+Ийнхүү программ дахин ачаалмагц алдаа шалгахад бэлэн болно. Алдаа шалгагчийг `tex` файл нээгдэхэд автоматаар ачаалдгаар тохируулж болно, эсвэл `M-x flyspell-mode` хэмээн идэвхжүүлж болно.
 
 ## Төслийг дэмжсэнд баярлалаа!
 [paypal.me/dictbataak](https://www.paypal.me/dictbataak)
