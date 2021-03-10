@@ -1,6 +1,6 @@
 ## Бүтээлийн тухай
 
-Энэхүү толь нь 38 мянга орчим үндэс үгтэй бөгөөд үйл үндэс бүрээс ядаж 4 нэр үг үүснэ гэвэл нийт 217 мянган үүсмэл нэр үг, 407 мянган үүсмэл үйл үг, тэдгээрийн хувилал болох 250 сая орчим үгийн сантай.
+Энэхүү толь нь 38 мянга орчим үндэс үгтэй бөгөөд үйл үндэс бүрээс ядаж 4 нэр үг үүснэ гэвэл нийт 217 мянган үүсмэл нэр үг, 408 мянган үүсмэл үйл үг, тэдгээрийн хувилал болох 250 сая орчим үгийн сантай.
 
 <div class="container">
    <iframe src="https://www.youtube.com/embed/N-oRV9TlYrA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
