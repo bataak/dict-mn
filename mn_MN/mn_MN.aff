@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.03.08
+## Version: 2021.03.11
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # Special thanks to Guntevsuren Nanzad for her great professional assistance.
@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2081
+REP 2089
 REP a а
 REP c с
 REP e е
@@ -178,6 +178,7 @@ REP асн с
 REP асны сын
 REP аст санд
 REP асч саж
+REP атын таны
 REP ач чи
 REP ашла шил
 REP ашрал ширл
@@ -408,6 +409,7 @@ REP игда гад
 REP игдо год
 REP игдө гөд
 REP игдэ гэд
+REP игийн ийн
 REP игл гэл
 REP игн г
 REP игн гэн
@@ -944,6 +946,8 @@ REP оодхоо оод_өгөхөө
 REP оодхоорой оод_өгөөрэй
 REP оодхооч оод_өгөөч
 REP оодхы оод_өгөхий
+REP оол уул
+REP ооло уула
 REP ооноо оо
 REP оор охоор
 REP оороо аараа
@@ -965,6 +969,7 @@ REP осн с
 REP осны сын
 REP ост сонд
 REP осч сож
+REP отын тоны
 REP ошло шил
 REP ошрол ширл
 REP ө й
@@ -1065,6 +1070,7 @@ REP өсн с
 REP өсний сийн
 REP өст сөнд
 REP өсч сөж
+REP өтийн төний
 REP өшлө шил
 REP өшрөл ширл
 REP р л
@@ -1433,6 +1439,7 @@ REP чүүд чид
 REP чх чих
 REP ш ж
 REP ш ч
+REP шгир гшр
 REP шил ашла
 REP шил ошло
 REP шил өшлө
@@ -1622,6 +1629,7 @@ REP эсн с
 REP эсний сийн
 REP эст сэнд
 REP эсч сэж
+REP этийн тэний
 REP эшлэ шил
 REP эшрэл ширл
 REP ээ аа
