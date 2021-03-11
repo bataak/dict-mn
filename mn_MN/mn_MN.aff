@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2089
+REP 2090
 REP a а
 REP c с
 REP e е
@@ -1992,6 +1992,7 @@ REP ^хашгач хашхич
 REP ^хирэндээ хэрдээ
 REP ^хоёрдах хоёр_дахь
 REP ^хоёрдахы хоёр_дахий
+REP ^хождо хожимдо
 REP ^хомрогл хоморгол
 REP ^хомсло хумсла
 REP ^хомслоо хумслаа
