@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.03.12
+## Version: 2021.03.14
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # Special thanks to Guntevsuren Nanzad for her great professional assistance.
@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2090
+REP 2102
 REP a а
 REP c с
 REP e е
@@ -131,6 +131,7 @@ REP айлл айл
 REP ал алла
 REP алб лав
 REP алба лав
+REP алга лаг
 REP алганд лагад
 REP алнууд лууд
 REP алны лын
@@ -213,7 +214,11 @@ REP ганд агт
 REP ганд игт
 REP ганууд гууд
 REP ганы гын
+REP гий аг
 REP гий г
+REP гий ог
+REP гий өг
+REP гий эг
 REP гийн игний
 REP гийн ий
 REP гийн н
@@ -622,6 +627,7 @@ REP ла ил
 REP лаад аллаад
 REP лаадахжээ алчихжээ
 REP лав алб
+REP лав илб
 REP лаг илг
 REP лагад алганд
 REP лан ал
@@ -679,6 +685,7 @@ REP ллө л
 REP ллэ л
 REP ло ил
 REP ло ол
+REP лов илб
 REP лов олб
 REP лог илг
 REP логод олгонд
@@ -693,6 +700,7 @@ REP лосо олс
 REP лочих илчх
 REP лө ил
 REP лө өл
+REP лөв илб
 REP лөв өлб
 REP лөг илг
 REP лөгөд өлгөнд
@@ -730,6 +738,7 @@ REP лье лөе
 REP лье лэе
 REP лэ ил
 REP лэ эл
+REP лэв илб
 REP лэв элб
 REP лэг илг
 REP лэгэд элгэнд
@@ -878,6 +887,7 @@ REP ожло жил
 REP ол олло
 REP олб лов
 REP олбо лов
+REP олго лог
 REP олгонд логод
 REP олдирл улдрал
 REP олдирлоо улдралаа
@@ -995,6 +1005,7 @@ REP өй ий
 REP өл өллө
 REP өлб лөв
 REP өлбө лөв
+REP өлгө лөг
 REP өлгөнд лөгөд
 REP өлний лийн
 REP өлнүүд лүүд
@@ -1589,6 +1600,7 @@ REP эйнд ийд
 REP эл эллэ
 REP элб лэв
 REP элбэ лэв
+REP элгэ лэг
 REP элгэнд лэгэд
 REP эллэ лэ
 REP элний лийн
@@ -1978,7 +1990,7 @@ REP ^үмхийрсэн өмхийрсөн
 REP ^үмхийртлээ өмхийртлөө
 REP ^үмхийртэл өмхийртөл
 REP ^үмхийрэ өмхийрө
-REP ^үнсэ үнэсэ
+REP ^үнс үнэс
 REP ^хаадууд хаад
 REP ^хаач хаашаа_яв
 REP ^хаачсан хаашаа_явсан
