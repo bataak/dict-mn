@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.03.14
+## Version: 2021.03.17
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # Special thanks to Guntevsuren Nanzad for her great professional assistance.
@@ -21,7 +21,7 @@
 #
 LANG mn_MN
 SET UTF-8
-TRY аоөийубвгцхдтжчзүьэлмныёеъсшяюрпфк-АОӨИЙУБВГЦХДТЖЧЗҮЬЭЛМНЫЁЕЪСШЯЮРПФК
+TRY аоөийубвгцхдтжчзүьэлмныёеъсшяюрпфкАОӨИЙУБВГЦХДТЖЧЗҮЬЭЛМНЫЁЕЪСШЯЮРПФК
 FLAG long
 
 FULLSTRIP
@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2102
+REP 2117
 REP a а
 REP c с
 REP e е
@@ -58,6 +58,7 @@ REP T Т
 REP v ү
 REP x х
 REP y у
+REP Y Ү
 REP а аа
 REP а е
 REP а и
@@ -165,6 +166,7 @@ REP аны ийн
 REP аны ны
 REP аны ын
 REP арга раг
+REP арга рагла
 REP аргы рагий
 REP ариганд ирагт
 REP ариглин ираглан
@@ -536,6 +538,10 @@ REP ил илло
 REP ил иллө
 REP ил иллэ
 REP ил л
+REP ил ла
+REP ил ло
+REP ил лө
+REP ил лэ
 REP ила ли
 REP илг лаг
 REP илгал илг
@@ -969,6 +975,7 @@ REP оостой оолттой
 REP оотой оолттой
 REP ооштой ууштай
 REP орго рог
+REP орго рогло
 REP оргы рогий
 REP орий ры
 REP орн р
@@ -1073,6 +1080,8 @@ REP өөс өнөөс
 REP өөсөө ээсээ
 REP өөстэй өөлттэй
 REP өөтэй өөлттэй
+REP өргө рөг
+REP өргө рөглө
 REP өрн р
 REP өрний рийн
 REP өрнүүд рүүд
@@ -1631,6 +1640,8 @@ REP энүүд үүд
 REP энэ нэ
 REP энээрээ нөөрөө
 REP энээсээ нөөсөө
+REP эргэ рэг
+REP эргэ рэглэ
 REP эри рей
 REP эрн р
 REP эрний рийн
@@ -1976,7 +1987,7 @@ REP ^тэрнээс түүнээс
 REP ^тэрүүн түүн
 REP ^тэрүүнд түүнд
 REP ^тэрүүний түүний
-REP ^тэрэн түүн
+REP ^тэрэн$ түүн
 REP ^Уилиам Уильям
 REP ^Уиллиам Уильям
 REP ^үгнүүд үгс
@@ -2125,8 +2136,12 @@ REP оов$ оо_вэ
 REP өөв$ өө_вэ
 REP руу$ _уруу
 REP руугаа$ _уруугаа
+REP руун$ ав
+REP руун$ рав
 REP рүү$ _уруу
 REP рүүгээ$ _уруугаа
+REP рүүн$ рэв
+REP рүүн$ эв
 REP хав$ ах_вэ
 REP хав$ х_вэ
 REP хнадаа$ х_нь_даа
