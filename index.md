@@ -335,12 +335,12 @@ LibreOffice 6.0 хувилбараас эхлэн хэрэглэгч тольд 
 ```lisp
 (with-eval-after-load "ispell"
   (setenv "DICPATH" "~/Library/Spelling")
+  (setenv "LANG" "mn_MN")
   (setq ispell-program-name "/usr/local/bin/hunspell")
-  (setq ispell-local-dictionary "mn_MN")
-  (setq ispell-local-dictionary-alist '(("mn_MN" "[[:alpha:]]"
-					 "[^[:alpha:]]" "[']" nil ("-d" "mn_MN,en-GB") nil utf-8)))
-  (when (boundp 'ispell-hunspell-dictionary-alist)
-    (setq ispell-hunspell-dictionary-alist ispell-local-dictionary-alist)))
+  (setq ispell-dictionary "mn_MN,en-GB")
+  (ispell-set-spellchecker-params)
+  (ispell-hunspell-add-multi-dic "mn_MN,en-GB")
+  (setq ispell-personal-dictionary "~/.hunspell_personal"))
 ```
 
 Ийнхүү программ дахин ачаалмагц алдаа шалгахад бэлэн болно. Алдаа шалгагчийг `tex` файл нээгдэхэд автоматаар ачаалдгаар тохируулж болно, эсвэл `M-x flyspell-mode` хэмээн идэвхжүүлж болно.
