@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.03.25
+## Version: 2021.03.26
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # Special thanks to Guntevsuren Nanzad for her great professional assistance.
@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2138
+REP 2153
 REP a а
 REP c с
 REP e е
@@ -156,6 +156,7 @@ REP ангий ы
 REP ангий$ ыг
 REP ангийн ны
 REP ангийх ных
+REP ангиуд нууд
 REP ангууд нууд
 REP анд д
 REP анд т
@@ -222,6 +223,7 @@ REP гий г
 REP гий ог
 REP гий өг
 REP гий эг
+REP гийн г
 REP гийн игний
 REP гийн ий
 REP гийн н
@@ -414,6 +416,9 @@ REP иг гэ
 REP иг хи
 REP ига ги
 REP игаа иа
+REP игаа ио
+REP игаараа иороо
+REP игаасаа иороо
 REP игд агт
 REP игд огт
 REP игда гад
@@ -421,6 +426,8 @@ REP игдо год
 REP игдө гөд
 REP игдэ гэд
 REP игийн ийн
+REP игийнха ийнхо
+REP игийнхаа ийнхоо
 REP игл гэл
 REP игн г
 REP игн гэн
@@ -818,6 +825,8 @@ REP нг нийг
 REP нг ныг
 REP нгийг нг
 REP нгийн ний
+REP нгиуд нууд
+REP нгиүд нүүд
 REP нд д
 REP нд ньд
 REP ндаа ондоо
@@ -933,6 +942,7 @@ REP онгид ингонд
 REP онгий ы
 REP онгийн ны
 REP онгийх ных
+REP онгиуд нууд
 REP онгоо ноо
 REP онгууд нууд
 REP онд д
@@ -1045,6 +1055,7 @@ REP өнгид ингөнд
 REP өнгий ий
 REP өнгийн ний
 REP өнгийх нийх
+REP өнгиүд нүүд
 REP өнгөө нөө
 REP өнгүүд нүүд
 REP өнд д
@@ -1644,6 +1655,7 @@ REP энгий ий
 REP энгий$ ийг
 REP энгийн ний
 REP энгийх нийх
+REP энгиүд нүүд
 REP энгүүд нүүд
 REP энгээ нээ
 REP энд д
@@ -1914,6 +1926,9 @@ REP ^өвгөчүүлд өвгөдөд
 REP ^өвгөчүүлдээ өвгөддөө
 REP ^өөрсн өөрсд
 REP ^өөрсний өөрсдийн
+REP ^өрөвс үрэвс
+REP ^өрөвсө үрэвсэ
+REP ^өрөвсөх үрэвсэх
 REP ^өсөрх өширх
 REP ^регистр бүртгэл
 REP ^Ренчингийн Ринчений
