@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2179
+REP 2181
 REP a а
 REP c с
 REP e е
@@ -1359,6 +1359,7 @@ REP уурь вар
 REP уурь вор
 REP уурьтай вортой
 REP уут ангуут
+REP уут ингуут
 REP уут магц
 REP уут могц
 REP уут онгуут
@@ -1406,6 +1407,7 @@ REP үүр вөр
 REP үүр вэр
 REP үүртэй вөртэй
 REP үүртэй вэртэй
+REP үүт ингүүт
 REP үүт мөгц
 REP үүт мэгц
 REP үүт өнгүүт
