@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.03.29
+## Version: 2021.03.30
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # Special thanks to Guntevsuren Nanzad for her great professional assistance.
@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2167
+REP 2179
 REP a а
 REP c с
 REP e е
@@ -96,6 +96,8 @@ REP аадха аад_өгөхө
 REP аадхаа аад_өгөхөө
 REP аадхаарай аад_өгөөрэй
 REP аадхаач аад_өгөөч
+REP аадхаач ачих
+REP аадхаач чих
 REP аадхав чихав
 REP аадхаж чхаж
 REP аадхая$ аад_өгье
@@ -219,6 +221,10 @@ REP ганд агт
 REP ганд игт
 REP ганууд гууд
 REP ганы гын
+REP ги аг
+REP ги ог
+REP ги өг
+REP ги эг
 REP гий аг
 REP гий г
 REP гий ог
@@ -991,6 +997,8 @@ REP оодхож чхож
 REP оодхоо оод_өгөхөө
 REP оодхоорой оод_өгөөрэй
 REP оодхооч оод_өгөөч
+REP оодхооч очих
+REP оодхооч чих
 REP оодхы оод_өгөхий
 REP оол уул
 REP ооло уула
@@ -1104,6 +1112,8 @@ REP өөдхөж чхөж
 REP өөдхөө өөд_өгөхөө
 REP өөдхөөрэй өөд_өгөөрэй
 REP өөдхөөч өөд_өгөөч
+REP өөдхөөч өчих
+REP өөдхөөч чих
 REP өөнөө өө
 REP өөр өхөөр
 REP өөрөө ээрээ
@@ -1712,6 +1722,8 @@ REP ээдхэе$ ээд_өгье
 REP ээдхэж чхэж
 REP ээдхээ ээд_өгөхөө
 REP ээдхээрэй ээд_өгөөрэй
+REP ээдхээч чих
+REP ээдхээч эчих
 REP ээдхээч ээд_өгөөч
 REP ээдэх чих
 REP ээдэх эчих
