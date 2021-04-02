@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.03.31
+## Version: 2021.04.03
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # Special thanks to Guntevsuren Nanzad for her great professional assistance.
@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2189
+REP 2192
 REP a а
 REP c с
 REP e е
@@ -394,6 +394,7 @@ REP жра жир
 REP жро жир
 REP жрө жир
 REP жрэ жир
+REP жт жит
 REP з х
 REP з ц
 REP и а
@@ -1502,6 +1503,7 @@ REP чра чир
 REP чро чир
 REP чрө чир
 REP чрэ чир
+REP чт чит
 REP чууд үүд
 REP чууд чд
 REP чууд чид
@@ -1521,6 +1523,7 @@ REP шра шир
 REP шро шир
 REP шрө шир
 REP шрэ шир
+REP шт шит
 REP щ ш
 REP ъ ь
 REP ъёо ьё
