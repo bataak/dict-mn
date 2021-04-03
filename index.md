@@ -65,7 +65,7 @@
 Уг толь нь hunspell алдаа шалгагчийн 1.3.3-аас хойших хувилбаруудад ажиллана.
 ```
 
-[Firefox](https://www.mozilla.org/en-US/firefox/new/) болон [LibreOffice](https://www.libreoffice.org/) дээр түгээмэл ашиглагдаж байгаа төдийгүй [hunspell](http://hunspell.github.io/) дэмждэг дурын программд энэхүү толийг ашиглаж боломжтой. Hunspell дэмждэг зарим программаас дурдвал:
+[Firefox](https://www.mozilla.org/en-US/firefox/new/) болон [LibreOffice](https://www.libreoffice.org/) дээр түгээмэл ашиглагдаж байгаа төдийгүй үгийн алдаа шалгагч программ болох [hunspell](http://hunspell.github.io/) дэмждэг дурын программд энэхүү толийг ашиглаж боломжтой. Hunspell дэмждэг зарим программаас дурдвал:
 1. .NET
 1. Chrome
 1. Chromium
@@ -97,6 +97,7 @@
 Интернет хөтөч болох `Firefox`, баримт боловсруулагч `LibreOffice`, код засварлагч `Sublime Text`, хэвлэлийн эх бэлтгэгч `Adobe InDesign` болон LaTeX файл засварлагч `TeXstudio` программуудад энэхүү толийг хэрхэн ашиглахыг үзүүлье.
 
 ### Firefox интернет хөтөч дээр ашиглах <a name="firefox"></a>
+Firefox интернет хөтчид монгол үгийн алдаа шалгагчийг дараах байдлаар идэвхжүүлнэ.
 
 1. [firefox.com](https://firefox.com) хаягаар хандаж интернет хөтчөө татан авч суулгана.
 
@@ -119,6 +120,7 @@
 ![firefox-4](images/firefox-4.png)
 
 ### LibreOffice баримт бичиг боловсруулагч дээр ашиглах <a name="libreoffice"></a>
+Бичиг баримт боловсруулагч программд монгол үгийн алдаа шалгахын тулд дараах зааврыг дагаарай.
 
 1. [https://www.libreoffice.org](https://www.libreoffice.org/download/) хаяг уруу орж программаа татаж авч суулгана.
 
