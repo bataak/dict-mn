@@ -252,6 +252,7 @@ LibreOffice 6.0 хувилбараас эхлэн хэрэглэгч тольд 
 1. Ийнхүү ашиглахад бэлэн боллоо.
 
 ### Emacs код засварлагч дээр ашиглах <a name="emacs"></a>
+Emacs программ дээр монгол үгийн алдаа шалгагчийг идэвхжүүлэхийн тулд дараах тохиргоог хийнэ.
 
 <div class="container">
    <iframe src="https://www.youtube.com/embed/6lh9cfodvbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
