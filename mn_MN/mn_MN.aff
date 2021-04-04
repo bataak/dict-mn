@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.04.03
+## Version: 2021.04.04
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # Special thanks to Guntevsuren Nanzad for her great professional assistance.
@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2193
+REP 2194
 REP a а
 REP c с
 REP e е
@@ -1851,6 +1851,7 @@ REP ^дөрөвдөхөө дөрөв_дэхээ
 REP ^дундач дундж
 REP ^дурьдатгал дуртгал
 REP ^дүвчигнэ дөвчигнө
+REP ^дүвчигнэдэ дөвчигнөдө
 REP ^дүвчигнэлээ дөвчигнөлөө
 REP ^дүвчигнэнэ дөвчигнөнө
 REP ^дүвчигнэсэ дөвчигнөсө
