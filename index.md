@@ -7,11 +7,11 @@
 </div>
 Монгол үгийн алдаа шалгах толийг 2001 оноос эхлэн өдийг хүртэлх 10,000 цагийн турш дараах толиудыг ашиглан хөгжүүлж ирлээ:
 1. Монгол хэлний товч тайлбар толь
-2. Монгол бичгийн хадмал толь
-3. Монгол хэлний хадмал толь
-4. [Монгол үсгийн дүрмийн толь](https://github.com/bataak/dict-mn/blob/main/%D0%9C%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB_%D2%AE%D1%81%D0%B3%D0%B8%D0%B9%D0%BD_%D0%94%D2%AF%D1%80%D0%BC%D0%B8%D0%B9%D0%BD_%D0%A2%D0%BE%D0%BB%D1%8C.pdf)
-5. Монгол хэлний их тайлбар толь
-6. Монгол хэлний зөв бичих дүрмийн журамласан толь
+1. Монгол бичгийн хадмал толь
+1. Монгол хэлний хадмал толь
+1. [Монгол үсгийн дүрмийн толь](https://github.com/bataak/dict-mn/blob/main/%D0%9C%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB_%D2%AE%D1%81%D0%B3%D0%B8%D0%B9%D0%BD_%D0%94%D2%AF%D1%80%D0%BC%D0%B8%D0%B9%D0%BD_%D0%A2%D0%BE%D0%BB%D1%8C.pdf)
+1. Монгол хэлний их тайлбар толь
+1. Монгол хэлний зөв бичих дүрмийн журамласан толь
 
 Толиудын үгийн тоо | Үндэс үгийн тоо | Хэв/байдлын нөхцөлтэйгөөр
 ------------- | ------------- | -------------
@@ -27,15 +27,12 @@
 
 Тольд зөвхөн түгээмэл ашиглагддаг гадаад (орос, хятад, төвд, санскрит) үгсийг оруулсан болно.
 
-1. [Firefox интернет хөтөч дээр ашиглах](#firefox)
-1. [LibreOffice баримт бичиг боловсруулагч дээр ашиглах](#libreoffice)
-1.    1. [LibreOffice тольд шинэ үг нэмэх](#libreoffice-dic)
-1. [Sublime Text код засварлагч дээр ашиглах](#sublime)
-1. [TeXstudio засварлагч дээр ашиглах](#texstudio)
-1. [Adobe InDesign хэвлэлийн эх бэлтгэгч дээр ашиглах](#indesign)
-1. [Thunderbird захидал боловсруулагч дээр ашиглах](#thunderbird)
-1. [SeaMonkey захидал боловсруулагч интернет хөтөч дээр ашиглах](#seamonkey)
-1. [Emacs код засварлагч дээр ашиглах](#emacs)
+Түүнчлэн энэхүү бүтээлийн өмнөтгөл бүтээлүүдийг дурдвал:
+1. [WinEdt Dictionary](http://www.winedt.org/dict.html)
+1. [Aspell Dictionary](https://ftp.gnu.org/gnu/aspell/dict/0index.html)
+1. [Mongolian spelling and hyphenation dictionaries for OpenOffice](https://extensions.openoffice.org/fr/project/mongol-helniy-ugiyn-aldaa-shalgagch-ueer-taslagch-mongolian-spelling-and-hyphenation)
+1. [Mongolian spellchecking dictionary for LibreOffice](https://extensions.libreoffice.org/en/extensions/show/1980)
+2. [Mongolian spellchecking dictionary for Firefox](https://addons.mozilla.org/en-US/firefox/addon/dict-mn/)
 
 ### Тольд орсон зарим үгсийн бичлэгийн талаар
 Эрдэмтэн Ц. Дамдинсүрэн нарын "Монгол үсгийн дүрмийн толь"-оос ялгаатай орсон монгол үгсийг жагсаавал:
@@ -95,6 +92,16 @@
 1. WinShell
 
 Интернет хөтөч болох `Firefox`, баримт боловсруулагч `LibreOffice`, код засварлагч `Sublime Text`, хэвлэлийн эх бэлтгэгч `Adobe InDesign` болон LaTeX файл засварлагч `TeXstudio` программуудад энэхүү толийг хэрхэн ашиглахыг үзүүлье.
+
+1. [Firefox интернет хөтөч дээр ашиглах](#firefox)
+1. [LibreOffice баримт бичиг боловсруулагч дээр ашиглах](#libreoffice)
+1.    1. [LibreOffice тольд шинэ үг нэмэх](#libreoffice-dic)
+1. [Sublime Text код засварлагч дээр ашиглах](#sublime)
+1. [TeXstudio засварлагч дээр ашиглах](#texstudio)
+1. [Adobe InDesign хэвлэлийн эх бэлтгэгч дээр ашиглах](#indesign)
+1. [Thunderbird захидал боловсруулагч дээр ашиглах](#thunderbird)
+1. [SeaMonkey захидал боловсруулагч интернет хөтөч дээр ашиглах](#seamonkey)
+1. [Emacs код засварлагч дээр ашиглах](#emacs)
 
 ### Firefox интернет хөтөч дээр ашиглах <a name="firefox"></a>
 Firefox интернет хөтчид монгол үгийн алдаа шалгагчийг дараах байдлаар идэвхжүүлнэ.
