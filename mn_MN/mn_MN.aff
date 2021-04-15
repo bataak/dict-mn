@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2211
+REP 2215
 REP a а
 REP c с
 REP e е
@@ -784,6 +784,10 @@ REP луу$ уруу
 REP луугаа$ уруугаа
 REP лүү$ уруу
 REP лх льх
+REP лц лалц
+REP лц лолц
+REP лц лөлц
+REP лц лэлц
 REP лч льч
 REP лъё лоё
 REP лъя лая
