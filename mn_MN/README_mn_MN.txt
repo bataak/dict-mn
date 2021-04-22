@@ -13,7 +13,7 @@
 
 Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 
-Special thanks to Guntevsuren Nanzad for her great professional assistance.
+Special thanks to Guntevsuren Nanzad for your great professional assistance.
 
 This work may be distributed and/or modified under the
 conditions of the LaTeX Project Public License, either version 1.3
