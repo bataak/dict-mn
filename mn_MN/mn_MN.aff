@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.04.21
+## Version: 2021.04.22
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # Special thanks to Guntevsuren Nanzad for her great professional assistance.
@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2239
+REP 2247
 REP a а
 REP c с
 REP e е
@@ -77,6 +77,7 @@ REP аа өө
 REP аа тагаа
 REP аа уу
 REP аа уул
+REP аа уула
 REP аа ээ
 REP ааг ыг
 REP аагаа аа
@@ -112,6 +113,7 @@ REP аасаа оосоо
 REP аасан оосон
 REP аастай аалттай
 REP аатай аалттай
+REP ав б
 REP авч агч
 REP авч айвч
 REP аг га
@@ -935,6 +937,7 @@ REP о й
 REP о оо
 REP о у
 REP о уу
+REP ов б
 REP овч огч
 REP овч ойвч
 REP ог го
@@ -1003,6 +1006,7 @@ REP оо ооноо
 REP оо өө
 REP оо тогоо
 REP оо уул
+REP оо ууло
 REP оог ыг
 REP оогоо оо
 REP оогоод$ уулаад
@@ -1064,6 +1068,7 @@ REP ө өө
 REP ө ү
 REP ө үү
 REP ө э
+REP өв б
 REP өвч өгч
 REP өг гө
 REP өгийн ийн
@@ -1122,6 +1127,7 @@ REP өө өөнөө
 REP өө төгөө
 REP өө үү
 REP өө үүл
+REP өө үүлэ
 REP өө эй
 REP өө ээ
 REP өөг ийг
@@ -1685,6 +1691,7 @@ REP э й
 REP э ө
 REP э үү
 REP э ээ
+REP эв б
 REP эвч эгч
 REP эг гэ
 REP эгийн ийн
@@ -1765,6 +1772,7 @@ REP ээ оо
 REP ээ өө
 REP ээ тэгээ
 REP ээ үүл
+REP ээ үүлэ
 REP ээ э
 REP ээ эгээ
 REP ээ эй
