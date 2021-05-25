@@ -5,7 +5,7 @@
 <div class="container">
    <iframe src="https://www.youtube.com/embed/N-oRV9TlYrA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
 </div>
-Монгол үгийн алдаа шалгах толийг 2001 оноос эхлэн өдийг хүртэлх 10,000 цагийн турш дараах толиудыг ашиглан хөгжүүлж ирлээ:
+Монгол үгийн алдаа шалгах толийг дараах толиудыг ашиглан хөгжүүлэв:
 1. Монгол хэлний товч тайлбар толь
 1. Монгол бичгийн хадмал толь
 1. Монгол хэлний хадмал толь
