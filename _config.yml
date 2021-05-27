@@ -1,2 +1,5 @@
 theme: jekyll-theme-cayman
 tags: [алдаа шалгагч, алдаа шалгагч программ, алдаа шалгагч программ татах, алдаа шалгагч программ, алдаа шалгагч программ татах]
+url: "https://zuv.bichig.dev"
+plugins:
+  - jekyll-sitemap
