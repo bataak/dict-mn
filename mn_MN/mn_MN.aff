@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2021.06.28
+## Version: 2021.07.01
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #
 # Special thanks to Guntevsuren Nanzad for your great professional assistance.
@@ -45,7 +45,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2473
+REP 2489
 REP a а
 REP c с
 REP e е
@@ -669,6 +669,7 @@ REP илэ ли
 REP илэнг лэн
 REP илэнг лэнийг
 REP илэнгийн лэний
+REP ин игийн
 REP ин ь
 REP ина ни
 REP инаа иа
@@ -1022,17 +1023,21 @@ REP нөний нийн
 REP нөөсөө өөсөө
 REP нс ньс
 REP нуу уу
+REP нууд ад
 REP нууд ангууд
 REP нууд д
 REP нууд ид
 REP нууд ингууд
+REP нууд од
 REP нууд онгууд
 REP нуур р
 REP нүү үү
 REP нүүд д
 REP нүүд ид
 REP нүүд ингүүд
+REP нүүд өд
 REP нүүд өнгүүд
+REP нүүд эд
 REP нүүд энгүүд
 REP нүүр р
 REP нхнийхн нхн
@@ -1535,13 +1540,19 @@ REP ууд д
 REP ууд нууд
 REP ууд од
 REP ууд онууд
+REP уудаа оо
 REP уудаа үүдээ
 REP уудаараа үүдээрээ
 REP уудаасаа үүдээсээ
+REP уудад од
+REP ууддаа доо
 REP ууддаа үүддээ
 REP ууды үүдий
 REP уудыг ийг
 REP уудынхаа үүдийнхээ
+REP уудынхаа ынхоо
+REP уудынхад ынход
+REP уудынхдаа ынхдоо
 REP уул аа
 REP уул оо
 REP уула үүлэ
@@ -1587,14 +1598,19 @@ REP үүд ууд
 REP үүд чууд
 REP үүд эд
 REP үүд энүүд
+REP үүддээ дөө
 REP үүддээ ууддаа
 REP үүдий ууды
 REP үүдий чууды
 REP үүдийгээ уудыгаа
+REP үүдийнхдээ ийнхдөө
 REP үүдийнхөө ийнхөө
 REP үүдийнхөө ийнхээ
+REP үүдийнхэд ийнхөд
 REP үүдийнхээ ийнхөө
 REP үүдийнхээ уудынхаа
+REP үүдэд өд
+REP үүдээ өө
 REP үүдээ уудаа
 REP үүдээрээ уудаараа
 REP үүдээрэээ уудаараа
