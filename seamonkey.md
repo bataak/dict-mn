@@ -1,4 +1,5 @@
-# SeaMonkey дээр ашиглах <a name="seamonkey"></a>
+# SeaMonkey дээр ашиглах
+
 1. Программаа нээж, `Tools > Add-ons Manager` гэж орно.
 1. Улмаар `Get Add-ons` гэж ороод баруун талд байрлах `Browse all add-ons >` гэсэн товчийг дарна.
 ![seamonkey](images/seamonkey.png)
