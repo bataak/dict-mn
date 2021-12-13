@@ -1,1 +1,10 @@
-theme: jekyll-theme-cayman
+title: Зөв бичигдэв
+description: Монгол үгийн алдаа шалгах толь
+remote_theme: rundocs/jekyll-rtd-theme
+tags: [алдаа шалгагч, алдаа шалгагч программ, алдаа шалгагч программ татах, алдаа шалгагч программ, алдаа шалгагч программ татах]
+url: "https://zuv.bichig.dev"
+plugins:
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
