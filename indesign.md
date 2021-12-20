@@ -6,7 +6,7 @@ Adobe-ийн бусад төрлийн программууд дээр мөн и
    <iframe src="https://www.youtube.com/embed/-f5XSHouCbg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
-1. Толио [эндээс](https://github.com/bataak/dict-mn/raw/main/plugin%20-%20Adobe%20InDesign/mn_MN.zip) татаж авна.
+1. Толио [эндээс](https://github.com/bataak/dict-mn/raw/main/plugin%20-%20Adobe%20InDesign/mn_MN.zip){:target="_blank"} татаж авна.
 1. Татаж авсан zip файлаа `mn_MN` хавтаст задалж хуулна.
 1. Татаж авсан файлаа `Program Files > Adobe > Adobe InDesign 2021 > Resources > Dictionaries > LILO > Linguistics > Providers > Plugins2 > AdobeHunspellPlugin` хавтас уруу орно.
 1. Одоо хуулагдсан `mn_MN` хавтсаа `Dictionaries` хавтаст буулгана.

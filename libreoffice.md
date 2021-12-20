@@ -5,8 +5,8 @@
 </div>
 
 Бичиг баримт боловсруулагч программд монгол үгийн алдаа шалгахын тулд дараах зааврыг дагаарай.
-1. [https://www.libreoffice.org](https://www.libreoffice.org/download/) хаяг уруу орж программаа татаж авч суулгана.
-1. Үүний дараа [dict-mn.oxt](https://extensions.libreoffice.org/en/extensions/show/1980) файлаа татаж авна. Эсвэл 
+1. [https://www.libreoffice.org](https://www.libreoffice.org/download/){:target="_blank"} хаяг уруу орж программаа татаж авч суулгана.
+1. Үүний дараа [dict-mn.oxt](https://extensions.libreoffice.org/en/extensions/show/1980){:target="_blank"} файлаа татаж авна. Эсвэл 
    1. LibreOffice анх нээгдэх үеийн цонхны зүүн доод буланд байх `Extensions` товчийг сонгоод (5-р алхамд үзүүлсэн зураг)
    1. нээгдэх хуудаснаас `mongolian` хэмээн хайж толио татаж авна.
 1. Татаж авсан файлаа ажиллуулж, суулгана.\
@@ -17,7 +17,7 @@
 1. Ийнхүү программ дахин нээгдэх үед `Writer Document` товчийг сонгоно\
 ![libreoffice-9](images/libreoffice-9.png)
 1. Монгол үгийн алдаа шалгагчийг үндсэн шалгагч болгохын тулд
-   1. `LibreOffice > Preferences...` (Mac OS) эсвэл `Tools > Options...` (Windows) цэсийг сонгоод 
+   1. `LibreOffice > Preferences...` (macOS) эсвэл `Tools > Options...` (Windows) цэсийг сонгоод 
    1. Доорх зурагт үзүүлсэнчлэн `Language Settings > Languages` гэж ороод 
    1. `Default Languages for Documents` дотор `Western: Mongolian Cyrillic` гэж сонгоод 
    1. `OK` товчийг дарна\
