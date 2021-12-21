@@ -8,4 +8,4 @@
    <iframe src="https://www.youtube.com/embed/N-oRV9TlYrA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
-Хэрэглэгчдэд танил болсон эх бэлтгэгч программ бүр өөртөө алдаа шалгагч программ агуулдаг бөгөөд гагцхүү түүнд зохицон ажиллах монгол толь л танд хэрэгтэй.
+Хэрэглэгчдэд танил болсон эх бэлтгэгч программ бүр өөртөө алдаа шалгагч программ агуулдаг бөгөөд гагцхүү түүнд зохицон ажиллах энэхүү толь нь, академич Ц. Дамдинсүрэн, Б. Осор нарын "Монгол үсгийн дүрмийн толь" бүтээлийг эх хувилбараар нь ашиглахыг сонирхон эрмэлзэгч хүн бүхэнд зориулагдсан болно.

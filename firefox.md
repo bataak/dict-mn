@@ -9,13 +9,13 @@ Firefox интернет хөтчид монгол үгийн алдаа шал�
 1. Үүний дараа алдаа шалгах толио татаж авна. Ингэхдээ дараах 2 төрлийн аргын аль нэгийг ашиглаарай:
    1. [https://addons.mozilla.org/en-US/firefox/addon/dict-mn/](https://addons.mozilla.org/en-US/firefox/addon/dict-mn/){:target="_blank"} хаягаар хандах
    1. Эсвэл хөтчийнхөө `Add-ons` цэсийг сонгоод хайх талбарт `монгол` хэмээн бичиж хайгаарай\
-   ![firefox-5](images/firefox-5.png)\
-   ![firefox-6](images/firefox-6.png)
+   ![firefox add-ons](images/firefox-5.png)\
+   ![firefox search key](images/firefox-6.png)
 1. Ийнхүү нээгдэх хуудаснаас `+ Add to Firefox` гэсэн товчлуурыг дарж суулгах хүсэлт илгээнэ.\
-![firefox-1](images/firefox-1.png)
+![firefox add-ons page](images/firefox-1.png)
 1. Ингэхэд хөтчийн дээд талд гарч ирэх жижиг цонхноос `Add` гэсэн товчийг дарж суулгана.\
-![firefox-2](images/firefox-2.png)
+![firefox add button](images/firefox-2.png)
 1. Ийнхүү ашиглахад бэлэн боллоо.\
-![firefox-3](images/firefox-3.png)
+![firefox success message](images/firefox-3.png)
 1. Одоо бичих талбарт оруулсан бичвэрийн тань алдаа шалгагдах болно.\
-![firefox-4](images/firefox-4.png)
+![firefox check spelling](images/firefox-4.png)

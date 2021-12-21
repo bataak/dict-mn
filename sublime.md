@@ -12,4 +12,4 @@
 1. `View > Dictionary > Language - Mongolian > mn_MN` гэдгийг сонгоно.
 1. Ийнхүү ашиглахад бэлэн боллоо.
 
-![sublime-3](images/sublime-3.png)
+![sublime sample text](images/sublime-3.png)
