@@ -9,6 +9,6 @@
 1. Программаа нээгээд `Preferences... > Language Checking` (macOS) эсвэл `Options > Configure TeXstudio > Language Checking` (Windows) гэж ороод
 1. `Spelling Dictionary Directories:` гэдэгт задалж хуулсан хавтсаа зааж өгөөд (Windows системийн хувьд толио `Program Files > texstudio > dictionaries` гэсэн хавтаст хуулсан бол энэ тохиргоог хийхгүй)
 1. `Default Language` гэдэгт `mn_MN` гэдгийг сонгож өгнө.\
-![texstudio-1](images/texstudio-1.png)
+![texstudio configure window](images/texstudio-1.png)
 1. Ийнхүү ашиглахад бэлэн болов.\
-![texstudio-2](images/texstudio-2.png)
+![texstudio sample text](images/texstudio-2.png)
