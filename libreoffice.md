@@ -5,12 +5,12 @@
 </div>
 
 Бичиг баримт боловсруулагч программд монгол үгийн алдаа шалгахын тулд дараах зааврыг дагаарай.
-1. [https://www.libreoffice.org](https://www.libreoffice.org/download/){:target="_blank"} хаяг уруу орж программаа татаж авч суулгана.
-1. Үүний дараа [dict-mn.oxt](https://extensions.libreoffice.org/en/extensions/show/1980){:target="_blank"} файлаа татаж авна. Эсвэл 
+1. [https://www.libreoffice.org](https://www.libreoffice.org/download/) хаяг уруу орж программаа татаж авч суулгана.
+1. Үүний дараа [dict-mn.oxt](https://extensions.libreoffice.org/en/extensions/show/1980) файлаа татаж авна. Эсвэл 
    1. LibreOffice анх нээгдэх үеийн цонхны зүүн доод буланд байх `Extensions` товчийг сонгоод (5-р алхамд үзүүлсэн зураг)
    1. нээгдэх хуудаснаас `mongolian` хэмээн хайж толио татаж авна.
 1. Татаж авсан файлаа ажиллуулж, суулгана.\
-![libreoffice download extension](images/libreoffice-1.png)\
+![libreoffice download extension](images/libreoffice-1.png)
 ![libreoffice extension manager](images/libreoffice-2.png)
 1. Суулгасны дараа `Close` товчийг дараад `Restart Now` товчийг бас дарж программаа дахин эхлүүлээрэй.\
 ![libreoffice restart now window](images/libreoffice-3.png)
