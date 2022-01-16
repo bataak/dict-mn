@@ -4,7 +4,12 @@
    <iframe src="https://www.youtube.com/embed/N-oRV9TlYrA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
-Firefox интернет хөтчид монгол үгийн алдаа шалгагчийг дараах байдлаар идэвхжүүлнэ.
+`Firefox` программаа дараах хаягаар ороод татаж суулгаарай: <https://www.mozilla.org/en-US/firefox/new/>. Хэрэв `macOS` ашигладаг бол [Homebrew](https://brew.sh/) ашиглан суулгаж болно:
+```
+brew install --cask firefox
+```
+
+`Firefox интернет хөтчид монгол үгийн алдаа шалгагчийг дараах байдлаар идэвхжүүлнэ.
 1. [firefox.com](https://firefox.com) хаягаар хандаж интернет хөтчөө татан авч суулгана.
 1. Үүний дараа алдаа шалгах толио татаж авна. Ингэхдээ дараах 2 төрлийн аргын аль нэгийг ашиглаарай:
    1. [https://addons.mozilla.org/en-US/firefox/addon/dict-mn/](https://addons.mozilla.org/en-US/firefox/addon/dict-mn/) хаягаар хандах

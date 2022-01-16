@@ -4,7 +4,9 @@
    <iframe src="https://www.youtube.com/embed/6lh9cfodvbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
-Emacs программ дээр монгол үгийн алдаа шалгагч программыг идэвхжүүлэхийн тулд дараах тохиргоог хийнэ:
+`Emacs` программаа дараах зааврын дагуу суулгаарай: <https://www.gnu.org/software/emacs/download.html>
+
+`Emacs` программ дээр монгол үгийн алдаа шалгагч программыг идэвхжүүлэхийн тулд дараах тохиргоог хийнэ:
 
 1. `hunspell` программ суулгасан байх ёстой. Хэрхэн суулгах талаарх зааварчилгыг [эндээс](https://github.com/bataak/dict-mn#hunspell-%D1%81%D1%83%D1%83%D0%BB%D0%B3%D0%B0%D1%85){:target="_blank"} авна уу.
 1. `~/.emacs` буюу `~/.emacs.d/init.el` тохиргооны файлаа нээнэ.
