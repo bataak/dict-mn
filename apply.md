@@ -17,7 +17,7 @@
 1. [Manuskript](http://www.theologeek.ch/manuskript/)
 1. Notepad++
 1. OnlyOffice
-1. OpenOffice
+1. [OpenOffice](openoffice.html)
 1. Opera
 1. QuarkXPress
 1. Scribus
