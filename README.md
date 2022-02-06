@@ -44,9 +44,9 @@ hunspell -d <your-location>/mn_MN,en_US -l input.txt | sort | uniq > output.txt
 
 Дээрх жишээнд монгол, англи толиудыг зэрэг ашигласан байна. Ихэнх программуудад олон толийг нэгэн зэрэг ашиглах боломжгүй байдаг бөгөөд энэ тохиолдолд толиудаа нэгтгэх хэрэгтэй болдог. Үүний тулд [hunspell-merge](https://github.com/arty-name/hunspell-merge) ашиглахыг зөвлөж байна.
 
-## Plain-Vanilla JavaScript болон Node.js дээр ашиглах
+## JavaScript болон Node.js дээр ашиглах
 
-Hunspell программын үндсэн функцүүдийг агуулсан JavaScript дээр ажиллах [nspell](https://github.com/wooorm/nspell) алдаа шалгагчийг ашиглах бол
+Hunspell программын үндсэн функцүүдийг агуулсан plain-vanilla JavaScript дээр ажиллах [nspell](https://github.com/wooorm/nspell) алдаа шалгагчийг ашиглах бол
 
 ```
 npm install nspell
