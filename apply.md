@@ -10,13 +10,15 @@
 1. Illustrator
 1. [InDesign](indesign.html)
 1. Inkscape
-1. JetBrains editors (IntelliJ IDEA, PyCharm, CLion, WebStorm, TeXiFy IDEA, ….)
+1. [JetBrains editors](https://www.jetbrains.com/) (IntelliJ IDEA, PyCharm, CLion, WebStorm, TeXiFy IDEA, ….)
 1. Kile
 1. [LibreOffice](libreoffice.html)
-1. LyX
+1. [LyX](https://www.lyx.org/)
 1. [Manuskript](http://www.theologeek.ch/manuskript/)
-1. Notepad++
-1. OnlyOffice
+1. [Notepad++](https://notepad-plus-plus.org/)
+1. [Nodehun](https://github.com/Wulf/nodehun)
+1. [nspell](https://github.com/wooorm/nspell)
+1. [OnlyOffice](https://www.onlyoffice.com/)
 1. [OpenOffice](openoffice.html)
 1. Opera
 1. QuarkXPress
@@ -26,9 +28,9 @@
 1. SeaMonkey
 1. [Sublime Text](sublime.html)
 1. [Texmaker](texmaker.html)
-1. TeXnicCenter
+1. [TeXnicCenter](https://www.texniccenter.org/)
 1. [TeXstudio](texstudio.html)
-1. TeXworks
+1. [TeXworks](https://tug.org/texworks/)
 1. [Thunderbird](thunderbird.html)
 1. Visual Studio Code
 1. WinShell
