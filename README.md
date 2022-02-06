@@ -44,4 +44,26 @@ hunspell -d <your-location>/mn_MN,en_US -l input.txt | sort | uniq > output.txt
 
 Дээрх жишээнд монгол, англи толиудыг зэрэг ашигласан байна. Ихэнх программуудад олон толийг нэгэн зэрэг ашиглах боломжгүй байдаг бөгөөд энэ тохиолдолд толиудаа нэгтгэх хэрэгтэй болдог. Үүний тулд [hunspell-merge](https://github.com/arty-name/hunspell-merge) ашиглахыг зөвлөж байна.
 
+## Plain-Vanilla JavaScript болон Node.js дээр ашиглах
+
+Hunspell программын үндсэн функцүүдийг агуулсан JavaScript дээр ажиллах [nspell](https://github.com/wooorm/nspell) алдаа шалгагчийг ашиглах бол
+
+```
+npm install nspell
+```
+
+Node.js дээр ажиллах [Nodehun](https://github.com/Wulf/nodehun) алдаа шалгагчийг ашиглах бол
+
+```
+npm install nodehun
+```
+
+улмаар монгол үгийн алдаа шалгах толийг [wooorm/dictionaries](https://github.com/wooorm/dictionaries) санг ашиглан
+
+```
+npm install dictionary-mn
+```
+
+командуудаар тус тус суулгана.
+
 Толины талаарх дэлгэрэнгүй мэдээлэл болон өөр бусад программд хэрхэн ашиглах зааврыг [зөв бичигдэв](https://zuv.bichig.dev/) веб сайтаас үзнэ үү.
