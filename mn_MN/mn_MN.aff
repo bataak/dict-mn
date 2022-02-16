@@ -1,5 +1,5 @@
 ## mn_MN.aff
-## Version: 2022.02.15
+## Version: 2022.02.16
 ## Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 # Special thanks to Guntevsuren Nanzad for your great professional assistance.
@@ -6317,13 +6317,13 @@ SFX E0 ис саас/00 ис
 SFX E0 ис сыг/00 ис
 SFX E0 ис сын ис
 SFX E0 ис сынх/040870 ис
-SFX E0 0 нд/00 [ийеау]
-SFX E0 0 ны [ийеау]
-SFX E0 0 ных/040870 [ийеау]
-SFX E0 0 г/00 [ийеау]
-SFX E0 0 наас/00 [ийеау]
-SFX E0 0 гаар/00 [ийеау]
-SFX E0 0 н [ийеау]
+SFX E0 0 нд/00 [ийеаоу]
+SFX E0 0 ны [ийеаоу]
+SFX E0 0 ных/040870 [ийеаоу]
+SFX E0 0 г/00 [ийеаоу]
+SFX E0 0 наас/00 [ийеаоу]
+SFX E0 0 гаар/00 [ийеаоу]
+SFX E0 0 н [ийеаоу]
 
 SFX E1 Y 41
 SFX E1 0 /0508 .
@@ -6360,13 +6360,13 @@ SFX E1 ос соос/01 ос
 SFX E1 ос сыг/01 ос
 SFX E1 ос сын ос
 SFX E1 ос сынх/050871 ос
-SFX E1 0 нд/01 [ийеоу]
-SFX E1 0 ны [ийеоу]
-SFX E1 0 ных/050871 [ийеоу]
-SFX E1 0 г/01 [ийеоу]
-SFX E1 0 ноос/01 [ийеоу]
-SFX E1 0 гоор/01 [ийеоу]
-SFX E1 0 н [ийеоу]
+SFX E1 0 нд/01 [ийеаоу]
+SFX E1 0 ны [ийеаоу]
+SFX E1 0 ных/050871 [ийеаоу]
+SFX E1 0 г/01 [ийеаоу]
+SFX E1 0 ноос/01 [ийеаоу]
+SFX E1 0 гоор/01 [ийеаоу]
+SFX E1 0 н [ийеаоу]
 
 SFX E2 Y 34
 SFX E2 0 /0608 .
