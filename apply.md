@@ -1,6 +1,7 @@
 # Ашиглах заавар
 
 [Firefox](https://www.mozilla.org/en-US/firefox/new/) болон [LibreOffice](https://www.libreoffice.org/) дээр түгээмэл ашиглагдаж байгаа төдийгүй үгийн алдаа шалгагч программ болох [Hunspell](http://hunspell.github.io/) дэмждэг дурын программд энэхүү толийг ашиглах боломжтой. Hunspell дэмждэг зарим программаас дурдвал:
+
 1. .NET
 1. Chrome
 1. Chromium
@@ -15,7 +16,7 @@
 1. [LibreOffice](libreoffice.html)
 1. [LyX](https://www.lyx.org/)
 1. [Manuskript](http://www.theologeek.ch/manuskript/)
-1. [Notepad++](https://notepad-plus-plus.org/)
+1. [Notepad++](notepad.html)
 1. [Nodehun](https://github.com/Wulf/nodehun)
 1. [nspell](https://github.com/wooorm/nspell)
 1. [OnlyOffice](https://www.onlyoffice.com/)
@@ -23,7 +24,7 @@
 1. Opera
 1. QuarkXPress
 1. Scribus
-1. [Scrivener](https://en.wikipedia.org/wiki/Scrivener_(software))
+1. [Scrivener](<https://en.wikipedia.org/wiki/Scrivener_(software)>)
 1. SDL Trados
 1. SeaMonkey
 1. [Sublime Text](sublime.html)
@@ -36,20 +37,21 @@
 1. WinShell
 
 Hunspell дэмждэггүй боловч монгол үгийн алдаа шалгаж болох программууд гэвэл:
+
 1. [Vim](vim.html)
 1. [WinEdt](winedt.html)
 
-Дээрх хоёр программд зориулсан толины хувьд гэвэл Hunspell толиноос харьцангуй бага хэмжээтэй (2 сая үгийн сантай) ч үгийн хувиллын хувьд ямар ч зөрөөгүй юм. 
+Дээрх хоёр программд зориулсан толины хувьд гэвэл Hunspell толиноос харьцангуй бага хэмжээтэй (2 сая үгийн сантай) ч үгийн хувиллын хувьд ямар ч зөрөөгүй юм.
 
 > **АНХААР:** Уг толь нь Hunspell v1.3.3-аас хойших хувилбаруудад ажиллах бөгөөд ашиглахын тулд Windows/macOS/Linux системүүдэд дагалдах монгол үсгийн үндсэн драйверыг сонгоно уу!
 
 Уг толь нь юникод ([UTF-8](https://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode)) стандартад нийцүүлэн бүтээгдсэн ба гарын үндсэн бус зарим драйверууд монгол кирилл үсгийн юникод стандартад нийцдэггүй бөгөөд `өүйё` үсгүүдийн кодууд нь тогтсон стандартаас зөрөөтэй байдаг тул таны оруулсан үг хэдий зөв мэт харагдах боловч код зөрүүтэйгээс болоод алдаанд тооцогдох болно.
 
-Интернет хөтөч болох [Firefox](firefox.html), баримт боловсруулагч [LibreOffice](libreoffice.html), код засварлагч [Emacs](emacs.html), [Sublime Text](sublime.html), хэвлэлийн эх бэлтгэгч [Adobe InDesign](indesign.html) болон [LaTeX](https://mn.wikipedia.org/wiki/LaTeX){:target="_blank"} файл засварлагч [TeXstudio](texstudio.html), [Texmaker](texmaker.html) болон захидал боловсруулагч [Thunderbird](thunderbird.html) программуудад энэхүү толийг хэрхэн ашиглахыг тус тус үзүүлсэн болно.
+Интернет хөтөч болох [Firefox](firefox.html), баримт боловсруулагч [LibreOffice](libreoffice.html), код засварлагч [Emacs](emacs.html), [Sublime Text](sublime.html), хэвлэлийн эх бэлтгэгч [Adobe InDesign](indesign.html) болон [LaTeX](https://mn.wikipedia.org/wiki/LaTeX){:target="\_blank"} файл засварлагч [TeXstudio](texstudio.html), [Texmaker](texmaker.html) болон захидал боловсруулагч [Thunderbird](thunderbird.html) программуудад энэхүү толийг хэрхэн ашиглахыг тус тус үзүүлсэн болно.
 
 Дээрх программ бүрийн Hunspell алдаа шалгагч, нэгэн ижил толь ашиглалаа ч яг ижил төвшинд ажилладаггүй. Зонхилох ялгаа гэвэл, ихэнх нь холбоо үгийг (жишээлбэл: Лос-Анжелес, Говь-Алтай, Баян-Өлгий гэх мэт) хамтад нь шалгадаггүй, зөв үгийг санал болгох хувилбар харилцан адилгүй байдаг. Hunspell программ нь [Firefox](firefox.html), [LibreOffice](libreoffice.html), болон [Emacs](emacs.html) дээр бүрэн гүйцэд ажиллаж байна.
 
-Үгийн сан олшрох нь давуу талтай ч гэсэн бас сөрөг тал бий. Тухайлбал: *толь* хэмээх тогтворгүй н-тэй нэр үгийг харьяалахын тийн ялгалд хувирган бичих үед *толийн* хэмээн тогтворгүй н-гүйгээр андуурч бичихэд энэ нь алдаанд тооцогдохгүй. Учир нь, энэ тохиолдолд *толий* гэсэн үйл үг нь үйлийн хам нөхцөл -н авчээ. Өөр жишээ гэвэл: *довцог* гэсэн нэр үгийг *товц + г* гэх үйл үгтэй андуурч д биш т-ээр бичиж болзошгүй.
+Үгийн сан олшрох нь давуу талтай ч гэсэн бас сөрөг тал бий. Тухайлбал: _толь_ хэмээх тогтворгүй н-тэй нэр үгийг харьяалахын тийн ялгалд хувирган бичих үед _толийн_ хэмээн тогтворгүй н-гүйгээр андуурч бичихэд энэ нь алдаанд тооцогдохгүй. Учир нь, энэ тохиолдолд _толий_ гэсэн үйл үг нь үйлийн хам нөхцөл -н авчээ. Өөр жишээ гэвэл: _довцог_ гэсэн нэр үгийг _товц + г_ гэх үйл үгтэй андуурч д биш т-ээр бичиж болзошгүй.
 
 ```bash
 $ hunspell -d src/hunspell/mn_MN,en_US
@@ -82,7 +84,8 @@ Hunspell 1.7.0
 ## Зөвлөгөө
 
 Ном бичигч хүмүүст дараах зөвлөгөөг хүргэж байна:
-- Ном бичих нь нэлээд цаг хугацаа шаардах ажил тул ялангуяа зөөврийн компьютер голдуу ашигладаг хүмүүс удаан хугацаанд, өдөр тутамдаа аль болох компьютерынхоо зай багтаамж болон зай тэжээлийг хэмнэх -- цахилгаан энерги бага зарцуулах хөнгөн авсаархан программ сонго. Жишээлбэл: [Emacs](https://github.com/rnkn/olivetti), [TeXstudio](texstudio.html), [Scrivener](https://en.wikipedia.org/wiki/Scrivener_(software)), [Sublime Text](https://www.sublimetext.com/docs/distraction_free.html), болон [Manuskript](http://www.theologeek.ch/manuskript/). [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) дээр ном бичих нь тохиромжгүй, номын хуудас нэмэгдэх тусам программын ажиллагаа удааширч санах ойг улам илүү шаарддаг. Энэ программ нь бичиг баримт боловсруулахад зориулагдсан гэдгийг санах хэрэгтэй. [Microsoft Publisher](https://en.wikipedia.org/wiki/Microsoft_Publisher), [Adobe Indesign](https://en.wikipedia.org/wiki/Adobe_InDesign) программууд нь хэвлэлийн эх бэлтгэхэд зориулагдсан бөгөөд ажиллахдаа санах ой нэлээд зарцуулдаг тул өдөр тутам ном бичихэд ашиглах нь тохиромжгүй, зөвхөн бэлэн болсон текстийг ном болгон засварлахад ашиглах нь зүйтэй.
+
+- Ном бичих нь нэлээд цаг хугацаа шаардах ажил тул ялангуяа зөөврийн компьютер голдуу ашигладаг хүмүүс удаан хугацаанд, өдөр тутамдаа аль болох компьютерынхоо зай багтаамж болон зай тэжээлийг хэмнэх -- цахилгаан энерги бага зарцуулах хөнгөн авсаархан программ сонго. Жишээлбэл: [Emacs](https://github.com/rnkn/olivetti), [TeXstudio](texstudio.html), [Scrivener](<https://en.wikipedia.org/wiki/Scrivener_(software)>), [Sublime Text](https://www.sublimetext.com/docs/distraction_free.html), болон [Manuskript](http://www.theologeek.ch/manuskript/). [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) дээр ном бичих нь тохиромжгүй, номын хуудас нэмэгдэх тусам программын ажиллагаа удааширч санах ойг улам илүү шаарддаг. Энэ программ нь бичиг баримт боловсруулахад зориулагдсан гэдгийг санах хэрэгтэй. [Microsoft Publisher](https://en.wikipedia.org/wiki/Microsoft_Publisher), [Adobe Indesign](https://en.wikipedia.org/wiki/Adobe_InDesign) программууд нь хэвлэлийн эх бэлтгэхэд зориулагдсан бөгөөд ажиллахдаа санах ой нэлээд зарцуулдаг тул өдөр тутам ном бичихэд ашиглах нь тохиромжгүй, зөвхөн бэлэн болсон текстийг ном болгон засварлахад ашиглах нь зүйтэй.
 - Аль болох [энгийн текст хэлбэрээр](https://en.wikipedia.org/wiki/Plain_text) номоо бэлтгэ, загвар дизайныг хожим шийд. Өөрөөр хэлбэл, [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) төрлийн программ биш, [Text editor](https://en.wikipedia.org/wiki/Text_editor) сонго гэсэн үг. Улмаар, [LaTeX](https://www.learnlatex.org/en/), болон [Org-mode](https://orgmode.org/quickstart.html), [Markdown](https://www.markdownguide.org/getting-started/) зэргийн аль нэгийг сур.
 - Мэдээж, номоо алдаа мадаггүй бэлтгэхийн тулд алдаа шалгагч ашиглах хэрэгтэй.
 
