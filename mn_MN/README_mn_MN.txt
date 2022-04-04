@@ -13,7 +13,7 @@
 
 ---
 
-Copyright 2020-present, Batmunkh Dorjgotov <bataak at gmail tseg com>
+Copyright 2020-2022, Batmunkh Dorjgotov <bataak at gmail tseg com>
 
 Special thanks to Guntevsuren Nanzad for your great professional assistance.
 
