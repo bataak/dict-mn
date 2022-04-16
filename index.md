@@ -4,7 +4,7 @@
 
 > **АНХААР:** Хэрэв та хуучин толио шинэчилж амжаагүй бол [bataak/dict-mn](https://github.com/bataak/dict-mn) GitHub хуудас уруу хандана уу.
 
-[Hunspell](http://hunspell.github.io/) алдаа шалгах программд зориулагдан бүтээгдсэн энэхүү монгол үгийн алдаа шалгах толь нь 45 мянга орчим үндэс үгтэй бөгөөд тэдгээрийн хувилал нь дунджаар 450 сая орчим үүсмэл үгийн сантай төдийгүй нээлттэй эхэд суурилсан учраас Hunspell программыг дэмжин ажиллах төрөл бүрийн эх засварлагч программуудад ашиглагдах боломжтой юм.
+[Hunspell](http://hunspell.github.io/) алдаа шалгах программд зориулан бүтээгдсэн энэхүү монгол үгийн алдаа шалгах толь нь 45 мянга орчим үндэс үгтэй бөгөөд тэдгээрийн хувилал нь дунджаар 450 сая орчим үүсмэл үгийн сантай төдийгүй нээлттэй эхэд суурилсан учраас Hunspell программыг дэмжин ажиллах төрөл бүрийн эх засварлагч программуудад ашиглагдах боломжтой юм.
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
    <iframe src="https://www.youtube.com/embed/ruZJcOqcEmc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
