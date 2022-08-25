@@ -12,13 +12,25 @@
 1. Монгол үгийн алдаа шалгах толио [эндээс](https://github.com/bataak/dict-mn/blob/main/mn_MN.zip) (mn_MN.aff, mn_MN.dic) татаж авна.
 1. Англи үгийн алдаа шалгах толийг [эндээс](https://github.com/LibreOffice/dictionaries/tree/master/en) (en_GB.aff, en_GB.dic) татаж авна.
 1. `~/.emacs` буюу `~/.emacs.d/init.el` тохиргооны файлаа нээнэ.
-1. Дараах кодыг оруулна: англи болон монгол үгийн алдааг зэрэг шалгахаар `~/Library/Spelling` хавтаст mn_MN болон en-GB толиудыг (*.dic, *.aff) хуулсан байгаа гэж ойлгоё. Тэгвэл
+1. Дараах кодыг оруулна: англи болон монгол үгийн алдааг зэрэг шалгахаар `~/Library/Spelling` (Linux бол `/usr/share/hunspell`) хавтаст mn_MN болон en_GB толиудыг (*.dic, *.aff) хуулсан байгаа гэж ойлгоё. Тэгвэл `macOS` бол
 
 ```lisp
 (with-eval-after-load "ispell"
   (setenv "DICPATH" "~/Library/Spelling")
   (setenv "LANG" "mn_MN")
   (setq ispell-program-name "/usr/local/bin/hunspell")
+  (setq ispell-dictionary "mn_MN,en_GB")
+  (setq ispell-personal-dictionary "~/.hunspell_personal")
+  (ispell-set-spellchecker-params)
+  (ispell-hunspell-add-multi-dic "mn_MN,en_GB"))
+```
+`Linux` бол
+
+```lisp
+(with-eval-after-load "ispell"
+  (setenv "DICPATH" "/usr/share/hunspell")
+  (setenv "LANG" "mn_MN")
+  (setq ispell-program-name "/usr/bin/hunspell")
   (setq ispell-dictionary "mn_MN,en_GB")
   (setq ispell-personal-dictionary "~/.hunspell_personal")
   (ispell-set-spellchecker-params)
