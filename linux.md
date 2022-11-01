@@ -28,5 +28,6 @@ Goldendict dictionary программ дээр монгол үгийн алда
 Тохиргоог хийхийн тулд `Edit > Dictionaries > Sources > Morphology` гэж ороод Hunspell суусан замыг (`/usr/share/hunspell`) зааж өгөхөд ашиглах боломжтой толинууд жагсаалтаар харагдах бөгөөд толио сонгож идэвжхүүлнэ.
 ![Enable morphology on GoldenDict](images/linux-7.png)\
 ![Enable morphology on GoldenDict](images/linux-8.png)\
+Ийнхүү хувилсан үг хайхад шууд үндэс үгийг гаргаж байна.
 
 1. Хэрэв [Sublime Text](https://en.wikipedia.org/wiki/Sublime_Text) программ [суулгасан бол](https://www.sublimetext.com/docs/linux_repositories.html) `View > Dictionary > System > mn_MN` гэж сонгоно.
