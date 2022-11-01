@@ -25,7 +25,7 @@ sudo apt install -y goldendict
 ```
 Goldendict dictionary программ дээр монгол үгийн алдаа шалгах толийг ашиглахын давуу тал гэвэл ялангуяа монгол толинууд (монгол-англи, монгол-монгол) дээр тухайн үгийг зөв хувилсан хэлбэрээр хайхад илэрц гарах юм. Жишээлбэл: `улирлын` хэмээн хайхад `улирал` гэсэн үг олдох юм. Хэрэв дээрх тохиргоог хийгээгүй тохиолдолд илэрц олдохгүй юм.
 ![Enable morphology on GoldenDict](images/linux-6.png)\
-Тохиргоог хийхийн тулд `Edit > Dictionaries > Sources > Morphology` гэж ороод Hunspell суусан замыг зааж өгөхөд ашиглах боломжтой толинууд жагсаалтаар харагдах бөгөөд толио сонгож идэвжхүүлнэ.
+Тохиргоог хийхийн тулд `Edit > Dictionaries > Sources > Morphology` гэж ороод Hunspell суусан замыг (`/usr/share/hunspell`) зааж өгөхөд ашиглах боломжтой толинууд жагсаалтаар харагдах бөгөөд толио сонгож идэвжхүүлнэ.
 ![Enable morphology on GoldenDict](images/linux-7.png)\
 ![Enable morphology on GoldenDict](images/linux-8.png)\
 
