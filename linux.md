@@ -10,7 +10,7 @@ sudo apt install hunspell-mn
 ```
 Ийнхүү монгол үгийн алдаа шалгах толийг Linux системд ашиглахад бэлэн боллоо. Одоо gedit, goldendict, sublime text дээр хэрхэн ашиглахыг үзүүлье.
 
-1. Gedit программ дээр ашиглахын тулд программаа нээгээд `Tools > Set Language... > Mongolian` гэсэн тохиргоог хийнэ.
+1. [Gedit](https://en.wikipedia.org/wiki/Gedit) программ дээр ашиглахын тулд программаа нээгээд `Tools > Set Language... > Mongolian` гэсэн тохиргоог хийнэ.
 ![Enable spell checker on Gedit](images/linux-2.png)\
 ![Enable spell checker on Gedit](images/linux-3.png)\
 ![Enable spell checker on Gedit](images/linux-4.png)\
@@ -19,7 +19,7 @@ sudo apt install hunspell-mn
 Хэрэв `Tools > Spelling...` гэвэл дараах цонх гарч ирнэ:\
 ![Enable spell checker on Gedit](images/linux-5.png)
 
-1. Goldendict программаа дараах командаар суулгана:
+1. [Goldendict](https://en.wikipedia.org/wiki/GoldenDict) программаа дараах командаар суулгана:
 ```
 sudo apt install -y goldendict
 ```
@@ -29,4 +29,4 @@ Goldendict dictionary программ дээр монгол үгийн алда
 ![Enable morphology on GoldenDict](images/linux-7.png)\
 ![Enable morphology on GoldenDict](images/linux-8.png)\
 
-1. Хэрэв Sublime Text программ [суулгасан бол](https://www.sublimetext.com/docs/linux_repositories.html) `View > Dictionary > System > mn_MN` гэж сонгоно.
+1. Хэрэв [Sublime Text](https://en.wikipedia.org/wiki/Sublime_Text) программ [суулгасан бол](https://www.sublimetext.com/docs/linux_repositories.html) `View > Dictionary > System > mn_MN` гэж сонгоно.
