@@ -12,8 +12,13 @@ Snap Store бол
 ```
 sudo snap install hunspell-dictionaries
 ```
-Ийнхүү монгол үгийн алдаа шалгах толийг Linux системд ашиглахад бэлэн боллоо. Одоо gedit, goldendict, sublime text дээр хэрхэн ашиглахыг үзүүлье.
+Ийнхүү монгол үгийн алдаа шалгах толийг Linux системд ашиглахад бэлэн боллоо. Одоо libreoffice, gedit, goldendict, sublime text дээр хэрхэн ашиглахыг үзүүлье.
 
+1. [LibreOffice](https://en.wikipedia.org/wiki/LibreOffice) программ дээр ашиглахын тулд программаа нээгээд доор байрлах мөрийн `English (USA)` гэдгийг дарахад нээгдэх жижиг цонхноос `More...` цэсийг сонгоход нээгдэх цонхноос монгол толийг сонгоно.
+![Enable spell checker on LibreOffice](images/linux-9.png)\
+![Enable spell checker on LibreOffice](images/linux-10.png)\
+![Enable spell checker on LibreOffice](images/linux-11.png)\
+Ийнхүү ашиглахад бэлэн болно.
 1. [Gedit](https://en.wikipedia.org/wiki/Gedit) программ дээр ашиглахын тулд программаа нээгээд `Tools > Set Language... > Mongolian` гэсэн тохиргоог хийнэ.
 ![Enable spell checker on Gedit](images/linux-2.png)\
 ![Enable spell checker on Gedit](images/linux-3.png)\
