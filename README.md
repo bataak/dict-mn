@@ -1,6 +1,6 @@
 # dict-mn
 
-Энэхүү монгол хэлний толь нь [Hunspell](http://hunspell.github.io) үгийн алдаа шалгагчид тулгуурлан ажиллах бөгөөд 50 мянга орчим үндэс, тэдгээрийн 1.8 тэрбум гаруй хувилал бүхий үгийн санг агуулсан.
+Энэхүү монгол толь нь [Hunspell](http://hunspell.github.io) үгийн алдаа шалгагчид тулгуурлан ажиллах бөгөөд 50 мянга орчим үндэс, тэдгээрийн 1.8 тэрбум гаруй хувилал бүхий үгийн санг агуулсан.
 
 Толины онцлогийг дурдвал:
 
@@ -67,3 +67,7 @@ npm install dictionary-mn
 командуудаар тус тус суулгана.
 
 Толины талаарх дэлгэрэнгүй мэдээлэл болон өөр бусад программд хэрхэн ашиглах зааврыг [зөв бичигдэв](https://zuv.bichig.dev/) веб сайтаас үзнэ үү.
+
+# Credits
+
+[LibreOffice / dictionaries](https://github.com/LibreOffice/dictionaries), [wooorm / dictionaries](https://github.com/wooorm/dictionaries), [ONLYOFFICE / dictionaries](https://github.com/ONLYOFFICE/dictionaries)
