@@ -1,6 +1,6 @@
-## mn_MN.aff
-## Version: 2022.12.19
-## Copyright 2020-2022, Batmunkh Dorjgotov <bataak at gmail tseg com>
+# mn_MN.aff
+# Version: 2022.12.22
+# Copyright 2020-2022, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 # Special thanks to Guntevsuren Nanzad for your great professional assistance.
 #
@@ -46,7 +46,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 2983
+REP 2987
 REP a а
 REP c с
 REP e е
@@ -115,6 +115,7 @@ REP аар огоор
 REP аар эгээр
 REP аараа оороо
 REP аас анаас
+REP аас игаас
 REP аас гээс
 REP аас наас
 REP аас огоос
@@ -722,6 +723,7 @@ REP оороо аараа
 REP оороо өөрөө
 REP оороо ээрээ
 REP оос агаас
+REP оос игоос
 REP оос ноос
 REP оос оноос
 REP оос эгээс
@@ -2370,6 +2372,7 @@ REP ^айхтар айхавтар
 REP ^алинийг алийг
 REP ^алиныг алийг
 REP ^алмаз алмаас
+REP ^Амазонкийн Амазоны
 REP ^амтагд амтад
 REP ^амтагд амтд
 REP ^амтагда амтад
@@ -2447,6 +2450,7 @@ REP ^голдорл гулдрал
 REP ^голдорлтой гулдралтай
 REP ^голдорлтойгоо гулдралтайгаа
 REP ^голдрил гулдрал
+REP ^голдрилоо гулдралаа
 REP ^голдрилтой гулдралтай
 REP ^голдрилтойгоо гулдралтайгаа
 REP ^голдрол гулдрал
