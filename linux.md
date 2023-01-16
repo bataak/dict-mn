@@ -1,17 +1,24 @@
 # Linux дээр ашиглах
 
-`Linux` дээр монгол үгийн алдаа шалгах толийг суулгаж ашиглахын тулд дараах командыг terminal дээр оруулна:
-```
-sudo apt install hunspell
-```
-Хэрэв таны системд монгол хэл, эсвэл монгол гарын драйвер суусан бол монгол үгийн алдаа шалгах толь сууна. Эсрэг тохиолдолд дараах командыг ашиглана:
+`Linux` дээр монгол үгийн алдаа шалгах толийг суулгаж ашиглахын тулд дараах командыг terminal дээр оруулна. 
+
+Debian бол
 ```
 sudo apt install hunspell-mn
 ```
-Snap Store бол
+
+Centos бол
 ```
+sudo yum install hunspell-mn
+```
+
+Manjaro бол
+```
+sudo pacman -S snapd
+sudo systemctl enable --now snapd.socket
 sudo snap install hunspell-dictionaries
 ```
+
 Ийнхүү монгол үгийн алдаа шалгах толийг Linux системд ашиглахад бэлэн боллоо. Одоо libreoffice, thunderbird, gedit, goldendict, sublime text дээр хэрхэн ашиглахыг үзүүлье.
 
 1. [LibreOffice](https://en.wikipedia.org/wiki/LibreOffice) программ дээр ашиглахын тулд программаа нээгээд доор байрлах мөрийн `English (USA)` гэдгийг дарахад нээгдэх жижиг цонхноос `More...` цэсийг сонгоход нээгдэх цонхноос монгол толийг сонгоно.
