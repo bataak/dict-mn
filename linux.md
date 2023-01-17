@@ -7,7 +7,7 @@ Debian бол
 sudo apt install hunspell-mn
 ```
 
-Centos бол
+CentOS бол
 ```
 sudo yum install hunspell-mn
 ```
