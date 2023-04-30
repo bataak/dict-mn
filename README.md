@@ -44,6 +44,28 @@ hunspell -d <your-location>/mn_MN,en_US -l input.txt | sort | uniq > output.txt
 
 Дээрх жишээнд монгол, англи толиудыг зэрэг ашигласан байна. Ихэнх программуудад олон толийг нэгэн зэрэг ашиглах боломжгүй байдаг бөгөөд энэ тохиолдолд толиудаа нэгтгэх хэрэгтэй болдог. Үүний тулд [hunspell-merge](https://github.com/arty-name/hunspell-merge) ашиглахыг зөвлөж байна.
 
+# Python хэл дээр hunspell ашиглах
+
+Linux үйлдлийн системийн хувьд [pyhunspell](https://github.com/pyhunspell/pyhunspell) ашиглахын тулд дараах сангуудыг суулгасан байх хэрэгтэй:
+
+```
+sudo apt-get install libhunspell-dev
+```
+
+Хэрэв python3.11 дээр ашиглах бол:
+
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.11 python3.11-dev
+```
+
+Ийнхүү дараах командаар суулгана:
+
+```
+pip install hunspell
+```
+
 ## JavaScript болон Node.js дээр ашиглах
 
 Hunspell программын үндсэн функцүүдийг агуулсан plain-vanilla JavaScript дээр ажиллах [nspell](https://github.com/wooorm/nspell) алдаа шалгагчийг ашиглах бол
