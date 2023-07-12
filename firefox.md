@@ -24,3 +24,5 @@ brew install --cask firefox
 ![firefox success message](images/firefox-3.png)
 1. Одоо бичих талбарт оруулсан бичвэрийн тань алдаа шалгагдах болно.\
 ![firefox check spelling](images/firefox-4.png)
+
+Бэлэн текст талбар ашиглан бичвэрийн алдааг шалгахыг хүсвэл https://buruu.bichig.dev/ вебт хандаарай.
