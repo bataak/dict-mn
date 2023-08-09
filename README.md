@@ -49,7 +49,7 @@ hunspell -d <your-location>/mn_MN,en_US -l input.txt | sort | uniq > output.txt
 Linux үйлдлийн системийн хувьд [pyhunspell](https://github.com/pyhunspell/pyhunspell) ашиглахын тулд дараах сангуудыг суулгасан байх хэрэгтэй:
 
 ```
-sudo apt-get install libhunspell-dev
+sudo apt install libhunspell-dev
 ```
 
 Хэрэв python3.11 дээр ашиглах бол:
