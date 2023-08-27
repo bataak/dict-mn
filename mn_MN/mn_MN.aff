@@ -1,5 +1,5 @@
 # mn_MN.aff
-# Version: 2023.08.27
+# Version: 2023.08.28
 # Copyright 2020-2023, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 # Special thanks to Guntevsuren Nanzad for your great professional assistance.
@@ -46,7 +46,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 3292
+REP 3294
 REP a а
 REP c с
 REP e е
@@ -273,6 +273,8 @@ REP ё ио
 REP е иэ
 REP е ө
 REP е э
+REP егийн ийн
+REP егийн ын
 REP ей егий
 REP ендий анды
 REP еэ ёо
