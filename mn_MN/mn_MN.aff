@@ -1,5 +1,5 @@
 # mn_MN.aff
-# Version: 2023.08.28
+# Version: 2023.08.31
 # Copyright 2020-2023, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 # Special thanks to Guntevsuren Nanzad for your great professional assistance.
@@ -46,7 +46,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 3294
+REP 3299
 REP a а
 REP c с
 REP e е
@@ -372,6 +372,8 @@ REP игуул гиул
 REP игэ ги
 REP игэнэ гин
 REP игээ иэ
+REP игээрээ иэрээ
+REP игээсээ иэсээ
 REP ид анд
 REP ид дэ
 REP ид онд
@@ -1500,6 +1502,7 @@ REP гаад ч
 REP гаадах чих
 REP гаанд гад
 REP гааны гын
+REP гаараа араа
 REP гад агт
 REP гад игт
 REP гал агла
@@ -1567,6 +1570,7 @@ REP гоод ч
 REP гоодох чих
 REP гоонд год
 REP гооны гын
+REP гоороо ороо
 REP гө иг
 REP гө өг
 REP гө хи
@@ -1628,6 +1632,7 @@ REP гээд ч
 REP гээдэх чих
 REP гээнд гэд
 REP гээний гийн
+REP гээрээ эрээ
 REP д анд
 REP д дь
 REP д инд
@@ -3499,9 +3504,9 @@ SFX N1 0 доо [дтзцх]
 SFX N1 0 оо [^аойиуьяюеё]
 SFX N1 0 оор/01 [^аойиуьяюеё]
 SFX N1 0 оос/01 [^аойиуьяюеё]
-SFX N1 0 о [^ойиуярхчцлнь][оияюеё]
-SFX N1 0 ор/01 [^ойиуярхчцлнь][ояюеё]
-SFX N1 0 ос/01 [^ойиуярхчцлнь][ояюеё]
+SFX N1 0 о [^ойиуярхчстцлнь][оияюеё]
+SFX N1 0 ор/01 [^ойиуярхчстцлнь][ояюеё]
+SFX N1 0 ос/01 [^ойиуярхчстцлнь][ояюеё]
 SFX N1 0 ор/01 и
 SFX N1 0 ос/01 и
 SFX N1 0 т [аоэөийуүёяюеьы]с
