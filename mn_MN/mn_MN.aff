@@ -1,5 +1,5 @@
 # mn_MN.aff
-# Version: 2023.08.31
+# Version: 2023.09.04
 # Copyright 2020-2023, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 # Special thanks to Guntevsuren Nanzad for your great professional assistance.
@@ -46,7 +46,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 3299
+REP 3302
 REP a а
 REP c с
 REP e е
@@ -2729,6 +2729,8 @@ REP ^горьдрол гулдрал
 REP ^Готтэнгэн Гёттинген
 REP ^Готтэнгэний Гёттингены
 REP ^гөвгөр гүвгэр
+REP ^гөрвөлз гүрвэлз
+REP ^гөрвөлзө гүрвэлзэ
 REP ^граж гарааш
 REP ^гражаас гараашнаас
 REP ^гражийн гараашны
@@ -3053,6 +3055,7 @@ REP ^түвэгшээдгээ төвөгшөөдгөө
 REP ^түвэгшээдэ төвөгшөөдө
 REP ^түвэгшээснээ төвөгшөөснөө
 REP ^түвэгшээсэ төвөгшөөсө
+REP ^түвэнх төвөнх
 REP ^түмбийлгэ төмбийлгө
 REP ^түмбийсэ төмбийсө
 REP ^түмбийхэ төмбийхө
