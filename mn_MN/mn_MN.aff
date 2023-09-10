@@ -1,5 +1,5 @@
 # mn_MN.aff
-# Version: 2023.09.04
+# Version: 2023.09.10
 # Copyright 2020-2023, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 # Special thanks to Guntevsuren Nanzad for your great professional assistance.
@@ -46,7 +46,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 3302
+REP 3307
 REP a а
 REP c с
 REP e е
@@ -548,6 +548,7 @@ REP илэ ли
 REP илэнг лэн
 REP илэнг лэнийг
 REP илэнгийн лэний
+REP имний мийн
 REP ин игийн
 REP ин ь
 REP ина ни
@@ -1810,6 +1811,7 @@ REP лан ал
 REP лан л
 REP лана ална
 REP ласа алс
+REP лачих алчх
 REP лачих илчх
 REP лая алъя
 REP лая илъя
@@ -1898,6 +1900,7 @@ REP лоодох олчих
 REP лоодохжээ олчихжээ
 REP лосо олс
 REP лочих илчх
+REP лочих олчх
 REP лө ил
 REP лө өл
 REP лөв илб
@@ -1925,6 +1928,7 @@ REP лөөдөх өлчих
 REP лөөдөхжээ өлчихжээ
 REP лөсө өлс
 REP лөчих илчх
+REP лөчих өлчх
 REP лс льс
 REP лт лалт
 REP лт лолт
@@ -1977,6 +1981,7 @@ REP лэний илэнгийн
 REP лэнэ элнэ
 REP лэсэ элс
 REP лэчих илчх
+REP лэчих элчх
 REP лээд эллээд
 REP лээдэх элчих
 REP лээдэхжээ элчихжээ
