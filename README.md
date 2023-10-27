@@ -92,4 +92,4 @@ npm install dictionary-mn
 
 # Credits
 
-[LibreOffice / dictionaries](https://github.com/LibreOffice/dictionaries), [wooorm / dictionaries](https://github.com/wooorm/dictionaries), [ONLYOFFICE / dictionaries](https://github.com/ONLYOFFICE/dictionaries)
+[LibreOffice / dictionaries](https://github.com/LibreOffice/dictionaries), [wooorm / dictionaries](https://github.com/wooorm/dictionaries), [ONLYOFFICE / dictionaries](https://github.com/ONLYOFFICE/dictionaries), [Spylls: Hunspell ported to Python](https://github.com/zverok/spylls)
