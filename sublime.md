@@ -19,6 +19,8 @@ brew install --cask sublime-text
 ```
 "dictionary": ["Packages/Language - Mongolian/mn_MN.dic", "Packages/Language - English/en_GB.dic", "Packages/Language - English/en_US.dic"],
 ```
+Хэрэв `/usr/share/hunspell` фолдер дахь толийг ашиглах бол: `"Dictionaries/mn_MN.dic"` тохиргоог оруулна.
+
 Хэрэв Windows үйлдлийн системд суулгах бол дараах заавартай танилцана уу!
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
