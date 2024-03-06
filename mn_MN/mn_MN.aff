@@ -1,5 +1,5 @@
 # mn_MN.aff
-# Version: 2024.03.02
+# Version: 2024.03.06
 # Copyright 2020-2024, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 # Special thanks to Guntevsuren Nanzad for your great professional assistance.
@@ -46,7 +46,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 3649
+REP 3653
 REP a а
 REP c с
 REP e е
@@ -3267,6 +3267,9 @@ REP ^ресторанд зоогийн_газарт
 REP ^рестораны зоогийн_газрын
 REP ^рестораныг зоогийн_газрыг
 REP ^реформ шинэчлэл
+REP ^родиумаа родио
+REP ^родиумий родий
+REP ^родиумы родий
 REP ^сайхь саях
 REP ^салдир шальдар
 REP ^саяан Соён
@@ -3283,6 +3286,7 @@ REP ^стратегид төлөвлөлтөд
 REP ^стратегийг төлөвлөлтийг
 REP ^стратегийн төлөвлөлтийн
 REP ^стратегитай төлөвлөлттэй
+REP ^стрээс стресс
 REP ^субьекта субъектэ
 REP ^субьектаа субъектээ
 REP ^субьектдаа субъектдээ
@@ -3698,7 +3702,7 @@ REP ы$ ыг
 REP ээв$ ээ_вэ
 REP ямарч$ ямар_ч
 
-MAP 17
+MAP 18
 MAP (ѐ)ё(Ѐ)Ё
 MAP (ё)ё(Ё)Ё
 MAP (й)й(Й)Й
@@ -3707,6 +3711,7 @@ MAP cсCС
 MAP eеEЕ
 MAP kкKК
 MAP mт
+MAP MМ
 MAP oоOО
 MAP pрPР
 MAP TТHНYҮ
