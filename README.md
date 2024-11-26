@@ -63,7 +63,7 @@ sudo apt install python3.11 python3.11-dev
 Ийнхүү дараах командаар суулгана:
 
 ```
-pip install hunspell
+pip install spylls
 ```
 
 ## JavaScript болон Node.js дээр ашиглах
