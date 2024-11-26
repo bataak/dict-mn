@@ -63,6 +63,12 @@ sudo apt install python3.11 python3.11-dev
 Ийнхүү дараах командаар суулгана:
 
 ```
+pip install hunspell
+```
+
+эсвэл
+
+```
 pip install spylls
 ```
 
