@@ -1,5 +1,5 @@
 # mn_MN.aff
-# Version: 2024.12.23
+# Version: 2024.12.26
 # Copyright 2020-2024, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 # Special thanks to Guntevsuren Nanzad for your great professional assistance.
@@ -46,7 +46,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 3744
+REP 3753
 REP a а
 REP c с
 REP e е
@@ -395,11 +395,14 @@ REP иддөө дөдөө
 REP иддээ дэдээ
 REP идн д
 REP иж эжг
+REP ий аа
 REP ий агийн
 REP ий игий
 REP ий иягий
 REP ий огийн
+REP ий оо
 REP ий өгийн
+REP ий өө
 REP ий ы
 REP ий эгийн
 REP ий ээ
@@ -1666,6 +1669,7 @@ REP д өнд
 REP д т
 REP д үүд
 REP д ц
+REP д чл
 REP д энд
 REP да ид
 REP даа индаа
@@ -2496,6 +2500,7 @@ REP х хь
 REP ха их
 REP ха ихо
 REP ха ихэ
+REP хаасай ахаасаа
 REP хаж ч
 REP хан х
 REP хжина хажна
@@ -2518,16 +2523,19 @@ REP хо иха
 REP хо ихэ
 REP хож ч
 REP хон х
+REP хоосой охоосоо
 REP хө их
 REP хө ихэ
 REP хөж ч
 REP хөн х
+REP хөөсөй өхөөсөө
 REP хсд хөст
 REP хтү гту
 REP хэ их
 REP хэ ихө
 REP хэж ч
 REP хэн х
+REP хээсэй эхээсээ
 REP ц д
 REP ц н
 REP ц с
@@ -3507,6 +3515,7 @@ REP ^үмхийрэ өмхийрө
 REP ^үнс үнэс
 REP ^үрүү уруу
 REP ^үрүүгээ уруугаа
+REP ^флуорид фторид
 REP ^фройды Фрейдий
 REP ^хаадууд хаад
 REP ^хаач хаашаа_оч
