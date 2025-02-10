@@ -25,4 +25,4 @@ brew install --cask firefox
 1. Одоо [бичих талбарт](https://itamarom.github.io/notepadjs/) оруулсан бичвэрийн тань алдаа шалгагдах болно.\
 ![firefox check spelling](images/firefox-7.png)
 
-Бэлэн текст талбар ашиглан бичвэрийн алдааг шалгахыг хүсвэл [buruu.bichig.dev](https://buruu.bichig.dev/) вебт хандаарай.
+Бэлэн текст талбар ашиглан бичвэрийн алдааг шалгахыг хүсвэл [buruu.bichig.dev](https://buruu.bichig.dev/) вебт эсвэл [Notepadjs](https://itamarom.github.io/notepadjs/) эсвэл [Notepad PWA](https://notepad.js.org/) хандаарай.
