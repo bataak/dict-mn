@@ -22,7 +22,7 @@ brew install --cask firefox
 ![firefox add button](images/firefox-2.png)
 1. Ийнхүү ашиглахад бэлэн боллоо.\
 ![firefox success message](images/firefox-3.png)
-1. Одоо бичих талбарт оруулсан бичвэрийн тань алдаа шалгагдах болно.\
-![firefox check spelling](images/firefox-4.png)
+1. Одоо [бичих талбарт](https://itamarom.github.io/notepadjs/) оруулсан бичвэрийн тань алдаа шалгагдах болно.\
+![firefox check spelling](images/firefox-5.png)
 
 Бэлэн текст талбар ашиглан бичвэрийн алдааг шалгахыг хүсвэл [buruu.bichig.dev](https://buruu.bichig.dev/) вебт хандаарай.
