@@ -13,5 +13,8 @@
       "js": ["typo.js", "content.js"]
     }
   ],
-  "host_permissions": ["<all_urls>"]
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "128": "icons/icon.png"
+  }
 }

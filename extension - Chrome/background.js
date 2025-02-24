@@ -1,23 +1,25 @@
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    if (request.type === "loadDictionary") {
-        (async () => {
-            try {
-                const affResponse = await fetch(chrome.runtime.getURL("dictionaries/mn_MN.aff"));
-                const dicResponse = await fetch(chrome.runtime.getURL("dictionaries/mn_MN.dic"));
+chrome.runtime.onInstalled.addListener(() => {
+    chrome.contextMenus.create({
+        id: "spellCheck",
+        title: "Check Mongolian Spelling",
+        contexts: ["selection"]
+    });
+});
 
-                if (!affResponse.ok || !dicResponse.ok) {
-                    throw new Error("Failed to load dictionary files.");
-                }
-
-                const affText = await affResponse.text();
-                const dicText = await dicResponse.text();
-
-                sendResponse({ affText, dicText });
-            } catch (error) {
-                console.error("Error loading dictionary:", error);
-                sendResponse({ error: error.message });
-            }
-        })();
-        return true; // Keeps the message port open for async response
+chrome.contextMenus.onClicked.addListener(async (info, tab) => {
+    if (info.menuItemId === "spellCheck" && tab.id) {
+        await chrome.scripting.executeScript({
+            target: { tabId: tab.id },
+            func: checkSpelling,
+            args: [info.selectionText]
+        });
     }
 });
+
+function checkSpelling(selectedText) {
+    chrome.runtime.sendMessage({ action: "check", word: selectedText }, (response) => {
+        if (response && response.suggestions) {
+            alert(`Suggestions: ${response.suggestions.join(", ")}`);
+        }
+    });
+}
