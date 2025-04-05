@@ -1,3 +1,12 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R6JCX0CN6B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R6JCX0CN6B');
+</script>
 # Монгол үгийн алдаа шалгах толь
 
 Энэхүү толины онцлог гэвэл 1983 онд хэвлэгдэж байсан [Ц. Дамдинсүрэн](https://mn.wikipedia.org/wiki/%D0%A6%D1%8D%D0%BD%D0%B4%D0%B8%D0%B9%D0%BD_%D0%94%D0%B0%D0%BC%D0%B4%D0%B8%D0%BD%D1%81%D2%AF%D1%80%D1%8D%D0%BD), Б. Осор нарын „[Монгол үсгийн дүрмийн толь](book.html#монгол-үсгийн-дүрмийн-толь)“ бүтээлийн үгийн сангийн эх хувилбарыг хадгалан[^1] түүний онцлог сэтгэлгээ, дүрэмд тулгуурлан одоо цагт хэрэглэгдэж буй үгийн сангаар баяжуулан хөгжүүлсэнд оршино.
