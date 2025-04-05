@@ -7,4 +7,4 @@ plugins:
   - jekyll-seo-tag
 meta:
   yandex-verification: 34a56b64aa11897a
-google_analytics: G-R6JCX0CN6B
+  google_analytics: G-R6JCX0CN6B
