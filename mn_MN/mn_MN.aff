@@ -1,5 +1,5 @@
 # mn_MN.aff
-# Version: 2025.07.31
+# Version: 2025.08.02
 # Copyright 2020-2025, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 # Special thanks to Guntevsuren Nanzad for your great professional assistance.
@@ -46,7 +46,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 3957
+REP 3958
 REP a а
 REP c с
 REP e е
@@ -3145,6 +3145,7 @@ REP ^гепатитаа хепатитээ
 REP ^гепатиты хепатитий
 REP ^герег грек
 REP ^гиннес Гиннесс
+REP ^Гиндукуш Хиндүкаш
 REP ^голдирол гулдрал
 REP ^голдиролтой гулдралтай
 REP ^голдиролтойгоо гулдралтайгаа
