@@ -1,3 +1,7 @@
+<script>
+  window.location.href = "/dict-mn/";
+</script>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R6JCX0CN6B"></script>
 <script>
