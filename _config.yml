@@ -1,6 +1,6 @@
 title: Зөв бичигдэв
 description: Монгол үгийн алдаа шалгах толь
-remote_theme: clearpathrobotics/jekyll-rtd-theme
+remote_theme: bataak/jekyll-rtd-theme
 url: "https://zuv.bichig.dev"
 plugins:
   - jekyll-sitemap
