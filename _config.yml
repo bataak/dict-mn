@@ -1,6 +1,5 @@
 title: Зөв бичигдэв
 description: Монгол үгийн алдаа шалгах толь
-#theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
 url: "https://zuv.bichig.dev"
 plugins:
@@ -8,3 +7,5 @@ plugins:
   - jekyll-seo-tag
 meta:
   yandex-verification: 34a56b64aa11897a
+just_the_docs:
+  custom_head: "_includes/head-custom.html"
