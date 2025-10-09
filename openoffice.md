@@ -5,7 +5,7 @@
 ```
 brew install --cask openoffice
 ```
-1. Үүний дараа [dict-mn.oxt](https://extensions.openoffice.org/en/project/mongolian-spellchecking-dictionary) файлаа татаж авна.
+1. Үүний дараа [dict-mn.oxt](https://extensions.openoffice.org/en/project/mongolian-spellchecking-and-hyphenation-dictionaries.html) файлаа татаж авна.
 1. `Tools > Extension Manager... > Add...` гэж ороод татаж авсан `dict-mn.oxt` файлаа зааж өгнө.
 1. Ийнхүү ашиглахад бэлэн болно.
 
