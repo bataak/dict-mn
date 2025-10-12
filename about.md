@@ -35,7 +35,7 @@
 
 1. [WinEdt Dictionary](http://www.winedt.org/dict.html)
 1. [Aspell Dictionary](https://ftp.gnu.org/gnu/aspell/dict/0index.html)
-1. [Mongolian spelling and hyphenation dictionaries for OpenOffice](https://extensions.openoffice.org/fr/project/mongol-helniy-ugiyn-aldaa-shalgagch-ueer-taslagch-mongolian-spelling-and-hyphenation)
+1. [Mongolian spelling and hyphenation dictionaries for OpenOffice](https://extensions.openoffice.org/en/project/mongolian-spellchecking-and-hyphenation-dictionaries.html)
 1. [Mongolian spellchecking dictionary for LibreOffice](https://extensions.libreoffice.org/en/extensions/show/1980)
 1. [Mongolian spellchecking dictionary for Firefox](https://addons.mozilla.org/en-US/firefox/addon/dict-mn/)
 
