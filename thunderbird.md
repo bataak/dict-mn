@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Thunderbird дээр ашиглах"
+permalink: /thunderbird/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг Thunderbird дээр ашиглах]
+---
+
 # Thunderbird дээр ашиглах
 
 1. Ихэнх `Linux` системүүдэд [Thunderbird](https://www.thunderbird.net/) дагалдаж суусан байдаг. Хэрэв `macOS` ашигладаг бол [Homebrew](https://brew.sh/) ашиглан суулгаж болно:
