@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Ашиглах заавар"
+permalink: /apply/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг ашиглах, firefox дээр ашиглах, libreoffice дээр ашиглах, linux дээр ашиглах, aldaa shalgagch ashiglah, aldaa shalgah ashiglah]
+---
+
 # Ашиглах заавар
 
 [Firefox](https://www.mozilla.org/en-US/firefox/new/) болон [LibreOffice](https://www.libreoffice.org/) дээр түгээмэл ашиглагдаж байгаа төдийгүй үгийн алдаа шалгагч программ болох [Hunspell](http://hunspell.github.io/) дэмждэг дурын программд энэхүү толийг ашиглах боломжтой. Hunspell дэмждэг зарим программаас дурдвал:
