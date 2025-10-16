@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Vim дээр ашиглах"
+permalink: /vim/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг Vim дээр ашиглах]
+---
+
 # Vim дээр ашиглах
 
 [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) ашиглахын давуу тал гэвэл [Windows OS](https://www.vim.org/download.php) системээс бусад системд дагалдаж ирэх тул ихэнх тохиолдолд суулгах шаардлагагүй байдаг.
