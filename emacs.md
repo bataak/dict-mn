@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Emacs дээр ашиглах"
+permalink: /emacs/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг emacs дээр ашиглах]
+---
+
 # Emacs дээр ашиглах
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
