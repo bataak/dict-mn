@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Texmaker дээр ашиглах"
+permalink: /texmaker/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг Texmaker дээр ашиглах]
+---
+
 # Texmaker дээр ашиглах
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
