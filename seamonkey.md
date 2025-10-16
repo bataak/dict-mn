@@ -1,3 +1,11 @@
+---
+layout: page
+title: "SeaMonkey дээр ашиглах"
+permalink: /seamonkey/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг SeaMonkey дээр ашиглах]
+---
+
 # SeaMonkey дээр ашиглах
 
 1. Программаа нээж, `Tools > Add-ons Manager` гэж орно.
