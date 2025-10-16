@@ -1,3 +1,11 @@
+---
+layout: page
+title: "LibreOffice дээр ашиглах"
+permalink: /libreoffice/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг LibreOffice дээр ашиглах]
+---
+
 # LibreOffice дээр ашиглах
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
