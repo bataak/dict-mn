@@ -1,11 +1,14 @@
 ---
+layout: page
 title: "Монгол үсгийн дүрмийн толь"
 permalink: /book/
+date: 2025-10-16
+tags: [монгол үсгийн дүрмийн толь, толь бичиг, Дамдинсүрэнгийн толь, дүрмийн толь, ирилл үсгийн дүрмийн толь]
 ---
 
 # Монгол үсгийн дүрмийн толь
 
-<embed src="docs/toli.pdf" width="100%" height="850vh"/>
+<embed src="/docs/toli.pdf" width="100%" height="850vh"/>
 
 Толь бичиг [татах](docs/toli.pdf).
 
