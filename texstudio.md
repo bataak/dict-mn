@@ -1,3 +1,11 @@
+---
+layout: page
+title: "TeXstudio дээр ашиглах"
+permalink: /texstudio/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг TeXstudio дээр ашиглах]
+---
+
 # TeXstudio дээр ашиглах
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
