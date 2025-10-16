@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Монгол үсгийн дүрмийн толь"
 permalink: /book/
 date: 2025-10-16
