@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Firefox дээр ашиглах"
+permalink: /firefox/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг firefox дээр ашиглах]
+---
+
 # Firefox дээр ашиглах
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
