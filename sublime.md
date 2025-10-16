@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Sublime Text дээр ашиглах"
+permalink: /sublime/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг Sublime Text дээр ашиглах]
+---
+
 # Sublime Text дээр ашиглах
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
