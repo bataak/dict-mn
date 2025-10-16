@@ -1,3 +1,11 @@
+---
+layout: page
+title: "IntelliJ IDEA дээр ашиглах"
+permalink: /intellij/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг IntelliJ IDEA дээр ашиглах]
+---
+
 # IntelliJ IDEA дээр ашиглах
 
 JetBrains tool болох PyCharm, WebStorm, CLion зэрэг IDE бүрийн тохиргоо ижил байна.
