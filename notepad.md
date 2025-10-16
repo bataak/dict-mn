@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Notepad++ дээр ашиглах"
+permalink: /notepad/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг Notepad++ дээр ашиглах]
+---
+
 # Notepad++ дээр ашиглах
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
