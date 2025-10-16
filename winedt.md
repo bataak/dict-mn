@@ -1,3 +1,11 @@
+---
+layout: page
+title: "WinEdt дээр ашиглах"
+permalink: /winedt/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг WinEdt дээр ашиглах]
+---
+
 # WinEdt дээр ашиглах
 
 [WinEdt](https://en.wikipedia.org/wiki/WinEdt) программыг [LaTeX](https://www.latex-project.org/) хэрэглэгчид сайн мэдэх байх. 
