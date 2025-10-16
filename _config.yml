@@ -9,3 +9,26 @@ meta:
   yandex-verification: 34a56b64aa11897a
 just_the_docs:
   custom_head: "_includes/head-custom.html"
+header_pages:
+  - index.md
+  - indesign.md
+  - emacs.md
+  - firefox.md
+  - intellij.md
+  - libreoffice.md
+  - linux.md
+  - notepad.md
+  - openoffice.md
+  - overleaf.md
+  - seamonkey.md
+  - sublime.md
+  - texstudio.md
+  - texmaker.md
+  - thunderbird.md
+  - vim.md
+  - winedt.md
+  - apply.md
+  - about.md
+  - book.md
+  - core.md
+  - common.md
