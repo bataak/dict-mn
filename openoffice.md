@@ -1,3 +1,11 @@
+---
+layout: page
+title: "OpenOffice дээр ашиглах"
+permalink: /openoffice/
+date: 2025-10-16
+tags: [монгол үгийн алдаа шалгах толийг OpenOffice дээр ашиглах]
+---
+
 # OpenOffice дээр ашиглах
 
 `OpenOffice` дээр монгол үгийн алдаа шалгах толийг суулгаж ашиглах нь `LibreOffice` дээр суулгаж ашиглахтай тун төстэй.
