@@ -30,9 +30,9 @@ brew install --cask firefox
 ![firefox add button](images/firefox-2.png)
 1. Ийнхүү ашиглахад бэлэн боллоо.\
 ![firefox success message](images/firefox-3.png)
-1. Одоо [бичих талбарт](https://itamarom.github.io/notepadjs/) оруулсан бичвэрийн тань алдаа шалгагдах болно.\
-![firefox check spelling](images/firefox-7.png)
-1. Монгол үсгийн алдаа шалгагчийг ашиглахын тулд хулганын баруун товчоор `Languages > Mongolian` хэмээн сонгож идэвхжүүлнэ.\
+1. Одоо [бичих талбарыг](https://itamarom.github.io/notepadjs/) нээж, хулганын баруун товчоор `Languages > Mongolian` хэмээн сонгож монгол хэлийг идэвхжүүлье.\
 ![firefox check spelling](images/firefox-8.png)
+1. Ийнхүү оруулсан бичвэрийн тань алдаа шалгагдах болно.\
+![firefox check spelling](images/firefox-7.png)
 
 Бэлэн текст талбар ашиглан бичвэрийн алдааг шалгахыг хүсвэл [buruu.bichig.dev](https://buruu.bichig.dev/) вебт эсвэл [Notepadjs](https://itamarom.github.io/notepadjs/) эсвэл [Notepad PWA](https://notepad.js.org/) хандаарай.
