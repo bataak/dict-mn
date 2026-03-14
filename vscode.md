@@ -18,4 +18,4 @@ tags: [монгол үгийн алдаа шалгах толийг Visual Studi
 ![vscode spell right icon](images/vscode-1.png)
 ![vscode select mongolian language](images/vscode-2.png)
 
-Ийнхүү ашиглахад бэлэн болно.
+Ийнхүү ашиглахад бэлэн болно. Тохиргооны талаарх дэлгэрэнгүй мэдээллийг [эндээс](https://github.com/bartosz-antosik/vscode-spellright) авна уу.
