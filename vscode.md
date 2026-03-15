@@ -15,6 +15,13 @@ tags: [монгол үгийн алдаа шалгах толийг Visual Studi
 1. Хэрэв үйлдлийн систем тань Linux бол `$HOME/.config/Code/Dictionaries/` хавтсанд дээрх 2 файлыг хуулна.
 1. Улмаар VSCode программын баруун доод буланд байрлах нүдний зураг дээр дармагц үгийн алдаа шалгахад ашиглаж болох хэлний сонголт гарах бөгөөд эндээс Монгол хэлийг сонгоно.
 
+Linux үйлдлийн системд монгол үгийн алдаа шалгах толийг хялбараар суулган ашиглаж болно, гэхдээ дээрх аргаар суулгасан толины хувилбар хуучин байж болзошгүй гэдгийг анхаарах хэрэгтэй:
+```bash
+sudo apt install hunspell-mn
+ln -s /usr/share/hunspell/* ~/.config/Code/Dictionaries
+```
+Ийнхүү VSCode программын `Spell Right` өргөтгөлд монгол хэл нэмэгдэх тул түүнийг сонгоно.
+
 ![vscode spell right icon](images/vscode-1.png)
 ![vscode select mongolian language](images/vscode-2.png)
 
