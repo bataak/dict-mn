@@ -34,4 +34,4 @@ ln -s /usr/share/hunspell/* ~/.config/Code/Dictionaries
 
 ![vscode select mongolian language](images/vscode-5.png)
 
-Өргөтгөлийн тохиргооны талаарх дэлгэрэнгүй мэдээллийг [эндээс](https://github.com/bartosz-antosik/vscode-spellright) авна уу.
+Хэрэв алдаатай үгийн зөв хувиллыг гаргах товчлуурын хослол ажиллахгүй бол өргөтгөлийн тохиргооны дэлгэрэнгүй [мэдээлэлтэй](https://github.com/bartosz-antosik/vscode-spellright) танилцахыг зөвлөж байна.
