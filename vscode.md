@@ -33,4 +33,5 @@ ln -s /usr/share/hunspell/* ~/.config/Code/Dictionaries
 Алдаатай үг бүрийг дамжин шалгах бол `F8` товчлуурыг ашиглана:
 
 ![vscode select mongolian language](images/vscode-5.png)
-Ийнхүү ашиглахад бэлэн болно. Тохиргооны талаарх дэлгэрэнгүй мэдээллийг [эндээс](https://github.com/bartosz-antosik/vscode-spellright) авна уу.
+
+Өргөтгөлийн тохиргооны талаарх дэлгэрэнгүй мэдээллийг [эндээс](https://github.com/bartosz-antosik/vscode-spellright) авна уу.
