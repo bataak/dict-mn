@@ -26,4 +26,11 @@ ln -s /usr/share/hunspell/* ~/.config/Code/Dictionaries
 ![vscode select mongolian language](images/vscode-3.png)
 ![vscode select mongolian language](images/vscode-2.png)
 
+Хэрэв алдаатай үгийн зөв бичлэгийг харахын тул `ctr + shift + 6` товчлуурын хослолыг ашиглана:
+
+![vscode select mongolian language](images/vscode-4.png)
+
+Алдаатай үг бүрийг дамжин шалгах бол `F8` товчлуурыг ашиглана:
+
+![vscode select mongolian language](images/vscode-5.png)
 Ийнхүү ашиглахад бэлэн болно. Тохиргооны талаарх дэлгэрэнгүй мэдээллийг [эндээс](https://github.com/bartosz-antosik/vscode-spellright) авна уу.
