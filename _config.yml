@@ -6,7 +6,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 meta:
-  yandex-verification: 34a56b64aa11897a
+  yandex-verification: b546fa9088a358be
 just_the_docs:
   custom_head: "_includes/head-custom.html"
 header_pages:
