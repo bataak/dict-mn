@@ -22,7 +22,7 @@ ln -s /usr/share/hunspell/* ~/.config/Code/Dictionaries
 ```
 
 macOS системийн хувьд дараах тохиргоог хийх хэрэгтэй:
-```
+```bash
 unzip ~/Downloads/mn_MN.zip mn_MN.dic mn_MN.aff -d ~/Library/Spelling/
 
 mkdir -p ~/Library/Application\ Support/Code/Dictionaries
