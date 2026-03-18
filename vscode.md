@@ -31,6 +31,15 @@ ln -sf ~/Library/Spelling/* ~/Library/Application\ Support/Code/Dictionaries/
 echo 'export SPELLCHECKER_PREFER_HUNSPELL=1' >> ~/.zshrc
 source ~/.zshrc
 ```
+Дээрх тохиргоог буцаах бол:
+```bash
+rm -rf ~/Library/Application\ Support/Code/Dictionaries
+rm ~/Library/Spelling/mn_MN.dic ~/Library/Spelling/mn_MN.aff
+
+sed -i '' '/export SPELLCHECKER_PREFER_HUNSPELL=1/d' ~/.zshrc
+unset SPELLCHECKER_PREFER_HUNSPELL
+source ~/.zshrc
+```
 
 Ийнхүү VSCode программын `Spell Right` өргөтгөлд монгол хэл нэмэгдэх тул түүнийг сонгоно.
 
