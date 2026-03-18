@@ -47,11 +47,11 @@ source ~/.zshrc
 ![vscode select mongolian language](images/vscode-3.png)
 ![vscode select mongolian language](images/vscode-2.png)
 
-Хэрэв алдаатай үгийн зөв бичлэгийг харах бол алдаатай үг дээр заагчаа байрлуулаад, `ctr + shift + 6` товчлуурын хослолыг ашиглана:
+Хэрэв алдаатай үгийн зөв бичлэгийг харах бол алдаатай үг дээр заагчаа байрлуулаад, `ctr + shift + 6` (macOS бол `cmd + .`) товчлуурын хослолыг ашиглана:
 
 ![vscode select mongolian language](images/vscode-4.png)
 
-Алдаатай үг бүрийг дамжин шалгах бол `F8` товчлуурыг ашиглана:
+Алдаатай үг бүрийг дамжин шалгах бол `f8` (macOS бол `option + f8`) товчлуурыг ашиглана:
 
 ![vscode select mongolian language](images/vscode-5.png)
 
