@@ -9,7 +9,7 @@ tags: [монгол үгийн алдаа шалгах толийг Visual Studi
 # Visual Studio Code дээр ашиглах
 
 1. Толио [эндээс](https://github.com/bataak/dict-mn/raw/main/mn_MN.zip){:target="_blank"} татаж авна.
-1. Татаж авсан zip файлаа `mn_MN` хавтаст задалж хуулна.
+1. Татаж авсан zip файлаа `mn_MN` хавтаст задалж хуулна. Англи үгийн алдаа шалгах толийг [эндээс](https://github.com/LibreOffice/dictionaries/tree/master/en) (en_US.aff, en_US.dic) татаж авна.
 1. Программаа нээгээд `Extensions` дотроос `Spell Right` өргөтгөлийг хайж олоод суулгана.
 1. Хэрэв таны ашиглаж буй үйлдлийн систем Windows бол `%APPDATA%\Code\Dictionaries\` хавтсанд өмнө татаж авсан `mn_MN` хавтас доторх `mn_MN.aff`, `mn_MN.dic` файлуудыг хуулна.
 1. Хэрэв үйлдлийн систем тань Linux бол `$HOME/.config/Code/Dictionaries/` хавтсанд дээрх 2 файлыг хуулна.
@@ -21,7 +21,7 @@ sudo apt install hunspell-mn
 ln -s /usr/share/hunspell/* ~/.config/Code/Dictionaries
 ```
 
-macOS системийн хувьд дараах тохиргоог хийх хэрэгтэй:
+macOS системийн хувьд дараах тохиргоог хийх хэрэгтэй (англи хэлээр хамт шалгах бол мөн толийг хуулна):
 ```bash
 unzip ~/Downloads/mn_MN.zip mn_MN.dic mn_MN.aff -d ~/Library/Spelling/
 
