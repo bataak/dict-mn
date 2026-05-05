@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Монгол үгийн алдаа шалгах толь"
-date: 2025-10-16
+date: 2026-05-05
 tags: [монгол үгийн алдаа шалгах толь, монгол үсгийн дүрмийн толь, монгол хэлний толь, mongolian spellchecking dictionary, үгийн алдаа шалгагч, алдаа шалгагч, алдаа шалгах программ, алдаа шалгагч программ, алдаа шалгуур, алдаа шалгах програм, монгол хэлний дүрмийн алдаа шалгагч, монгол хэлний зөв бичгийн алдаа шалгагч, aldaa shalgagch, aldaa shalgah toli, aldaa shalgakh]
 ---
 
@@ -13,7 +13,7 @@ tags: [монгол үгийн алдаа шалгах толь, монгол ү
 
 > **АНХААР:** Хэрэв та Firefox, Thunderbird, SeaMonkey, OpenOffice болон Sublime Text-ээс бусад программ дээр монгол үгийн алдаа шалгах толь ашигладаг бол [bataak/dict-mn](https://github.com/bataak/dict-mn) GitHub хуудас уруу хандаж толио шинэчилнэ үү.
 
-[Hunspell](http://hunspell.github.io/) алдаа шалгах программд зориулан бүтээгдсэн энэхүү монгол үгийн алдаа шалгах толь нь 60 мянга орчим үндэс үгтэй бөгөөд тэдгээрийн хувилал нь дунджаар 2 тэрбум орчим үүсмэл үгийн сантай төдийгүй нээлттэй эхэд суурилсан учраас Hunspell программыг дэмжин ажиллах төрөл бүрийн эх засварлагч программуудад болон Linux, macOS, Windows орчинд ашиглагдах боломжтой юм.
+[Hunspell](http://hunspell.github.io/) алдаа шалгах программд зориулан бүтээгдсэн энэхүү монгол үгийн алдаа шалгах толь нь 75 мянга орчим үндэс үгтэй бөгөөд тэдгээрийн хувилал нь дунджаар 2.5 тэрбум орчим үүсмэл үгийн сантай төдийгүй нээлттэй эхэд суурилсан учраас Hunspell программыг дэмжин ажиллах төрөл бүрийн эх засварлагч программуудад болон Linux, macOS, Windows орчинд ашиглагдах боломжтой юм.
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
    <iframe src="https://www.youtube.com/embed/N-oRV9TlYrA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
