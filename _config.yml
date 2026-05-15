@@ -32,3 +32,5 @@ header_pages:
   - book.md
   - core.md
   - common.md
+lang: mn-MN
+locale: mn_MN
