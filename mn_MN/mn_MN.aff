@@ -1,9 +1,9 @@
 # mn_MN.aff
-# Version: 2026.05.17
+# Version: 2026.05.19
 # Copyright 2020-2026, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 #
-# Special thanks to Güntev Nanzad for the invaluable professional assistance.
+# Special thanks to Guntev Nanzad for the invaluable professional assistance.
 #
 # This work may be distributed and/or modified under the
 # conditions of the LaTeX Project Public License, either version 1.3
@@ -47,7 +47,7 @@ COMPOUNDRULE (nn)*[o0,o1,o2,o3]
 COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 
-REP 4112
+REP 4114
 REP a а
 REP c с
 REP e е
@@ -3264,6 +3264,8 @@ REP ^гербары хербарий
 REP ^герег грек
 REP ^гиннес Гиннесс
 REP ^Гиндукуш Хиндүкаш
+REP ^голдирлоороо гулдралаараа
+REP ^голдирлоосоо гулдралаасаа
 REP ^голдирол гулдрал
 REP ^голдиролдоо гулдралдаа
 REP ^голдиролтой гулдралтай
@@ -9450,7 +9452,7 @@ SFX F0 0 шгүйеэ [^дтжзсшцчх]ь
 SFX F0 0 /0408 чих
 SFX F0 0 ул чих
 SFX F0 0 уйц/040870 чих
-SFT F0 0 уйцынх/040870 чих
+SFX F0 0 уйцынх/040870 чих
 SFX F0 их хаа/040870 [^дтжзшцч]чих
 SFX F0 их хаад [^дтжзшцч]чих
 SFX F0 их хаадүй [^дтжзшцч]чих
@@ -15281,7 +15283,7 @@ SFX H2 ир рөнгүүт/03 ир
 SFX H2 ир рөх/060872 ир
 SFX H2 ир рөхөөр/08 ир
 SFX H2 ир рөхлөөр/02 ир
-SFX H2 ир рө хүй/070873 ир
+SFX H2 ир рөхүй/070873 ир
 SFX H2 ир рөхүйеэ ир
 SFX H2 ир рөхүйн ир
 SFX H2 ир рөхүйнх/070873 ир

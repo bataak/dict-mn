@@ -14,8 +14,8 @@
 
 
 ACKNOWLEDGEMENT
-----------------------------------------
-To my dear mother Güntev, who carries on the lineage of Tolui — through this
+----------------------------------------------------------------
+To my dear mother Guntev, who carries on the lineage of Tolui — through this
 work I have tried, however modestly, to honor your devotion to Mongol and to
 our mother tongue by rendering the Mongolian language in a foreign script.
 
@@ -30,6 +30,7 @@ than thirty years to the study of the Mongolian language and to complete this
 modest work, my deepest gratitude.
 
 
+LICENSE
 ----------------------------------------------------------------
 Copyright 2020-2026, Batmunkh Dorjgotov <bataak at gmail tseg com>
 
