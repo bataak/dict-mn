@@ -32,5 +32,6 @@ header_pages:
   - book.md
   - core.md
   - common.md
+  - firefox-notepad.md
 lang: mn-MN
 locale: mn_MN
