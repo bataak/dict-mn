@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Chrome дээр ашиглах"
+title: "Chrome дээр Notepad ашиглах"
 permalink: /chrome-notepad/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг google chrome дээр ашиглах]
