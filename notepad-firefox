@@ -1,0 +1,20 @@
+---
+layout: page
+title: "Firefox дээр Notepad ашиглах"
+permalink: /notepad-firefox/
+date: 2026-05-19
+tags: [монгол үгийн алдаа шалгах толийг firefox дээр notepad app болгон ашиглах]
+---
+
+# Firefox дээр Notepad ашиглах
+
+<div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+   <iframe src="https://youtu.be/uT83nLIW3Ds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
+</div>
+
+`Firefox` программ дээр Notepad ап ашиглахын тулд монгол үгийн алдаа шалгагч толь суулгасан байх шаардлагатай. Хэрхэн суулгах зааврыг [эндээс](https://zuv.bichig.dev/firefox/) авна уу.
+
+Энэхү веб ап ашиглахын давуу тал нь:
+- Notepad программаа нээхийн тулд веб хөтчөө нээгээд интернет хаягийг нь бичих шаардлагагүй
+- Яг л офлайн программ мэт taskbar дээр үүсэх icon дээр нь дараад орно.
+- Бичвэрийн үгийн алдааг олон хэлээр зэрэг шалгах боломжтой.
