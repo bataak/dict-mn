@@ -9,7 +9,7 @@ tags: [монгол үгийн алдаа шалгах толийг firefox дэ
 # Firefox дээр Notepad ашиглах
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
-   <iframe src="https://youtu.be/uT83nLIW3Ds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
+   <iframe src="https://www.youtube.com/embed/uT83nLIW3Ds?si=wfG_80v_CeaBmaus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
 `Firefox` программ дээр Notepad app ашиглахын тулд монгол үгийн алдаа шалгах толь суулгасан байх шаардлагатай. Хэрхэн суулгах зааврыг [эндээс](https://zuv.bichig.dev/firefox/) авна уу.
