@@ -16,6 +16,7 @@ tags: [монгол үгийн алдаа шалгах толийг Sublime Text
 ```
 brew install --cask sublime-text
 ```
+1. `Tools > Install Package Control...` дарж `Package Control` суулгана.
 1. `Preferences > Package Control` гэж ороод `Package Control: Install Package` гэж сонгоно.
 1. Улмаар гарч ирэх цонхонд `mongolian` гэж хайгаад `Language - Mongolian` багцыг сонгоно.
 1. `Sublime Text` программын баруун доод хэсэгт суулгаж буй мэдээлэл гарах бөгөөд монгол хэлний багцыг суулгаж дуусмагц
