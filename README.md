@@ -11,12 +11,13 @@
 -   Stemming
 
 Албан ёсоор дэмжигдсэн программууд:
--   [LibreOffice](http://cgit.freedesktop.org/libreoffice/dictionaries/tree/)
+-   [LibreOffice](https://www.libreoffice.org/)
 -   [LibreOffice extensions](https://extensions.libreoffice.org/en/extensions/show/1980)
 -   [Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/dict-mn/)
 -   [Thunderbird Add-Ons](https://addons.thunderbird.net/en-US/thunderbird/addon/dict-mn/)
 -   [Overleaf](https://www.overleaf.com/)
 -   [Sublime Text](https://packagecontrol.io/packages/Language%20-%20Mongolian)
+-   [TeXstudio](https://github.com/texstudio-org/texstudio)
 
 # Hunspell ашиглах
 
