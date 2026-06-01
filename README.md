@@ -11,7 +11,7 @@
 -   Stemming
 
 Албан ёсоор дэмжигдсэн программууд:
--   [LibreOffice](https://www.libreoffice.org/)
+-   [LibreOffice](https://github.com/LibreOffice/dictionaries)
 -   [LibreOffice extensions](https://extensions.libreoffice.org/en/extensions/show/1980)
 -   [Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/dict-mn/)
 -   [Thunderbird Add-Ons](https://addons.thunderbird.net/en-US/thunderbird/addon/dict-mn/)
