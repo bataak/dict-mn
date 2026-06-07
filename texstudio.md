@@ -2,7 +2,7 @@
 layout: page
 title: "TeXstudio дээр ашиглах"
 permalink: /texstudio/
-date: 2025-10-16
+date: 2026-06-07
 tags: [монгол үгийн алдаа шалгах толийг TeXstudio дээр ашиглах]
 ---
 
@@ -16,7 +16,7 @@ tags: [монгол үгийн алдаа шалгах толийг TeXstudio д
 ```
 brew install --cask texstudio
 ```
-1. Толио [эндээс](https://github.com/bataak/dict-mn/raw/main/mn_MN.zip){:target="_blank"} татаж аваад дурын газраа шинэ хавтас үүсгэн задална. Жич: TeXstudio программын сүүлийн хувилбарт монгол үгийн алдаа шалгах толь багтсан тул `mn_MN-Mongolian` толийг сонгож болно.
+1. TeXstudio 4.9.5 хувилбараас эхлэн (2026-06-06) монгол үгийн алдаа шалгах толь албан ёсоор дэмжигдэж эхэлсэн тул толь татаж авч тохируулах шаардлагагүй болсон.
 1. Программаа нээгээд `Preferences... > Language Checking` (macOS) эсвэл `Options > Configure TeXstudio > Language Checking` (Windows) гэж ороод
 1. `Default Language` гэдэгт `mn_MN-Mongolian` гэдгийг сонгож өгнө.\
 ![texstudio configure window](images/texstudio-1.png)
