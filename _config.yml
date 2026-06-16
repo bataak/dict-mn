@@ -32,6 +32,6 @@ header_pages:
   - book.md
   - core.md
   - common.md
-#  - chrome-notepad.md
+  - online-app.md
 lang: mn-MN
 locale: mn_MN
