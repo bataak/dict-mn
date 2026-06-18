@@ -19,6 +19,9 @@
 -   [Sublime Text](https://packagecontrol.io/packages/Language%20-%20Mongolian)
 -   [TeXstudio](https://github.com/texstudio-org/texstudio)
 
+Веб хувилбар:
+-   [aldaa.bichig.dev](https://aldaa.bichig.dev/)
+
 # Hunspell ашиглах
 
 Хэрэв таны ашиглаж буй программ Hunspell дэмждэггүй эсвэл та их хэмжээний өгөгдлийн бүх алдаатай үгсийг давхцалгүйгээр жагсаалт болгон харахыг хүсвэл Hunspell программыг дараах байдлаар ашиглахыг зөвлөж байна.
