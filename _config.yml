@@ -9,7 +9,7 @@ meta:
   yandex-verification: b546fa9088a358be
 just_the_docs:
   custom_head: "_includes/head-custom.html"
-favicon_ico: "/assets/images/favicon.ico"
+favicon_ico: "/favicon.ico"
 header_pages:
   - index.md
   - indesign.md
