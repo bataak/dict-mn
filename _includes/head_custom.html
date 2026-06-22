@@ -5,53 +5,5 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
 <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 <meta name="theme-color" content="#7253ed">
-<!-- CYR_TRIMMER -->
-<script>
-(function () {
-  function patch() {
-    if (!window.lunr || lunr.__cyr) return !!window.lunr;
-    lunr.trimmer = function (token) {
-      return token.update(function (s) {
-        return s.replace(/^[^\p{L}\p{N}_]+/u, '').replace(/[^\p{L}\p{N}_]+$/u, '');
-      });
-    };
-    lunr.Pipeline.registerFunction(lunr.trimmer, 'trimmer');
-    lunr.__cyr = true;
-    return true;
-  }
-  if (!patch()) {
-    var n = 0, id = setInterval(function () {
-      if (patch() || ++n > 200) clearInterval(id);
-    }, 10);
-  }
-})();
-</script>
-<script>
-(function () {
-  function patch(lunr) {
-    if (!lunr || lunr.__cyr) return lunr;
-    lunr.__cyr = true;
-    var t = function (token) {
-      return token.update(function (s) {
-        return s.replace(/^[^\p{L}\p{N}_]+/u, '').replace(/[^\p{L}\p{N}_]+$/u, '');
-      });
-    };
-    lunr.trimmer = t;
-    if (lunr.Pipeline && lunr.Pipeline.registerFunction) {
-      lunr.Pipeline.registerFunction(t, 'trimmer');
-    }
-    return lunr;
-  }
-  if (window.lunr) {
-    patch(window.lunr);
-  } else {
-    var _l;
-    Object.defineProperty(window, 'lunr', {
-      configurable: true,
-      get: function () { return _l; },
-      set: function (v) { _l = patch(v); }
-    });
-  }
-})();
-</script>
+<script src="/assets/js/cyr-trimmer.js"></script>
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "089229f2b5c34487b40c4b1cce8fb8de"}'></script>
