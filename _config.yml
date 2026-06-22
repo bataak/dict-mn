@@ -8,7 +8,7 @@ plugins:
 meta:
   yandex-verification: b546fa9088a358be
 just_the_docs:
-  custom_head: "_includes/head-custom.html"
+  custom_head: "_includes/head_custom.html"
 favicon_ico: "/favicon.ico"
 header_pages:
   - index.md
