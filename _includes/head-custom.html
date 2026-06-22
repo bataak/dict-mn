@@ -5,3 +5,81 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
 <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 <meta name="theme-color" content="#7253ed">
+
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "089229f2b5c34487b40c4b1cce8fb8de"}'></script>
+
+<script>
+  (function() {
+    // 1. Кирилл үсэг шүүх Unicode Trimmer
+    var cyrillicTrimmer = function (token) {
+      return token.update(function (str) {
+        return str
+          .replace(/^[^\p{L}\p{N}]+/u, '')
+          .replace(/[^\p{L}\p{N}]+$/u, '');
+      });
+    };
+
+    // 2. Just the Docs-ийн үндсэн алдаатай функцуудыг унахаас сэргийлж урьдчилж хамгаалах
+    window.jtd = window.jtd || {};
+    
+    window.jtd.updateSearchFocus = function() { return; }; 
+    window.jtd.searchLoaded = function() { return; };
+
+    // 3. Хуудас бүрэн ачаалагдаж, Lunr болон Өгөгдөл (docs) бэлэн болохыг хүлээх
+    var patchInterval = setInterval(function() {
+      if (typeof lunr !== 'undefined') {
+        
+        // Lunr-ийн default trimmer-ийг глобалаар солих (Хуучин JS кашнаас уншигдсан ч үүгээр солигдоно)
+        lunr.trimmer = cyrillicTrimmer;
+        if (lunr.Pipeline) {
+          lunr.Pipeline.registerFunction(lunr.trimmer, 'cyrillicTrimmer');
+        }
+
+        // Хэрэв Just the Docs өөрийн индексийг үүсгэчихсэн бөгөөд docs бэлэн болсон бол
+        if (typeof docs !== 'undefined' && typeof window.index !== 'undefined') {
+          clearInterval(patchInterval);
+
+          // Индексийг кирилл дэмждэг болгож шинээр угсрах
+          window.index = lunr(function() {
+            this.ref('id');
+            this.field('title', { boost: 200 });
+            this.field('content', { boost: 2 });
+            this.field('relUrl');
+            this.metadataWhitelist = ['position'];
+
+            this.pipeline.reset();
+            this.pipeline.add(lunr.trimmer);
+
+            this.searchPipeline.reset();
+            this.searchPipeline.add(lunr.trimmer);
+
+            for (var i in docs) {
+              this.add({
+                id: i,
+                title: docs[i].title,
+                content: docs[i].content,
+                relUrl: docs[i].relUrl
+              });
+            }
+          });
+
+          // Хуучин алдаа шидээд байсан функцийг аюулгүй хувилбараар солих
+          window.jtd.updateSearchFocus = function() {
+            try {
+              var active = document.activeElement;
+              if (active && active.closest('.search-result')) {
+                var next = active.closest('.search-result').nextElementSibling;
+                if (next && next.id) { active.blur(); }
+              }
+            } catch(e) {}
+          };
+          
+          console.log("🚀 Хайлтын систем кирилл хэл дээр найдвартай ачаалагдлаа.");
+        }
+      }
+    }, 100);
+
+    // 5 секунд өнгөрөхөд ачаалагдахгүй бол интервалыг зогсоох (Гацахаас сэргийлнэ)
+    setTimeout(function() { clearInterval(patchInterval); }, 5000);
+  })();
+</script>
