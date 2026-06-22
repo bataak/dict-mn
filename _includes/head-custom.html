@@ -5,6 +5,27 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
 <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 <meta name="theme-color" content="#7253ed">
+<!-- CYR_TRIMMER -->
+<script>
+(function () {
+  function patch() {
+    if (!window.lunr || lunr.__cyr) return !!window.lunr;
+    lunr.trimmer = function (token) {
+      return token.update(function (s) {
+        return s.replace(/^[^\p{L}\p{N}_]+/u, '').replace(/[^\p{L}\p{N}_]+$/u, '');
+      });
+    };
+    lunr.Pipeline.registerFunction(lunr.trimmer, 'trimmer');
+    lunr.__cyr = true;
+    return true;
+  }
+  if (!patch()) {
+    var n = 0, id = setInterval(function () {
+      if (patch() || ++n > 200) clearInterval(id);
+    }, 10);
+  }
+})();
+</script>
 <script>
 (function () {
   function patch(lunr) {
