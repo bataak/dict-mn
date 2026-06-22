@@ -10,7 +10,14 @@
 
 <script>
   (function() {
-    // 1. Кирилл үсэг шүүх Unicode Trimmer
+    // 1. Жэкилл/Jtd-ийн глобал jtd объектыг хуучин JS-ээс түрүүлж үүсгэж, алдаатай функцуудыг нь хоосон болгох
+    window.jtd = window.jtd || {};
+    
+    // Консол дээр унаад байгаа функцуудыг юу ч хийдэггүй болгож урьдчилж дарах (Нэн чухал!)
+    window.jtd.updateSearchFocus = function() { return true; };
+    window.jtd.searchLoaded = function() { return true; };
+
+    // 2. Кирилл үсэг устгадаггүй Unicode trimmer
     var cyrillicTrimmer = function (token) {
       return token.update(function (str) {
         return str
@@ -19,27 +26,21 @@
       });
     };
 
-    // 2. Just the Docs-ийн үндсэн алдаатай функцуудыг унахаас сэргийлж урьдчилж хамгаалах
-    window.jtd = window.jtd || {};
-    
-    window.jtd.updateSearchFocus = function() { return; }; 
-    window.jtd.searchLoaded = function() { return; };
-
-    // 3. Хуудас бүрэн ачаалагдаж, Lunr болон Өгөгдөл (docs) бэлэн болохыг хүлээх
-    var patchInterval = setInterval(function() {
+    // 3. Lunr бэлэн болохыг хүлээж, индексийг өөр дээрээ хүчээр үүсгэх логик
+    var indexOverride = setInterval(function() {
       if (typeof lunr !== 'undefined') {
         
-        // Lunr-ийн default trimmer-ийг глобалаар солих (Хуучин JS кашнаас уншигдсан ч үүгээр солигдоно)
+        // Глобал trimmer-ийг шинэчлэх
         lunr.trimmer = cyrillicTrimmer;
         if (lunr.Pipeline) {
           lunr.Pipeline.registerFunction(lunr.trimmer, 'cyrillicTrimmer');
         }
 
-        // Хэрэв Just the Docs өөрийн индексийг үүсгэчихсэн бөгөөд docs бэлэн болсон бол
-        if (typeof docs !== 'undefined' && typeof window.index !== 'undefined') {
-          clearInterval(patchInterval);
+        // Хэрэв өгөгдөл (docs) болон Just the Docs-ийн индекс бэлэн болсон бол
+        if (typeof docs !== 'undefined') {
+          clearInterval(indexOverride);
 
-          // Индексийг кирилл дэмждэг болгож шинээр угсрах
+          // Индексийг кириллээр зөв хайдаг болгож шинээр угсрах
           window.index = lunr(function() {
             this.ref('id');
             this.field('title', { boost: 200 });
@@ -55,7 +56,7 @@
 
             for (var i in docs) {
               this.add({
-                id: i,
+                id: String(i), // ID-ийн төрлийг String болгож нэгтгэх
                 title: docs[i].title,
                 content: docs[i].content,
                 relUrl: docs[i].relUrl
@@ -63,23 +64,15 @@
             }
           });
 
-          // Хуучин алдаа шидээд байсан функцийг аюулгүй хувилбараар солих
-          window.jtd.updateSearchFocus = function() {
-            try {
-              var active = document.activeElement;
-              if (active && active.closest('.search-result')) {
-                var next = active.closest('.search-result').nextElementSibling;
-                if (next && next.id) { active.blur(); }
-              }
-            } catch(e) {}
-          };
+          // Дахин нэг удаа jtd-ийн функцийг хамгаалах
+          window.jtd.updateSearchFocus = function() { return true; };
+          window.jtd.searchLoaded = function() { return true; };
           
-          console.log("🚀 Хайлтын систем кирилл хэл дээр найдвартай ачаалагдлаа.");
+          console.log("🚀 Кирилл хайлтын систем кашийг даран амжилттай идэвхжлээ.");
         }
       }
-    }, 100);
+    }, 50);
 
-    // 5 секунд өнгөрөхөд ачаалагдахгүй бол интервалыг зогсоох (Гацахаас сэргийлнэ)
-    setTimeout(function() { clearInterval(patchInterval); }, 5000);
+    setTimeout(function() { clearInterval(indexOverride); }, 6000);
   })();
 </script>
