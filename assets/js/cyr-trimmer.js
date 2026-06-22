@@ -6,6 +6,9 @@
         return s.replace(/^[^\p{L}\p{N}_]+/u, '').replace(/[^\p{L}\p{N}_]+$/u, '');
       });
     };
+    if (lunr.Pipeline.registeredFunctions) {
+      delete lunr.Pipeline.registeredFunctions.trimmer;
+    }
     lunr.Pipeline.registerFunction(lunr.trimmer, 'trimmer');
     lunr.__cyr = true;
     return true;
