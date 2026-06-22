@@ -5,5 +5,53 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
 <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 <meta name="theme-color" content="#7253ed">
-<script src="{{ '/assets/js/just-the-docs.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "089229f2b5c34487b40c4b1cce8fb8de"}'></script><!-- End Cloudflare Web Analytics -->
+
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "089229f2b5c34487b40c4b1cce8fb8de"}'></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // 1. Сүлжээний удаашралаас сэргийлж Lunr ачаалагдахыг хүлээх интервал
+    var checkLunr = setInterval(function() {
+      if (typeof lunr !== 'undefined') {
+        clearInterval(checkLunr);
+        
+        // 2. Lunr-ийн trimmer-ийг Unicode дэмждэг болгож хүчээр солих
+        lunr.trimmer = function (token) {
+          return token.update(function (str) {
+            return str
+              .replace(/^[^\p{L}\p{N}]+/u, '')
+              .replace(/[^\p{L}\p{N}]+$/u, '');
+          });
+        };
+        lunr.Pipeline.registerFunction(lunr.trimmer, 'unicodeTrimmer');
+
+        // 3. Just the Docs-ийн үүсгэсэн индексийг устгаж, кирилл дэмждэг шинэ индексээр солих
+        if (typeof window.index !== 'undefined' || typeof docs !== 'undefined') {
+          window.index = lunr(function(){
+            this.ref('id');
+            this.field('title', { boost: 200 });
+            this.field('content', { boost: 2 });
+            this.field('relUrl');
+            this.metadataWhitelist = ['position'];
+
+            // Шүүлтүүрүүдийг хасаж цэвэр trimmer үлдээх
+            this.pipeline.reset();
+            this.pipeline.add(lunr.trimmer);
+
+            this.searchPipeline.reset();
+            this.searchPipeline.add(lunr.trimmer);
+
+            for (var i in docs) {
+              this.add({
+                id: i,
+                title: docs[i].title,
+                content: docs[i].content,
+                relUrl: docs[i].relUrl
+              });
+            }
+          });
+          console.log("🚀 Кирилл хайлтын индекс амжилттай дахин ачаалагдлаа!");
+        }
+      }
+    }, 100); // 100ms тутамд Lunr бэлэн болсон эсэхийг шалгана
+  });
+</script>
