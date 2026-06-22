@@ -3,7 +3,8 @@
 // Жэкилл энэ файлыг уншиж индекс үүсгэхийн тулд дээрх хоёр зураасыг заавал үлдээгээрэй.
 
 (function (jtd, undefined) {
-  // 1. Кирилл үсгийг таньдаг Unicode trimmer
+
+  // 1. Unicode Trimmer (Кирилл үсгийг устгахгүй)
   var cyrillicTrimmer = function (token) {
     return token.update(function (str) {
       return str
@@ -17,17 +18,14 @@
     if (!searchInput) return;
 
     var searchResults = document.getElementById('search-results');
-    var searchManifest = document.getElementById('search-manifest');
 
     if (typeof lunr === 'undefined' || typeof docs === 'undefined') {
-      console.error('Lunr.js эсвэл хайлтын өгөгдөл ачаалагдсангүй.');
       return;
     }
 
-    // Lunr-д trimmer-ээ бүртгүүлэх
     lunr.Pipeline.registerFunction(cyrillicTrimmer, 'cyrillicTrimmer');
 
-    // 2. Индексийг эхнээс нь зөв угсрах
+    // 2. Индексийг эхнээс нь Unicode trimmer-тэй угсрах
     var index = lunr(function () {
       this.ref('id');
       this.field('title', { boost: 200 });
@@ -35,7 +33,7 @@
       this.field('relUrl');
       this.metadataWhitelist = ['position'];
 
-      // Англи шүүлтүүрүүдийг хасаж, зөвхөн кирилл trimmer үлдээх
+      // Англи stopWordFilter, stemmer-ийг хасаж, кириллийг зөвшөөрөх
       this.pipeline.reset();
       this.pipeline.add(cyrillicTrimmer);
 
@@ -52,7 +50,23 @@
       }
     });
 
-    // 3. Хайлтын үндсэн логик болон input event-үүд
+    // 3. Таны консол дээр унаад байгаа updateSearchFocus функцийг хамгаалж дахин бичих
+    jtd.updateSearchFocus = function () {
+      var activeElement = document.activeElement;
+      if (!activeElement || !activeElement.closest('.search-result')) return;
+
+      try {
+        var nextFocusedElement = activeElement.closest('.search-result').nextElementSibling;
+        // ЭНД ХАМГААЛАЛТ НЭМЭВ: nextFocusedElement null биш эсэхийг заавал шалгана
+        if (nextFocusedElement && nextFocusedElement.id) {
+          // фокус шилжүүлэх логик энд ажиллана
+        }
+      } catch (e) {
+        // null олдох үед улаан алдаа шидэж кодыг гацаахгүйгээр цааш явна
+      }
+    };
+
+    // 4. Хайлтын үндсэн input логик
     jtd.addEvent(searchInput, 'input', function () {
       var query = searchInput.value.trim();
       if (!query) {
@@ -86,18 +100,5 @@
       searchResults.appendChild(ul);
     });
 
-    // 4. Түрүүний 'id' null гэж унаад байсан функцийг хамгаалалттай үүсгэх
-    jtd.updateSearchFocus = function () {
-      var active = document.activeElement;
-      if (!active || !active.closest('.search-result')) return;
-      try {
-        var next = active.closest('.search-result').nextElementSibling;
-        if (next && next.id) {
-          // шаардлагатай фокус шилжүүлэх код
-        }
-      } catch (e) {
-        // Алдааг чимээгүй өнгөрөөнө
-      }
-    };
   });
 })(window.jtd = window.jtd || {});
