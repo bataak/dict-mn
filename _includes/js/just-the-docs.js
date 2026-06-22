@@ -1,6 +1,6 @@
 lunr.tokenizer.separator = /[\s\-/]+/
 
-// Unicode-aware trimmer
+// 1. Unicode-aware trimmer (Кирилл үсгийг хасахгүй)
 lunr.trimmer = function (token) {
   return token.update(function (str) {
     return str
@@ -9,34 +9,22 @@ lunr.trimmer = function (token) {
   });
 };
 
-lunr.Pipeline.registerFunction(
-  lunr.trimmer,
-  'unicodeTrimmer'
-);
+lunr.Pipeline.registerFunction(lunr.trimmer, 'unicodeTrimmer');
 
 var index = lunr(function(){
-
   this.ref('id');
   this.field('title', { boost: 200 });
   this.field('content', { boost: 2 });
   this.field('relUrl');
   this.metadataWhitelist = ['position'];
 
-  // default pipeline-г солих
+  // 2. Үндсэн pipeline-ийг шинэчлэх (stopWordFilter болон stemmer-ийг хасав)
   this.pipeline.reset();
-  this.pipeline.add(
-    lunr.trimmer,
-    lunr.stopWordFilter,
-    lunr.stemmer
-  );
+  this.pipeline.add(lunr.trimmer);
 
-  // search query pipeline-г мөн солих
+  // 3. Хайлтын query pipeline-ийг мөн адил шинэчлэх
   this.searchPipeline.reset();
-  this.searchPipeline.add(
-    lunr.trimmer,
-    lunr.stopWordFilter,
-    lunr.stemmer
-  );
+  this.searchPipeline.add(lunr.trimmer);
 
   for (var i in docs) {
     this.add({
