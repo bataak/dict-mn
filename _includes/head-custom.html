@@ -9,70 +9,99 @@
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "089229f2b5c34487b40c4b1cce8fb8de"}'></script>
 
 <script>
-  (function() {
-    // 1. Жэкилл/Jtd-ийн глобал jtd объектыг хуучин JS-ээс түрүүлж үүсгэж, алдаатай функцуудыг нь хоосон болгох
-    window.jtd = window.jtd || {};
-    
-    // Консол дээр унаад байгаа функцуудыг юу ч хийдэггүй болгож урьдчилж дарах (Нэн чухал!)
-    window.jtd.updateSearchFocus = function() { return true; };
-    window.jtd.searchLoaded = function() { return true; };
+  document.addEventListener("DOMContentLoaded", function() {
+    // 1. Хайлтын талбар байрлах DOM-ийг олох (Just the Docs дизайн хадгалах)
+    var searchWrap = document.querySelector('.search-wrap');
+    if (!searchWrap) return;
 
-    // 2. Кирилл үсэг устгадаггүй Unicode trimmer
-    var cyrillicTrimmer = function (token) {
-      return token.update(function (str) {
-        return str
-          .replace(/^[^\p{L}\p{N}]+/u, '')
-          .replace(/[^\p{L}\p{N}]+$/u, '');
-      });
-    };
+    // Хайлтын талбар болон үр дүн харах HTML-ийг гараар хүчээр оруулах
+    searchWrap.innerHTML = `
+      <div class="search" id="js-search">
+        <div class="search-input-wrap">
+          <input type="text" id="custom-search-input" class="search-input" tabindex="0" placeholder="Хайх үгээ бичнэ үү..." aria-label="Хайх үгээ бичнэ үү..." autocomplete="off">
+          <label for="custom-search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+        </div>
+        <div id="custom-search-results" class="search-results" style="display: none;"></div>
+      </div>
+    `;
 
-    // 3. Lunr бэлэн болохыг хүлээж, индексийг өөр дээрээ хүчээр үүсгэх логик
-    var indexOverride = setInterval(function() {
-      if (typeof lunr !== 'undefined') {
+    var searchInput = document.getElementById('custom-search-input');
+    var searchResults = document.getElementById('custom-search-results');
+
+    // 2. Кирилл үсэг устгадаггүй цэвэр хайлтын мотор
+    function nativeSearch(query, docs) {
+      query = query.toLowerCase().trim();
+      if (!query) return [];
+      
+      var matches = [];
+      for (var id in docs) {
+        var doc = docs[id];
+        var titleScore = (doc.title || '').toLowerCase().includes(query) ? 10 : 0;
+        var contentScore = (doc.content || '').toLowerCase().includes(query) ? 1 : 0;
         
-        // Глобал trimmer-ийг шинэчлэх
-        lunr.trimmer = cyrillicTrimmer;
-        if (lunr.Pipeline) {
-          lunr.Pipeline.registerFunction(lunr.trimmer, 'cyrillicTrimmer');
-        }
-
-        // Хэрэв өгөгдөл (docs) болон Just the Docs-ийн индекс бэлэн болсон бол
-        if (typeof docs !== 'undefined') {
-          clearInterval(indexOverride);
-
-          // Индексийг кириллээр зөв хайдаг болгож шинээр угсрах
-          window.index = lunr(function() {
-            this.ref('id');
-            this.field('title', { boost: 200 });
-            this.field('content', { boost: 2 });
-            this.field('relUrl');
-            this.metadataWhitelist = ['position'];
-
-            this.pipeline.reset();
-            this.pipeline.add(lunr.trimmer);
-
-            this.searchPipeline.reset();
-            this.searchPipeline.add(lunr.trimmer);
-
-            for (var i in docs) {
-              this.add({
-                id: String(i), // ID-ийн төрлийг String болгож нэгтгэх
-                title: docs[i].title,
-                content: docs[i].content,
-                relUrl: docs[i].relUrl
-              });
-            }
+        if (titleScore > 0 || contentScore > 0) {
+          matches.push({
+            id: id,
+            doc: doc,
+            score: titleScore + contentScore
           });
-
-          // Дахин нэг удаа jtd-ийн функцийг хамгаалах
-          window.jtd.updateSearchFocus = function() { return true; };
-          window.jtd.searchLoaded = function() { return true; };
-          
-          console.log("🚀 Кирилл хайлтын систем кашийг даран амжилттай идэвхжлээ.");
         }
       }
-    }, 50);
+      // Илэрцийг оноогоор нь эрэмбэлэх (Гарчигт орсон бол дээр харагдана)
+      return matches.sort(function(a, b) { return b.score - a.score; });
+    }
 
-    setTimeout(function() { clearInterval(indexOverride); }, 6000);
-  })();
+    // 3. search-data.json файлыг сүлжээнээс найдвартай татаж авах
+    fetch("{{ '/assets/js/search-data.json' | relative_url }}")
+      .then(function(res) { return res.json(); })
+      .then(function(docs) {
+        
+        // Хайлтын талбарт үг бичих үеийн логик
+        searchInput.addEventListener('input', function() {
+          var query = searchInput.value;
+          var results = nativeSearch(query, docs);
+          
+          searchResults.innerHTML = '';
+          if (!query.trim()) {
+            searchResults.style.display = 'none';
+            return;
+          }
+
+          searchResults.style.display = 'block';
+          if (results.length === 0) {
+            searchResults.innerHTML = '<p class="search-no-result" style="padding: 20px; color: #7253ed;">Илэрц олдсонгүй 😕</p>';
+            return;
+          }
+
+          var ul = document.createElement('ul');
+          ul.className = 'search-results-list';
+          ul.style.listStyle = 'none';
+          ul.style.padding = '0';
+
+          results.forEach(function(item) {
+            var li = document.createElement('li');
+            li.className = 'search-result';
+            li.style.borderBottom = '1px solid #eee';
+            
+            // Замын харьцангуй URL-ийг зөв тохируулах
+            var baseUrl = "{{ '/' | relative_url }}".replace(/\/$/, '');
+            var fullUrl = item.doc.relUrl.startsWith('http') ? item.doc.relUrl : baseUrl + item.doc.relUrl;
+
+            li.innerHTML = `
+              <a href="${fullUrl}" style="display: block; padding: 15px; text-decoration: none; color: #333;">
+                <strong style="color: #7253ed;">${item.doc.title}</strong>
+                <p style="margin: 5px 0 0 0; font-size: 0.85em; color: #666; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                  ${item.doc.content ? item.doc.content.substring(0, 160) + '...' : ''}
+                </p>
+              </a>
+            `;
+            ul.appendChild(li);
+          });
+          searchResults.appendChild(ul);
+        });
+
+      }).catch(function(err) {
+        console.error("Хайлтын өгөгдлийг татаж чадсангүй:", err);
+      });
+  });
 </script>
