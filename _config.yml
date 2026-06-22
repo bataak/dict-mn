@@ -10,6 +10,7 @@ meta:
 just_the_docs:
   custom_head: "_includes/head-custom.html"
 favicon_ico: "/favicon.ico"
+search_enabled: false
 header_pages:
   - index.md
   - indesign.md
