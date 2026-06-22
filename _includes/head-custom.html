@@ -6,15 +6,13 @@
 <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 <meta name="theme-color" content="#7253ed">
 
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "089229f2b5c34487b40c4b1cce8fb8de"}'></script>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // 1. Сүлжээний удаашралаас сэргийлж Lunr ачаалагдахыг хүлээх интервал
     var checkLunr = setInterval(function() {
       if (typeof lunr !== 'undefined') {
         clearInterval(checkLunr);
         
-        // 2. Lunr-ийн trimmer-ийг Unicode дэмждэг болгож хүчээр солих
+        // 1. Unicode Trimmer тохируулах
         lunr.trimmer = function (token) {
           return token.update(function (str) {
             return str
@@ -24,8 +22,8 @@
         };
         lunr.Pipeline.registerFunction(lunr.trimmer, 'unicodeTrimmer');
 
-        // 3. Just the Docs-ийн үүсгэсэн индексийг устгаж, кирилл дэмждэг шинэ индексээр солих
-        if (typeof window.index !== 'undefined' || typeof docs !== 'undefined') {
+        // 2. Индексийг ID-ийн төрлийг анхаарч найдвартай дахин үүсгэх
+        if (typeof docs !== 'undefined') {
           window.index = lunr(function(){
             this.ref('id');
             this.field('title', { boost: 200 });
@@ -33,7 +31,6 @@
             this.field('relUrl');
             this.metadataWhitelist = ['position'];
 
-            // Шүүлтүүрүүдийг хасаж цэвэр trimmer үлдээх
             this.pipeline.reset();
             this.pipeline.add(lunr.trimmer);
 
@@ -41,17 +38,33 @@
             this.searchPipeline.add(lunr.trimmer);
 
             for (var i in docs) {
+              // ID-ийг String болон Number үл таарах асуудлаас сэргийлж цэвэрлэх
               this.add({
-                id: i,
+                id: String(i), 
                 title: docs[i].title,
                 content: docs[i].content,
                 relUrl: docs[i].relUrl
               });
             }
           });
-          console.log("🚀 Кирилл хайлтын индекс амжилттай дахин ачаалагдлаа!");
         }
+
+        // 3. ХАМГААЛАЛТ: updateSearchFocus функцийг унахаас сэргийлэх monkey-patch
+        // Just the Docs-ийн jtd обьект бэлэн болсон үед түүний функцийг overwrite хийнэ
+        if (typeof window.jtd !== 'undefined' && window.jtd.updateSearchFocus) {
+          var originalUpdateFocus = window.jtd.updateSearchFocus;
+          window.jtd.updateSearchFocus = function() {
+            try {
+              // Функцийг ажиллуулж үзнэ, хэрэв null элемент олдвол унахгүй catch руу үсрэнэ
+              originalUpdateFocus.apply(this, arguments);
+            } catch (e) {
+              console.warn("DOM-д хайлтын элемент хараахан үүсээгүй байна, алдааг алгаслаа.");
+            }
+          };
+        }
+        
+        console.log("🚀 Кирилл хайлтын индекс болон хамгаалалт амжилттай идэвхжлээ!");
       }
-    }, 100); // 100ms тутамд Lunr бэлэн болсон эсэхийг шалгана
+    }, 100);
   });
 </script>
