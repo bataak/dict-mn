@@ -8,9 +8,25 @@ tags: [монгол үсгийн дүрмийн толь, толь бичиг, �
 
 # Монгол үсгийн дүрмийн толь
 
-<embed src="/docs/toli.pdf" width="100%" height="850vh"/>
+<style>
+.pdf-embed {
+  width: 100%;
+  height: 80vh;
+  display: block;
+  border: 1px solid #d0d0d0;
+}
 
-Толь бичиг [татах](docs/toli.pdf).
+@media (max-width: 768px) {
+  .pdf-embed { display: none; }
+}
+</style>
+
+<p><a href="/docs/toli.pdf">Толь бичгийг нээх</a> (PDF, 12 МБ, 434 хуудас)</p>
+
+<object data="/docs/toli.pdf" type="application/pdf" class="pdf-embed">
+  <p>Хөтөч дээр ном харагдахгүй байгаа тул 
+  <a href="/docs/toli.pdf">татаж</a> аваад нээгээрэй.</p>
+</object>
 
 ```
 Зохиогч Ц. Дамдинсүрэн, Б. Осор
