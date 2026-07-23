@@ -29,7 +29,7 @@ tags: [монгол үсгийн дүрмийн толь, толь бичиг, �
 }
 </style>
 
-<object data="/docs/toli.pdf#zoom=page-fit&view=Fit" type="application/pdf" class="pdf-embed">
+<object data="/docs/toli.pdf#pagemode=bookmarks&amp;zoom=page-fit&amp;view=Fit&amp;navpanes=1" type="application/pdf" class="pdf-embed">
   <p>Хөтөч дээр ном харагдахгүй байгаа тул 
   <a href="/docs/toli.pdf">татаж</a> аваад нээгээрэй.</p>
 </object>
