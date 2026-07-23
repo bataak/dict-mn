@@ -23,10 +23,11 @@ tags: [монгол үсгийн дүрмийн толь, толь бичиг, �
 
 <p><a href="/docs/toli.pdf">Толь бичгийг нээх</a> (PDF, 12 МБ, 434 хуудас)</p>
 
-<object data="/docs/toli.pdf" type="application/pdf" class="pdf-embed">
+<object data="/docs/toli.pdf#zoom=page-fit&view=Fit" type="application/pdf" class="pdf-embed">
   <p>Хөтөч дээр ном харагдахгүй байгаа тул 
   <a href="/docs/toli.pdf">татаж</a> аваад нээгээрэй.</p>
 </object>
+
 
 ```
 Зохиогч Ц. Дамдинсүрэн, Б. Осор
