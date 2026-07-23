@@ -11,10 +11,12 @@ tags: [монгол үсгийн дүрмийн толь, толь бичиг, �
 <style>
 .pdf-frame {
   width: 100%;
+  max-width: none;
   height: 80vh;
   overflow: hidden;
   border: 1px solid #d0d0d0;
   box-sizing: border-box;
+  margin-right: -14rem;
 }
 
 .pdf-embed {
@@ -22,6 +24,10 @@ tags: [монгол үсгийн дүрмийн толь, толь бичиг, �
   height: calc(80vh + 24px);
   display: block;
   border: 0;
+}
+
+@media (max-width: 1400px) {
+  .pdf-frame { margin-right: 0; }
 }
 
 @media (max-width: 768px) {
