@@ -13,6 +13,8 @@ tags: [монгол үсгийн дүрмийн толь, толь бичиг, �
   width: 100%;
   height: 80vh;
   display: block;
+  border: 1px solid #d0d0d0;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
@@ -20,7 +22,7 @@ tags: [монгол үсгийн дүрмийн толь, толь бичиг, �
 }
 </style>
 
-<object data="/docs/toli.pdf#zoom=100" type="application/pdf" class="pdf-embed">
+<object data="/docs/toli.pdf#zoom=100&amp;pagemode=bookmarks" type="application/pdf" class="pdf-embed">
   <p>Хөтөч дээр ном харагдахгүй байгаа тул 
   <a href="/docs/toli.pdf">татаж</a> аваад нээгээрэй.</p>
 </object>
