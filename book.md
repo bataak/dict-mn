@@ -11,7 +11,7 @@ tags: [монгол үсгийн дүрмийн толь, толь бичиг, �
 <style>
 .pdf-embed {
   width: 100%;
-  height: calc(100vh - 10rem);
+  height: 100vh;
   min-height: 520px;
   display: block;
   border: 1px solid #d0d0d0;
