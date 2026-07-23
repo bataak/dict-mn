@@ -9,29 +9,14 @@ tags: [монгол үсгийн дүрмийн толь, толь бичиг, �
 # Монгол үсгийн дүрмийн толь
 
 <style>
-.pdf-frame {
-  width: 100%;
-  max-width: none;
-  height: 80vh;
-  overflow: hidden;
-  border: 1px solid #d0d0d0;
-  box-sizing: border-box;
-  margin-right: -14rem;
-}
-
 .pdf-embed {
   width: 100%;
-  height: calc(80vh + 24px);
+  height: 80vh;
   display: block;
-  border: 0;
-}
-
-@media (max-width: 1400px) {
-  .pdf-frame { margin-right: 0; }
 }
 
 @media (max-width: 768px) {
-  .pdf-frame { display: none; }
+  .pdf-embed { display: none; }
 }
 </style>
 
