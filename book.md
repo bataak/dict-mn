@@ -2,7 +2,7 @@
 layout: page
 title: "Монгол үсгийн дүрмийн толь"
 permalink: /book/
-date: 2025-10-16
+date: 2026-07-23
 tags: [монгол үсгийн дүрмийн толь, толь бичиг, Дамдинсүрэнгийн толь, дүрмийн толь, ирилл үсгийн дүрмийн толь]
 ---
 
@@ -35,7 +35,7 @@ tags: [монгол үсгийн дүрмийн толь, толь бичиг, �
 }
 </style>
 
-<object data="/docs/toli.pdf#pagemode=bookmarks&amp;zoom=page-fit&amp;view=Fit&amp;navpanes=1" type="application/pdf" class="pdf-embed">
+<object data="/docs/toli.pdf#pagemode=bookmarks&amp;zoom=page-width&amp;view=FitH&amp;navpanes=1" type="application/pdf" class="pdf-embed">
   <p>Хөтөч дээр ном харагдахгүй байгаа тул 
   <a href="/docs/toli.pdf">татаж</a> аваад нээгээрэй.</p>
 </object>
