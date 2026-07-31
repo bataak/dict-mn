@@ -15,7 +15,7 @@
 
 ACKNOWLEDGEMENT
 ----------------------------------------------------------------
-To my dear mother Guntev, who carries on the lineage of Tolui — through this
+To my dear mother Guntev, descended from the house of Tolui — through this
 work I have tried, however modestly, to honor your devotion to Mongol and to
 our mother tongue by rendering the Mongolian language in a foreign script.
 
