@@ -108,6 +108,21 @@ npm install dictionary-mn
 
 Монгол үгийн алдаа шалгах толины талаарх дэлгэрэнгүй мэдээлэл болон өөр бусад программд хэрхэн ашиглах зааврыг [зөв бичигдэв](https://zuv.bichig.dev/) веб сайтаас үзнэ үү.
 
+# AI агент дээр ашиглах
+
+Claude Code зэрэг AI агентад зориулсан ур чадвар (skill) `skill - Claude Code`
+хавтаст байна. Агент нь монгол бичвэр бичих, орчуулах, хянах үедээ энэхүү
+толийг ашиглан үсгийн алдааг шалгах боломжтой.
+
+```bash
+pip install spylls
+python "skill - Claude Code/check_mn.py" article.txt
+```
+
+Гаралт нь `файл:мөр:багана: үг -> санал` хэлбэртэй тул linter-ийн адил
+ашиглаж болно. `--json` сонголтоор бүтэцлэгдсэн гаралт авна. Дэлгэрэнгүйг
+[`skill - Claude Code/SKILL.md`](skill%20-%20Claude%20Code/SKILL.md) файлаас үзнэ үү.
+
 # Credits
 
 [LibreOffice / dictionaries](https://github.com/LibreOffice/dictionaries), [wooorm / dictionaries](https://github.com/wooorm/dictionaries), [ONLYOFFICE / dictionaries](https://github.com/ONLYOFFICE/dictionaries), [Spylls: Hunspell ported to Python](https://github.com/zverok/spylls)
