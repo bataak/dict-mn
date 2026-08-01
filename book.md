@@ -24,11 +24,9 @@ tags: [монгол үсгийн дүрмийн толь, толь бичиг, �
 </style>
 
 <object data="/docs/toli.pdf#zoom=100&amp;pagemode=bookmarks" type="application/pdf" class="pdf-embed">
-  <p>Хөтөч дээр ном харагдахгүй байгаа тул 
-  <a href="/docs/toli.pdf">татаж</a> аваад нээгээрэй.</p>
 </object>
 
-<p><a href="/docs/toli.pdf">Толь бичгийг нээх</a> (PDF, 12 МБ, 434 хуудас)</p>
+<p><a href="/docs/toli.pdf">Толь бичиг татах</a> (PDF, 12 МБ, 434 хуудас)</p>
 
 ```
 Зохиогч Ц. Дамдинсүрэн, Б. Осор
