@@ -80,7 +80,12 @@ tags: [монгол үгийн алдаа шалгах толийг онлайн
 ![Гар утасны ап - Цайвар горим](images/online-app-5.jpg){: width="49%" } ![Гар утасны ап - Бараан горим](images/online-app-6.jpg){: width="49%" }
 ![Онлайн апп - Засварыг буцаах](images/online-app-7.jpg){: width="49%" }![Онлайн апп - Мэдэгдэх үг хуулах](images/online-app-8.jpg){: width="49%" }
 
-Монгол үгийн алдаа шалгах веб апыг ашиглах заавар
+## Баримт бичгийн алдаа засварлах
+
+Энэхүү онлайн апыг ашиглан Microsoft Office Word, PowerPoint программуудын файлыг (`*.docx`, `*.pptx`) засах боломжтой. Тодруулбал, `.docx`, `.pptx` файлууд нь `ZIP` төрлийн шахсан архив файл байдаг бөгөөд дотроо нь `word/document.xml` эсвэл `ppt/slides/slideN.xml` гэсэн `XML` файлд бичвэр агуулагддаг. Энэхүү веб ап нь уг бичвэр агуулсан файлыг дуудаж засварлах тул бичвэрт агуулагдах зураг, хүснэгт болон бусад форматжуулалтуудыг хөндөхгүй. Улмаар бичвэрийн алдааг засаж дууссаны дараа хадгалах товчийг дармагц тэрхүү бичвэрийн файлын үгийн алдаа засагдаж, бусад форматжуулалт хуучин хэвээр байх болно.
+
+## Монгол үгийн алдаа шалгах веб апыг ашиглах заавар
+
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
    <iframe src="https://www.youtube.com/embed/8livrp7NU8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
