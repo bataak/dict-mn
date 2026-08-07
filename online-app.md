@@ -84,7 +84,7 @@ tags: [монгол үгийн алдаа шалгах толийг онлайн
 
 Энэхүү онлайн апыг ашиглан Microsoft Office Word, PowerPoint программуудын файлыг (`*.docx`, `*.pptx`) засах боломжтой. Тодруулбал, `.docx`, `.pptx` файлууд нь `ZIP` төрлийн шахсан архив файл байдаг бөгөөд дотроо нь `word/document.xml` эсвэл `ppt/slides/slideN.xml` гэсэн `XML` файлд бичвэр агуулагддаг. Энэхүү веб ап нь уг бичвэр агуулсан файлыг дуудаж засварлах тул бичвэрт агуулагдах зураг, хүснэгт болон бусад форматжуулалтуудыг хөндөхгүй. Улмаар бичвэрийн алдааг засаж дууссаны дараа хадгалах товчийг дармагц тэрхүү бичвэрийн файлын үгийн алдаа засагдаж, бусад форматжуулалт хуучин хэвээр байх болно.
 
-Түүнчлэн `pdf` файлыг бичвэрийн алдааг хянах боломжтой.
+Түүнчлэн `pdf` файлын бичвэрийн алдааг хянах боломжтой.
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
    <iframe src="https://www.youtube.com/embed/bxQT52J3zTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
