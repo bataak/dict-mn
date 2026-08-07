@@ -90,6 +90,13 @@ tags: [монгол үгийн алдаа шалгах толийг онлайн
    <iframe src="https://www.youtube.com/embed/bxQT52J3zTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
+## Үсэг таниулах
+
+Хуучны баримт бичиг болон цөөн тохиолдолд хуучны `keyboard layout` ашиглаж байгаагаас болж баримт бичгийн үсгийн код танигдахгүй буюу `cp1251` кодчиллоор бичигддэг (тухайн хэрэглэгчийн хувьд тусгай фонт суулгасан байх тул уг ялгаа анзаарагдахгүй). Энэ тохиолдолд бичвэрийн талбарт `Үсэг таниулах` гэсэн товч талбарын баруун дээд буланд гарч ирнэ. Өөрөөр хэлбэл энэ товчлуурын тусламжтайгаар хуучин кодчиллоор бичигдсэн текстийг юникод болгон хөрвүүлэх боломжтой юм.
+
+![Онлайн апп - Үсэг таниулах](images/online-app-10.png)
+![Онлайн апп - Үсэг таниулах](images/online-app-11.png)
+
 ## Монгол үгийн алдаа шалгах веб апыг ашиглах заавар
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
