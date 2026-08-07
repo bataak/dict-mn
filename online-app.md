@@ -104,6 +104,10 @@ tags: [монгол үгийн алдаа шалгах толийг онлайн
 </div>
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+   <iframe src="https://www.youtube.com/embed/fyEnS-dCvhQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
+</div>
+
+<div style="position: relative; width: 100%; padding-bottom: 56.25%;">
    <iframe src="https://www.youtube.com/embed/8livrp7NU8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
