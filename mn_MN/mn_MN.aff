@@ -1,5 +1,5 @@
 # mn_MN.aff
-# Version: 2026.08.13
+# Version: 2026.08.31
 # Copyright 2020-2026, Batmunkh Dorjgotov <bataak at gmail tseg com>
 #   https://zuv.bichig.dev
 #
@@ -48,7 +48,7 @@ COMPOUNDRULE (nn)*%?
 COMPOUNDRULE (nn)*.(nn)*%?
 IGNORE ­
 
-REP 4188
+REP 4192
 REP a а
 REP c с
 REP e е
@@ -144,6 +144,7 @@ REP агийн ын
 REP агд д
 REP агдса огдсо
 REP агла гал
+REP аглав галб
 REP агн г
 REP агний гийн
 REP агнуу гуу
@@ -190,6 +191,7 @@ REP алганд лагад
 REP алганы лагын
 REP алгы гий
 REP алгы лагий
+REP али йла
 REP алн л
 REP алнууд лууд
 REP алны лын
@@ -623,9 +625,11 @@ REP ин ь
 REP ина ни
 REP инаа иа
 REP инг н
+REP инг енийг
 REP инг нийг
 REP инг ныг
 REP инганд ангид
+REP ингийн ений
 REP ингийн ний
 REP ингийн ны
 REP ингонд онгид
