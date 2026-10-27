@@ -5,7 +5,7 @@ url: "https://zuv.bichig.dev"
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-meta:
+webmaster_verifications:
   yandex-verification: b546fa9088a358be
 just_the_docs:
   custom_head: "_includes/head_custom.html"
