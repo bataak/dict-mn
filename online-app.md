@@ -4,9 +4,13 @@ title: "Онлайн ап ашиглах"
 permalink: /online-app/
 date: 2026-07-23
 tags: [монгол үгийн алдаа шалгах толийг онлайн ап дээр ашиглах]
+description: "Монгол үгийн алдааг aldaa.bichig.dev веб апаар суулгахгүй, офлайн, үнэгүй шалгах заавар: Word, PowerPoint, PDF файл засах, үгийн тайлбар толь, үсэг таниулах."
+image: /images/online-app.png
 ---
 
 # Онлайн ап ашиглах
+
+**[Монгол үгийн алдааг онлайнаар шалгах — aldaa.bichig.dev](https://aldaa.bichig.dev/)**
 
 ![Онлайн апп](images/online-app.png)
 ![Онлайн апп - зөв үг санал болгох](images/online-app-1.png)
@@ -43,18 +47,18 @@ tags: [монгол үгийн алдаа шалгах толийг онлайн
 
 Мөн тайлбарын цонхны бэхлэх товчлуурын тусламжтай тухайн цонхны байрлалыг хөдөлгөөнгүй бэхэлж болох бөгөөд мөн түүнийг хүссэн байршилдаа шигтгэн бэхэлж болно. Цонхыг шигтгэмэгц хулганын заагч очсон үгийн тайлбарыг цонхонд шууд харуулах болно. Энэ үед нэг зүйлийг сануулахад `shift` товчлуурыг дарж заагчийн байрлалыг чагнах ажиллагааг тасалдуулж болох бөгөөд энэ нь зарим тохиолдолд үгийн тайлбарыг гүйлгэж харахад тухайн үгийн тайлбарыг хадгалахад туслах үүрэгтэй юм.
 
-![Үгийн тайлбар цонх ашиглах](images/online-app-16.png)
-![Үгийн тайлбар цонх ашиглах](images/online-app-17.png)
-![Үгийн тайлбар цонх ашиглах](images/online-app-18.png)
-![Үгийн тайлбар цонх ашиглах](images/online-app-19.png)
-![Үгийн тайлбар цонх ашиглах](images/online-app-20.png)
-![Үгийн тайлбар цонх ашиглах](images/online-app-21.png)
-![Үгийн тайлбар цонх ашиглах](images/online-app-22.png)
-![Үгийн тайлбар цонх ашиглах](images/online-app-23.png)
-![Үгийн тайлбар цонх ашиглах](images/online-app-24.png)
-![Үгийн тайлбар цонх ашиглах](images/online-app-25.png)
-![Үгийн тайлбар цонх ашиглах](images/online-app-26.png)
-![Үгийн тайлбар цонх ашиглах](images/online-app-27.png)
+![Тайлбар цонх гарах](images/online-app-16.png)
+![Тайлбар цонхыг бэхлэх товч](images/online-app-17.png)
+![Тайлбар цонхыг алдаатай үгсийн самбар уруу чирэх](images/online-app-18.png)
+![Тайлбар цонхыг самбарын доод хэсэгт чирэх](images/online-app-19.png)
+![Тайлбар цонхыг баруун талд шигтгэхээр чирэх](images/online-app-20.png)
+![Тайлбар цонхыг зүүн талд шигтгэхээр чирэх](images/online-app-21.png)
+![Баруун талд шигтгэсэн тайлбар цонх](images/online-app-22.png)
+![Зүүн талд шигтгэсэн тайлбар цонх](images/online-app-23.png)
+![Зүүн талд шигтгэсэн тайлбар цонх — олон утга](images/online-app-24.png)
+![Баруун талд шигтгэсэн тайлбар цонх — олон утга](images/online-app-25.png)
+![Алдаатай үгсийн самбарын дээр шигтгэсэн тайлбар цонх](images/online-app-26.png)
+![Алдаатай үгсийн самбарын доор шигтгэсэн тайлбар цонх](images/online-app-27.png)
 
 ## Шинэ буюу алдаатай үг илгээх
 
@@ -118,7 +122,7 @@ tags: [монгол үгийн алдаа шалгах толийг онлайн
 Түүнчлэн `pdf` файлын бичвэрийн алдааг хянах боломжтой.
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
-   <iframe src="https://www.youtube.com/embed/bxQT52J3zTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
+   <iframe loading="lazy" title="Word, PowerPoint, PDF файлын алдаа засварлах" src="https://www.youtube-nocookie.com/embed/bxQT52J3zTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
 ## Үсэг таниулах
@@ -131,22 +135,22 @@ tags: [монгол үгийн алдаа шалгах толийг онлайн
 ## Монгол үгийн алдаа шалгах веб апыг ашиглах заавар
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
-   <iframe src="https://www.youtube.com/embed/qi_qUkaelww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
+   <iframe loading="lazy" title="Монгол үгийн алдаа шалгах веб апыг ашиглах заавар 1" src="https://www.youtube-nocookie.com/embed/qi_qUkaelww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
-   <iframe src="https://www.youtube.com/embed/fyEnS-dCvhQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
+   <iframe loading="lazy" title="Монгол үгийн алдаа шалгах веб апыг ашиглах заавар 2" src="https://www.youtube-nocookie.com/embed/fyEnS-dCvhQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
-   <iframe src="https://www.youtube.com/embed/8livrp7NU8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
+   <iframe loading="lazy" title="Монгол үгийн алдаа шалгах веб апыг ашиглах заавар 3" src="https://www.youtube-nocookie.com/embed/8livrp7NU8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
-   <iframe src="https://www.youtube.com/embed/DelUsPacHzc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
+   <iframe loading="lazy" title="Монгол үгийн алдаа шалгах веб апыг ашиглах заавар 4" src="https://www.youtube-nocookie.com/embed/DelUsPacHzc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
 Гар утсан дээр ап болгон ашиглах заавар
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
-   <iframe src="https://www.youtube.com/embed/t76Y5oO9_QE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
+   <iframe loading="lazy" title="Гар утсан дээр ап болгон ашиглах заавар" src="https://www.youtube-nocookie.com/embed/t76Y5oO9_QE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
