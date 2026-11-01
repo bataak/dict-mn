@@ -33,7 +33,7 @@ image: /images/online-app.png
 - [Толь ба тайлбар толь](https://aldaa.bichig.dev/zaavar/toli/)
 - [Файл засварлах](https://aldaa.bichig.dev/zaavar/file/)
 - [Хамтран засах](https://aldaa.bichig.dev/zaavar/hamtral/)
-- [Товчлуур ба нуугдмал боломж](https://aldaa.bichig.dev/zaavar/tovch/)
+- [Товчлуур болон бусад боломж](https://aldaa.bichig.dev/zaavar/tovch/)
 - [Бичиг баримтын загвар](https://aldaa.bichig.dev/zagvar/)
 
 ## Видео заавар
