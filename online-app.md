@@ -2,7 +2,7 @@
 layout: page
 title: "Онлайн ап ашиглах"
 permalink: /online-app/
-date: 2026-07-23
+date: 2026-11-01
 tags: [монгол үгийн алдаа шалгах толийг онлайн ап дээр ашиглах]
 description: "Монгол үгийн алдааг aldaa.bichig.dev веб апаар суулгахгүй, офлайн, үнэгүй шалгана. Дэлгэрэнгүй заавар aldaa.bichig.dev/zaavar хаягт байна."
 image: /images/online-app.png
@@ -22,6 +22,7 @@ image: /images/online-app.png
 - Үгийн тайлбарыг тайлбар толиос харах, өөрийн StarDict толь нэмэх
 - Word, PowerPoint, OpenDocument, PDF, LaTeX, Markdown файлын алдааг засах
 - Албан бичиг, тайлан, илтгэл, судалгааны өгүүллийн бэлэн загвар
+- LaTeX төслийг боловсруулах
 - Бичвэрийг бусадтай хамтран засах
 - Шинэ болон алдаатай үгийг мэдэгдэж толийг баяжуулах
 
@@ -41,4 +42,4 @@ image: /images/online-app.png
    <iframe loading="lazy" title="Монгол үгийн алдаа шалгах веб апыг ашиглах заавар 1" src="https://www.youtube-nocookie.com/embed/qi_qUkaelww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; padding-bottom:20px;"></iframe>
 </div>
 
-Бусад видео заавар [aldaa.bichig.dev/zaavar](https://aldaa.bichig.dev/zaavar/#монгол-үгийн-алдаа-шалгах-веб-апыг-ашиглах-заавар) хуудсанд байна.
+Бусад дэлгэрэнгүй заавруудыг [aldaa.bichig.dev/zaavar](https://aldaa.bichig.dev/zaavar/#монгол-үгийн-алдаа-шалгах-веб-апыг-ашиглах-заавар) хуудаснаас харна уу.
