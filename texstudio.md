@@ -4,6 +4,7 @@ title: "TeXstudio дээр ашиглах"
 permalink: /texstudio/
 date: 2026-06-07
 tags: [монгол үгийн алдаа шалгах толийг TeXstudio дээр ашиглах]
+description: "TeXstudio LaTeX засварлагч дээр монгол үгийн алдаа шалгах Hunspell толийг тохируулах заавар, видео хичээлтэй."
 ---
 
 # TeXstudio дээр ашиглах

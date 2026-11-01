@@ -4,6 +4,7 @@ title: "Adobe InDesign дээр ашиглах"
 permalink: /indesign/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг indesign дээр ашиглах]
+description: "Adobe InDesign программд монгол үгийн алдаа шалгах Hunspell толийг суулгаж тохируулах алхам алхмаар заавар."
 ---
 
 # Adobe InDesign дээр ашиглах

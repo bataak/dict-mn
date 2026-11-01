@@ -4,6 +4,7 @@ title: "LibreOffice дээр ашиглах"
 permalink: /libreoffice/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг LibreOffice дээр ашиглах]
+description: "LibreOffice Writer дээр монгол үгийн алдаа шалгах толийг суулгаж, бичиг баримтын алдааг шалгах заавар, видео хичээлтэй."
 ---
 
 # LibreOffice дээр ашиглах

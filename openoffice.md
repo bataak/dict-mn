@@ -4,6 +4,7 @@ title: "OpenOffice дээр ашиглах"
 permalink: /openoffice/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг OpenOffice дээр ашиглах]
+description: "Apache OpenOffice Writer дээр монгол үгийн алдаа шалгах толийг өргөтгөл болгон суулгаж ашиглах заавар."
 ---
 
 # OpenOffice дээр ашиглах

@@ -4,6 +4,7 @@ title: "Ашиглах заавар"
 permalink: /apply/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг ашиглах, firefox дээр ашиглах, libreoffice дээр ашиглах, linux дээр ашиглах, aldaa shalgagch ashiglah, aldaa shalgah ashiglah]
+description: "Монгол үгийн алдаа шалгах толийг Hunspell дэмждэг Firefox, LibreOffice, Word, VS Code, Vim, Emacs зэрэг программд суулгаж ашиглах заавар."
 ---
 
 # Ашиглах заавар

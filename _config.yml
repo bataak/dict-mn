@@ -2,6 +2,25 @@ title: Зөв бичигдэв
 description: Монгол үгийн алдаа шалгах толь
 remote_theme: just-the-docs/just-the-docs
 url: "https://zuv.bichig.dev"
+image: /images/cover.png
+logo: /images/favicon/favicon-512.png
+author:
+  name: Batmunkh
+social:
+  name: Зөв бичигдэв
+  links:
+    - https://github.com/bataak/dict-mn
+twitter:
+  card: summary_large_image
+defaults:
+  - scope:
+      path: "google0518fd281d52e74b.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "yandex_b546fa9088a358be.html"
+    values:
+      sitemap: false
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -18,7 +37,7 @@ header_pages:
   - intellij.md
   - libreoffice.md
   - linux.md
-  - notepad.md
+  - vscode.md
   - openoffice.md
   - overleaf.md
   - seamonkey.md

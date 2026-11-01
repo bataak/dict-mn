@@ -4,6 +4,7 @@ title: "Texmaker дээр ашиглах"
 permalink: /texmaker/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг Texmaker дээр ашиглах]
+description: "Texmaker LaTeX засварлагч дээр монгол үгийн алдаа шалгах Hunspell толийг тохируулах заавар, видео хичээлтэй."
 ---
 
 # Texmaker дээр ашиглах

@@ -4,6 +4,8 @@ title: "Thunderbird дээр ашиглах"
 permalink: /thunderbird/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг Thunderbird дээр ашиглах]
+description: "Thunderbird имэйл программ дээр монгол үгийн алдаа шалгах толийг суулгаж, захидлын алдааг шалгах заавар."
+image: /images/thunderbird.png
 ---
 
 # Thunderbird дээр ашиглах

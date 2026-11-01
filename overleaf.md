@@ -4,6 +4,7 @@ title: "Overleaf дээр ашиглах"
 permalink: /overleaf/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг Overleaf дээр ашиглах]
+description: "Overleaf онлайн LaTeX засварлагч дээр монгол үгийн алдаа шалгахыг (Spellcheck language: Mongolian) идэвхжүүлэх заавар."
 ---
 
 # Overleaf дээр ашиглах

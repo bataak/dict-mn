@@ -4,6 +4,7 @@ title: "IntelliJ IDEA дээр ашиглах"
 permalink: /intellij/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг IntelliJ IDEA дээр ашиглах]
+description: "IntelliJ IDEA, PyCharm, WebStorm, CLion зэрэг JetBrains IDE-д монгол үгийн алдаа шалгах толийг Custom dictionary болгон тохируулах заавар."
 ---
 
 # IntelliJ IDEA дээр ашиглах

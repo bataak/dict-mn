@@ -4,6 +4,8 @@ title: "SeaMonkey дээр ашиглах"
 permalink: /seamonkey/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг SeaMonkey дээр ашиглах]
+description: "SeaMonkey хөтөч, имэйл клиент дээр монгол үгийн алдаа шалгах толийг Add-ons Manager-ээр суулгах заавар."
+image: /images/seamonkey.png
 ---
 
 # SeaMonkey дээр ашиглах

@@ -4,6 +4,7 @@ title: "Sublime Text дээр ашиглах"
 permalink: /sublime/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг Sublime Text дээр ашиглах]
+description: "Sublime Text засварлагч дээр монгол үгийн алдаа шалгах толийг суулгаж, spell check идэвхжүүлэх заавар, видео хичээлтэй."
 ---
 
 # Sublime Text дээр ашиглах

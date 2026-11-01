@@ -4,6 +4,7 @@ title: "Linux дээр ашиглах"
 permalink: /linux/
 date: 2025-10-16
 tags: [монгол үгийн алдаа шалгах толийг linux дээр ашиглах]
+description: "Debian, CentOS, Arch зэрэг Linux системд монгол үгийн алдаа шалгах толийг суулгах заавар."
 ---
 
 # Linux дээр ашиглах

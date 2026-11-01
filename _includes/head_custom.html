@@ -4,5 +4,25 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/favicon/favicon-180.png' | relative_url }}">
 <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 <meta name="theme-color" content="#7253ed">
-<script src="/assets/js/cyr-trimmer.js"></script>
+<script defer src="{{ '/assets/js/cyr-trimmer.js' | relative_url }}"></script>
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "089229f2b5c34487b40c4b1cce8fb8de"}'></script>
+{%- if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "{{ page.title }}",
+  "alternateName": "{{ site.title }}",
+  "description": {{ page.description | jsonify }},
+  "url": "{{ site.url }}/",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Linux, macOS, Windows",
+  "inLanguage": "mn",
+  "license": "https://github.com/bataak/dict-mn",
+  "isAccessibleForFree": true,
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "MNT" },
+  "downloadUrl": "https://github.com/bataak/dict-mn",
+  "image": "{{ site.image | absolute_url }}"
+}
+</script>
+{%- endif %}

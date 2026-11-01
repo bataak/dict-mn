@@ -4,6 +4,7 @@ title: "Visual Studio Code дээр ашиглах"
 permalink: /vscode/
 date: 2026-03-14
 tags: [монгол үгийн алдаа шалгах толийг Visual Studio Code дээр ашиглах]
+description: "Visual Studio Code дээр монгол үгийн алдаа шалгах Hunspell толийг өргөтгөлөөр тохируулж ашиглах заавар."
 ---
 
 # Visual Studio Code дээр ашиглах
