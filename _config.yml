@@ -10,9 +10,11 @@ social:
   name: Зөв бичигдэв
   links:
     - https://github.com/bataak/dict-mn
-twitter:
-  card: summary_large_image
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/cover.png
   - scope:
       path: "google0518fd281d52e74b.html"
     values:
