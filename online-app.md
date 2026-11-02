@@ -34,7 +34,7 @@ image: /images/online-app.png
 - [Файл засварлах](https://aldaa.bichig.dev/zaavar/file/)
 - [Хамтран засах](https://aldaa.bichig.dev/zaavar/hamtral/)
 - [Товчлуур болон бусад боломж](https://aldaa.bichig.dev/zaavar/tovch/)
-- [Бичиг баримтын загвар](https://aldaa.bichig.dev/zagvar/)
+- [Баримт бичгийн загвар](https://aldaa.bichig.dev/zagvar/)
 
 ## Видео заавар
 
